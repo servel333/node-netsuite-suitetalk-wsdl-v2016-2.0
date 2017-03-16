@@ -6,7 +6,7 @@ Contains the [NetSuite SuiteTalk](http://www.netsuite.com/portal/developers/reso
 const soap = require('soap');
 const wsdl = require('netsuite-suitetalk-wsdl-v2016-2.0');
 
-soap.createClient(wsdl.netsuiteWsdl, (err, client) => {
+soap.createClient(wsdl.file, (err, client) => {
   if(err) {
     console.log(err);
     process.exit(1);
