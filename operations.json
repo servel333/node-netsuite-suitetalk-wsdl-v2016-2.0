@@ -45,5 +45,5 @@
   "updateInviteeStatusList",
   "updateList",
   "upsert",
-  "upsertList",
+  "upsertList"
 ]
