@@ -3,7 +3,9 @@
   "version": "0.1.4",
   "description": "NetSuite SuiteTalk WSDL_v2016_2_0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0.git"
@@ -21,5 +23,8 @@
   "homepage": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0#readme",
   "dependencies": {
     "soap": "0.19.0"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
   }
 }
