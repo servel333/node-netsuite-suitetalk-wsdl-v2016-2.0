@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0/issues"
   },
-  "homepage": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0#readme"
+  "homepage": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0#readme",
+  "dependencies": {
+    "soap": "0.19.0"
+  }
 }
