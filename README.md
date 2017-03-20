@@ -21,3 +21,24 @@ soap.createClient(wsdl.file, (err, client) => {
   // client ...
 });
 ```
+
+Some additional pre-compiled data is provided with this library.
+
+```
+const _ = require('lodash');
+const wsdl = require('netsuite-suitetalk-wsdl-v2016-2.0');
+
+var wsdlVersion = wsdl.version;
+// "2016_2"
+
+var wsdlOperations = wsdl.operations;
+// [ "<operation name>"]
+
+var wsdlNamespaces = wsdl.namespaces;
+// { "<namespace prefix>" : "<namespace uri>" }
+
+var wsdlComplexTypes = wsdl.complexTypes;
+// { "<complex type name>" : "<namespace uri>" }
+
+var wsdlComplexTypeNames = _.keys(wsdl.complexTypes);
+```
