@@ -7,10 +7,10 @@ exports.file = path.join(exports.path, 'netsuite.wsdl');
 exports.version = '2016_2';
 
 // [ "<operation name>"]
-exports.operations = require('./operations.json');
+exports.operations = require('./data/operations.json');
 
 // { "<namespace prefix>" : "<namespace uri>" }
-exports.namespaces = require('./namespaces.json');
+exports.namespaces = require('./data/namespaces.json');
 
 // { "<complex type name>" : "<namespace uri>" }
-exports.complexTypes = require('./complexTypes.json');
+exports.complexTypes = require('./data/complexTypes.json');
