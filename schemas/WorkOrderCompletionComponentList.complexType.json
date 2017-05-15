@@ -1,0 +1,22 @@
+{
+  "name": "WorkOrderCompletionComponentList",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "workOrderCompletionComponent": {
+      "name": "workOrderCompletionComponent",
+      "type": "WorkOrderCompletionComponent",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranInvt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

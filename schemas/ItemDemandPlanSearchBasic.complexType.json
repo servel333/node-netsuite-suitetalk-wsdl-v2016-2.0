@@ -1,0 +1,123 @@
+{
+  "name": "ItemDemandPlanSearchBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRecordBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "alternateSourceItem": {
+      "name": "alternateSourceItem",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "analysisDuration": {
+      "name": "analysisDuration",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "demandDate": {
+      "name": "demandDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalIdString": {
+      "name": "externalIdString",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalIdNumber": {
+      "name": "internalIdNumber",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectionDuration": {
+      "name": "projectionDuration",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectionInterval": {
+      "name": "projectionInterval",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectionMethod": {
+      "name": "projectionMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectionStartDate": {
+      "name": "projectionStartDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "units": {
+      "name": "units",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

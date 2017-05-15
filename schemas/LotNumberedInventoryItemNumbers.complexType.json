@@ -1,0 +1,25 @@
+{
+  "name": "LotNumberedInventoryItemNumbers",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "serialNumber": {
+      "name": "serialNumber",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

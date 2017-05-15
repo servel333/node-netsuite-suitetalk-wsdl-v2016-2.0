@@ -1,0 +1,21 @@
+{
+  "name": "DeletedRecord",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "deletedDate": {
+      "name": "deletedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "record": {
+      "name": "record",
+      "type": "BaseRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

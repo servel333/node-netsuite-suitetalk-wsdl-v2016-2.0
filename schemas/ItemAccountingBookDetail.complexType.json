@@ -1,0 +1,37 @@
+{
+  "name": "ItemAccountingBookDetail",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "accountingBook": {
+      "name": "accountingBook",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revRecSchedule": {
+      "name": "revRecSchedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sameAsPrimaryRevRec": {
+      "name": "sameAsPrimaryRevRec",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amortizationTemplate": {
+      "name": "amortizationTemplate",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sameAsPrimaryAmortization": {
+      "name": "sameAsPrimaryAmortization",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

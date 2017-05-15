@@ -1,0 +1,76 @@
+{
+  "name": "CustomList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isOrdered": {
+      "name": "isOrdered",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isMatrixOption": {
+      "name": "isMatrixOption",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "convertToCustomRecord": {
+      "name": "convertToCustomRecord",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customValueList": {
+      "name": "customValueList",
+      "type": "CustomListCustomValueList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "translationsList": {
+      "name": "translationsList",
+      "type": "CustomListTranslationsList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

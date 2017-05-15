@@ -1,0 +1,5 @@
+{
+  "name": "SearchRow",
+  "type": "complexType",
+  "file": "platform.core.xsd"
+}

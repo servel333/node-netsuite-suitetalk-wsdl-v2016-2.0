@@ -1,0 +1,17 @@
+{
+  "name": "SoapFault",
+  "type": "complexType",
+  "file": "platform.faults.xsd",
+  "elements": {
+    "code": {
+      "name": "code",
+      "type": "FaultCodeType",
+      "typeNamespace": "platformFaultTyp"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PurchLandedCostList",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "landedCost": {
+      "name": "landedCost",
+      "type": "LandedCostSummary",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

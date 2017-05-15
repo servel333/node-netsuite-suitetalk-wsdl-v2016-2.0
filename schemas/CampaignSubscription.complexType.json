@@ -1,0 +1,63 @@
+{
+  "name": "CampaignSubscription",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subscribedByDefault": {
+      "name": "subscribedByDefault",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unsubscribed": {
+      "name": "unsubscribed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "externalName": {
+      "name": "externalName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "externalDescription": {
+      "name": "externalDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SearchColumnField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "customLabel": {
+      "name": "customLabel",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

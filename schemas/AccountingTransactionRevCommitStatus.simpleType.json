@@ -1,0 +1,10 @@
+{
+  "name": "AccountingTransactionRevCommitStatus",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_committed",
+    "_partiallyCommitted",
+    "_pendingCommitment"
+  ]
+}

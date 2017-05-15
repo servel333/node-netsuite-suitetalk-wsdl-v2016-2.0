@@ -1,0 +1,22 @@
+{
+  "name": "CustomRecordTypeSublistsList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "sublists": {
+      "name": "sublists",
+      "type": "CustomRecordTypeSublists",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

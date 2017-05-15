@@ -1,0 +1,91 @@
+{
+  "name": "WorkOrderCompletionOperation",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "operationSequence": {
+      "name": "operationSequence",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "operationName": {
+      "name": "operationName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "workCenter": {
+      "name": "workCenter",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "machineResources": {
+      "name": "machineResources",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "laborResources": {
+      "name": "laborResources",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inputQuantity": {
+      "name": "inputQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityRemaining": {
+      "name": "quantityRemaining",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "predecessorCompletedQuantity": {
+      "name": "predecessorCompletedQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "completedQuantity": {
+      "name": "completedQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recordSetup": {
+      "name": "recordSetup",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "machineSetupTime": {
+      "name": "machineSetupTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "laborSetupTime": {
+      "name": "laborSetupTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "machineRunTime": {
+      "name": "machineRunTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "laborRunTime": {
+      "name": "laborRunTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

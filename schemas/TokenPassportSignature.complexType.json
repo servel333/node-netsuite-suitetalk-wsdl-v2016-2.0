@@ -1,0 +1,5 @@
+{
+  "name": "TokenPassportSignature",
+  "type": "complexType",
+  "file": "platform.core.xsd"
+}

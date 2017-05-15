@@ -1,0 +1,49 @@
+{
+  "name": "PaycheckJournalEmployeeTax",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "payrollItem": {
+      "name": "payrollItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

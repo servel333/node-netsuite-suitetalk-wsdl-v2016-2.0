@@ -1,0 +1,211 @@
+{
+  "name": "LocationSearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRowBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "address1": {
+      "name": "address1",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "address2": {
+      "name": "address2",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "address3": {
+      "name": "address3",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "autoAssignmentRegionSetting": {
+      "name": "autoAssignmentRegionSetting",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "bufferStock": {
+      "name": "bufferStock",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "city": {
+      "name": "city",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "country": {
+      "name": "country",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "dailyShippingCapacity": {
+      "name": "dailyShippingCapacity",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "geolocationMethod": {
+      "name": "geolocationMethod",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isOffice": {
+      "name": "isOffice",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "latitude": {
+      "name": "latitude",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "locationType": {
+      "name": "locationType",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "longitude": {
+      "name": "longitude",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "makeInventoryAvailable": {
+      "name": "makeInventoryAvailable",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "makeInventoryAvailableStore": {
+      "name": "makeInventoryAvailableStore",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "name": {
+      "name": "name",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "nameNoHierarchy": {
+      "name": "nameNoHierarchy",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "state": {
+      "name": "state",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "timeZone": {
+      "name": "timeZone",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "totalShippingCapacity": {
+      "name": "totalShippingCapacity",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "tranPrefix": {
+      "name": "tranPrefix",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "usesBins": {
+      "name": "usesBins",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "zip": {
+      "name": "zip",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchColumnCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

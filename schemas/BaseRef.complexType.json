@@ -1,0 +1,13 @@
+{
+  "name": "BaseRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

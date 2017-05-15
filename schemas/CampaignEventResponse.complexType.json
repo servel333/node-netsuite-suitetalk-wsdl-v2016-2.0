@@ -1,0 +1,91 @@
+{
+  "name": "CampaignEventResponse",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "type": {
+      "name": "type",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dateSent": {
+      "name": "dateSent",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sent": {
+      "name": "sent",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "opened": {
+      "name": "opened",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openedRatio": {
+      "name": "openedRatio",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "clickedThru": {
+      "name": "clickedThru",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "clickedThruRatio": {
+      "name": "clickedThruRatio",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "responded": {
+      "name": "responded",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "respondedRatio": {
+      "name": "respondedRatio",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unsubscribed": {
+      "name": "unsubscribed",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unsubscribedRatio": {
+      "name": "unsubscribedRatio",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bounced": {
+      "name": "bounced",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bouncedRatio": {
+      "name": "bouncedRatio",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

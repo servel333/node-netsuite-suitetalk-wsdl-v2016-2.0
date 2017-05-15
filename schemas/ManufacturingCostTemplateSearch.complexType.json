@@ -1,0 +1,34 @@
+{
+  "name": "ManufacturingCostTemplateSearch",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "ManufacturingCostTemplateSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "itemJoin": {
+      "name": "itemJoin",
+      "type": "ItemSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

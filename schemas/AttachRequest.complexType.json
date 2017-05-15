@@ -1,0 +1,14 @@
+{
+  "name": "AttachRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "attachReference": {
+      "name": "attachReference",
+      "type": "AttachReference",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

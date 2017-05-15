@@ -1,0 +1,12 @@
+{
+  "name": "SearchRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "searchRecord": {
+      "name": "searchRecord",
+      "type": "SearchRecord",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

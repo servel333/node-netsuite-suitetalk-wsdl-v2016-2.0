@@ -1,0 +1,61 @@
+{
+  "name": "CustomerRefundDeposit",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "apply": {
+      "name": "apply",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "doc": {
+      "name": "doc",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "line": {
+      "name": "line",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "depositDate": {
+      "name": "depositDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "refNum": {
+      "name": "refNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "total": {
+      "name": "total",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "remaining": {
+      "name": "remaining",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

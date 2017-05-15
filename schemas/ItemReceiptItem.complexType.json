@@ -1,0 +1,157 @@
+{
+  "name": "ItemReceiptItem",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "itemReceive": {
+      "name": "itemReceive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "jobName": {
+      "name": "jobName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "orderLine": {
+      "name": "orderLine",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "line": {
+      "name": "line",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemName": {
+      "name": "itemName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "onHand": {
+      "name": "onHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityRemaining": {
+      "name": "quantityRemaining",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unitsDisplay": {
+      "name": "unitsDisplay",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unitCostOverride": {
+      "name": "unitCostOverride",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inventoryDetail": {
+      "name": "inventoryDetail",
+      "type": "InventoryDetail",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "serialNumbers": {
+      "name": "serialNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "binNumbers": {
+      "name": "binNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "restock": {
+      "name": "restock",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billVarianceStatus": {
+      "name": "billVarianceStatus",
+      "type": "TransactionBillVarianceStatus",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurchTyp"
+    },
+    "isDropShipment": {
+      "name": "isDropShipment",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "options": {
+      "name": "options",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "landedCost": {
+      "name": "landedCost",
+      "type": "LandedCost",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

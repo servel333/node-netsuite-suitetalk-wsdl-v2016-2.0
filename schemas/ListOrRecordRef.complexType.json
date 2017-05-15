@@ -1,0 +1,30 @@
+{
+  "name": "ListOrRecordRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "typeId": {
+      "name": "typeId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

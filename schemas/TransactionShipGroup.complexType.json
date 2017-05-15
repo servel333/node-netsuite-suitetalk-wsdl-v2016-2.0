@@ -1,0 +1,145 @@
+{
+  "name": "TransactionShipGroup",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isFulfilled": {
+      "name": "isFulfilled",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "weight": {
+      "name": "weight",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sourceAddressRef": {
+      "name": "sourceAddressRef",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sourceAddress": {
+      "name": "sourceAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "destinationAddressRef": {
+      "name": "destinationAddressRef",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "destinationAddress": {
+      "name": "destinationAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingMethodRef": {
+      "name": "shippingMethodRef",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingMethod": {
+      "name": "shippingMethod",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isHandlingTaxable": {
+      "name": "isHandlingTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingTaxCode": {
+      "name": "handlingTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "handlingTaxRate": {
+      "name": "handlingTaxRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingTax2Rate": {
+      "name": "handlingTax2Rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingRate": {
+      "name": "handlingRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingTaxAmt": {
+      "name": "handlingTaxAmt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingTax2Amt": {
+      "name": "handlingTax2Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isShippingTaxable": {
+      "name": "isShippingTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTaxCode": {
+      "name": "shippingTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingTaxRate": {
+      "name": "shippingTaxRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTax2Rate": {
+      "name": "shippingTax2Rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingRate": {
+      "name": "shippingRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTaxAmt": {
+      "name": "shippingTaxAmt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTax2Amt": {
+      "name": "shippingTax2Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

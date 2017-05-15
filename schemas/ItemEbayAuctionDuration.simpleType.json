@@ -1,0 +1,17 @@
+{
+  "name": "ItemEbayAuctionDuration",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_10days",
+    "_120days",
+    "_1day",
+    "_30days",
+    "_3days",
+    "_5days",
+    "_60days",
+    "_7days",
+    "_90days",
+    "_goodUntilCancelled"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "StatusDetailType",
+  "type": "simpleType",
+  "file": "platform.faultTypes.xsd",
+  "enumeration": [
+    "ERROR",
+    "WARN",
+    "INFO"
+  ]
+}

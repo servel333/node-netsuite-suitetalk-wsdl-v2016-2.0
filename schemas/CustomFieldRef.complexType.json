@@ -1,0 +1,17 @@
+{
+  "name": "CustomFieldRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

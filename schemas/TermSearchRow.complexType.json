@@ -1,0 +1,21 @@
+{
+  "name": "TermSearchRow",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "TermSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

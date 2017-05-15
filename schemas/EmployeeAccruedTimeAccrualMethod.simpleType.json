@@ -1,0 +1,10 @@
+{
+  "name": "EmployeeAccruedTimeAccrualMethod",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_lumpSums",
+    "_perHourWorked",
+    "_perPayPeriod"
+  ]
+}

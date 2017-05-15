@@ -1,0 +1,9 @@
+{
+  "name": "AssemblyItemEffectiveBomControl",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_effectiveDate",
+    "_revisionControl"
+  ]
+}

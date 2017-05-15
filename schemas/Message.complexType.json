@@ -1,0 +1,135 @@
+{
+  "name": "Message",
+  "type": "complexType",
+  "file": "general.communication.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "author": {
+      "name": "author",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "authorEmail": {
+      "name": "authorEmail",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recipient": {
+      "name": "recipient",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "recipientEmail": {
+      "name": "recipientEmail",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "cc": {
+      "name": "cc",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bcc": {
+      "name": "bcc",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "messageDate": {
+      "name": "messageDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recordName": {
+      "name": "recordName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recordTypeName": {
+      "name": "recordTypeName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subject": {
+      "name": "subject",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "emailed": {
+      "name": "emailed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "activity": {
+      "name": "activity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "compressAttachments": {
+      "name": "compressAttachments",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "incoming": {
+      "name": "incoming",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "mediaItemList": {
+      "name": "mediaItemList",
+      "type": "MessageMediaItemList",
+      "minOccurs": "0",
+      "typeNamespace": "generalComm"
+    },
+    "dateTime": {
+      "name": "dateTime",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ItemFulfillmentPackageUpsCodMethodUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_cashiersCheckMoneyOrder",
+    "_checkCashiersCheckMoneyOrder"
+  ]
+}

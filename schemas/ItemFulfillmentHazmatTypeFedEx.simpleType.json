@@ -1,0 +1,9 @@
+{
+  "name": "ItemFulfillmentHazmatTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_dangerousGoods",
+    "_hazmat"
+  ]
+}

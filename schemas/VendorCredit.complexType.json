@@ -1,0 +1,195 @@
+{
+  "name": "VendorCredit",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "account": {
+      "name": "account",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "unApplied": {
+      "name": "unApplied",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billAddressList": {
+      "name": "billAddressList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "autoApply": {
+      "name": "autoApply",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "applied": {
+      "name": "applied",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "transactionNumber": {
+      "name": "transactionNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranId": {
+      "name": "tranId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdFrom": {
+      "name": "createdFrom",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "total": {
+      "name": "total",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "userTotal": {
+      "name": "userTotal",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currencyName": {
+      "name": "currencyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billingAddress": {
+      "name": "billingAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exchangeRate": {
+      "name": "exchangeRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "postingPeriod": {
+      "name": "postingPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "expenseList": {
+      "name": "expenseList",
+      "type": "VendorCreditExpenseList",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurch"
+    },
+    "itemList": {
+      "name": "itemList",
+      "type": "VendorCreditItemList",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurch"
+    },
+    "applyList": {
+      "name": "applyList",
+      "type": "VendorCreditApplyList",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurch"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "UpdateInviteeStatusReference",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "eventId": {
+      "name": "eventId",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "responseCode": {
+      "name": "responseCode",
+      "type": "CalendarEventAttendeeResponse",
+      "minOccurs": "1",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CustomListTranslationsList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "translations": {
+      "name": "translations",
+      "type": "CustomListTranslations",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

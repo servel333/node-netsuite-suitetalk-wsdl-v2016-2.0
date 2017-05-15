@@ -1,0 +1,211 @@
+{
+  "name": "VendorBillItem",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorName": {
+      "name": "vendorName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "line": {
+      "name": "line",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "orderDoc": {
+      "name": "orderDoc",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "orderLine": {
+      "name": "orderLine",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "units": {
+      "name": "units",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "inventoryDetail": {
+      "name": "inventoryDetail",
+      "type": "InventoryDetail",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "serialNumbers": {
+      "name": "serialNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "binNumbers": {
+      "name": "binNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxCode": {
+      "name": "taxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxRate1": {
+      "name": "taxRate1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxRate2": {
+      "name": "taxRate2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "grossAmt": {
+      "name": "grossAmt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tax1Amt": {
+      "name": "tax1Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "options": {
+      "name": "options",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customer": {
+      "name": "customer",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "landedCostCategory": {
+      "name": "landedCostCategory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isBillable": {
+      "name": "isBillable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billVarianceStatus": {
+      "name": "billVarianceStatus",
+      "type": "TransactionBillVarianceStatus",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurchTyp"
+    },
+    "billreceiptsList": {
+      "name": "billreceiptsList",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amortizationSched": {
+      "name": "amortizationSched",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amortizStartDate": {
+      "name": "amortizStartDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amortizationEndDate": {
+      "name": "amortizationEndDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amortizationResidual": {
+      "name": "amortizationResidual",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "landedCost": {
+      "name": "landedCost",
+      "type": "LandedCost",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

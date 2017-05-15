@@ -1,0 +1,23 @@
+{
+  "name": "TaskReminderMinutes",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_0minutes",
+    "_10minutes",
+    "_12hours",
+    "_15minutes",
+    "_1day",
+    "_1hour",
+    "_1week",
+    "_2days",
+    "_2hours",
+    "_30minutes",
+    "_3days",
+    "_3hours",
+    "_4hours",
+    "_5hours",
+    "_5minutes",
+    "_8hours"
+  ]
+}

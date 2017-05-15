@@ -1,0 +1,165 @@
+{
+  "name": "VendorReturnAuthorization",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranId": {
+      "name": "tranId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdFrom": {
+      "name": "createdFrom",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "orderStatus": {
+      "name": "orderStatus",
+      "type": "VendorReturnAuthorizationOrderStatus",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurchTyp"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "userTotal": {
+      "name": "userTotal",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currencyName": {
+      "name": "currencyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billingAddress": {
+      "name": "billingAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "billAddressList": {
+      "name": "billAddressList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exchangeRate": {
+      "name": "exchangeRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "intercoTransaction": {
+      "name": "intercoTransaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "intercoStatus": {
+      "name": "intercoStatus",
+      "type": "IntercoStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "expenseList": {
+      "name": "expenseList",
+      "type": "VendorReturnAuthorizationExpenseList",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurch"
+    },
+    "itemList": {
+      "name": "itemList",
+      "type": "VendorReturnAuthorizationItemList",
+      "minOccurs": "0",
+      "typeNamespace": "tranPurch"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

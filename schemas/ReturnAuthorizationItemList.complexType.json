@@ -1,0 +1,22 @@
+{
+  "name": "ReturnAuthorizationItemList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "ReturnAuthorizationItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

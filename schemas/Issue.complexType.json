@@ -1,0 +1,261 @@
+{
+  "name": "Issue",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "issueNumber": {
+      "name": "issueNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "issueType": {
+      "name": "issueType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "product": {
+      "name": "product",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "module": {
+      "name": "module",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "productTeam": {
+      "name": "productTeam",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "source": {
+      "name": "source",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reportedBy": {
+      "name": "reportedBy",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reproduce": {
+      "name": "reproduce",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "versionBroken": {
+      "name": "versionBroken",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildBroken": {
+      "name": "buildBroken",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "versionTarget": {
+      "name": "versionTarget",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildTarget": {
+      "name": "buildTarget",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "versionFixed": {
+      "name": "versionFixed",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildFixed": {
+      "name": "buildFixed",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "severity": {
+      "name": "severity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "priority": {
+      "name": "priority",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isShowStopper": {
+      "name": "isShowStopper",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "assigned": {
+      "name": "assigned",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reviewer": {
+      "name": "reviewer",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isReviewed": {
+      "name": "isReviewed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "issueStatus": {
+      "name": "issueStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "issueTagsList": {
+      "name": "issueTagsList",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "issueAbstract": {
+      "name": "issueAbstract",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "newDetails": {
+      "name": "newDetails",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isOwner": {
+      "name": "isOwner",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "trackCode": {
+      "name": "trackCode",
+      "type": "IssueTrackCode",
+      "minOccurs": "0",
+      "typeNamespace": "listSupportTyp"
+    },
+    "emailAssignee": {
+      "name": "emailAssignee",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "emailEmployeesList": {
+      "name": "emailEmployeesList",
+      "type": "EmailEmployeesList",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "emailCellsList": {
+      "name": "emailCellsList",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalAbstract": {
+      "name": "externalAbstract",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "externalDetails": {
+      "name": "externalDetails",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "brokenInVersionList": {
+      "name": "brokenInVersionList",
+      "type": "IssueVersionList",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "targetVersionList": {
+      "name": "targetVersionList",
+      "type": "IssueVersionList",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "fixedInVersionList": {
+      "name": "fixedInVersionList",
+      "type": "IssueVersionList",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "relatedIssuesList": {
+      "name": "relatedIssuesList",
+      "type": "IssueRelatedIssuesList",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

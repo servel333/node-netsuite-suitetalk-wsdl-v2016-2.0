@@ -1,0 +1,22 @@
+{
+  "name": "OpportunityItemList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "OpportunityItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

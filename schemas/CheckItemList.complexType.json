@@ -1,0 +1,22 @@
+{
+  "name": "CheckItemList",
+  "type": "complexType",
+  "file": "transactions.bank.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "CheckItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranBank"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

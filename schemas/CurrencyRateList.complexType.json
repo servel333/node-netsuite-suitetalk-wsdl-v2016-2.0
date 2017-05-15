@@ -1,0 +1,14 @@
+{
+  "name": "CurrencyRateList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "currencyRate": {
+      "name": "currencyRate",
+      "type": "CurrencyRate",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "name": "TaskSearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRowBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "actualTime": {
+      "name": "actualTime",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "assigned": {
+      "name": "assigned",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "company": {
+      "name": "company",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "completedDate": {
+      "name": "completedDate",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "dueDate": {
+      "name": "dueDate",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedTime": {
+      "name": "estimatedTime",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedTimeOverride": {
+      "name": "estimatedTimeOverride",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isJobSummaryTask": {
+      "name": "isJobSummaryTask",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isJobTask": {
+      "name": "isJobTask",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "markdone": {
+      "name": "markdone",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "message": {
+      "name": "message",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "milestone": {
+      "name": "milestone",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "order": {
+      "name": "order",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "percentComplete": {
+      "name": "percentComplete",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "percentTimeComplete": {
+      "name": "percentTimeComplete",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "priority": {
+      "name": "priority",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "startTime": {
+      "name": "startTime",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "status": {
+      "name": "status",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "timeRemaining": {
+      "name": "timeRemaining",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchColumnCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

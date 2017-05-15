@@ -1,0 +1,22 @@
+{
+  "name": "CashSaleExpCostList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "expCost": {
+      "name": "expCost",
+      "type": "CashSaleExpCost",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

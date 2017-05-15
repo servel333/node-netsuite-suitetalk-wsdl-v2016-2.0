@@ -1,0 +1,171 @@
+{
+  "name": "PromotionCode",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "implementation": {
+      "name": "implementation",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useType": {
+      "name": "useType",
+      "type": "PromotionCodeUseType",
+      "minOccurs": "0",
+      "typeNamespace": "listMktTyp"
+    },
+    "displayLineDiscounts": {
+      "name": "displayLineDiscounts",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "code": {
+      "name": "code",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "codePattern": {
+      "name": "codePattern",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "numberToGenerate": {
+      "name": "numberToGenerate",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "locationList": {
+      "name": "locationList",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "discount": {
+      "name": "discount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "discountType": {
+      "name": "discountType",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "applyDiscountTo": {
+      "name": "applyDiscountTo",
+      "type": "PromotionCodeApplyDiscountTo",
+      "minOccurs": "0",
+      "typeNamespace": "listMktTyp"
+    },
+    "freeShipMethod": {
+      "name": "freeShipMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "minimumOrderAmount": {
+      "name": "minimumOrderAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isPublic": {
+      "name": "isPublic",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currencyList": {
+      "name": "currencyList",
+      "type": "PromotionCodeCurrencyList",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    },
+    "excludeItems": {
+      "name": "excludeItems",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemsList": {
+      "name": "itemsList",
+      "type": "PromotionCodeItemsList",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    },
+    "partnersList": {
+      "name": "partnersList",
+      "type": "PromotionCodePartnersList",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

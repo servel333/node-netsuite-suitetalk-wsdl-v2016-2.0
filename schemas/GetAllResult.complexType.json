@@ -1,0 +1,19 @@
+{
+  "name": "GetAllResult",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:recordList",
+      "minOccurs": "0",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "totalRecords": {
+      "name": "totalRecords",
+      "type": "int",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

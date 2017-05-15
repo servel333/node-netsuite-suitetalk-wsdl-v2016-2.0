@@ -1,0 +1,12 @@
+{
+  "name": "GetAllRecord",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "attributes": {
+    "recordType": {
+      "name": "recordType",
+      "type": "GetAllRecordType",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

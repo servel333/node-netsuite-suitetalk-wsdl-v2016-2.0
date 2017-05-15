@@ -1,0 +1,22 @@
+{
+  "name": "BudgetSearch",
+  "type": "complexType",
+  "file": "transactions.financial.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "BudgetSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "OpportunitySalesTeamList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "salesTeam": {
+      "name": "salesTeam",
+      "type": "OpportunitySalesTeam",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

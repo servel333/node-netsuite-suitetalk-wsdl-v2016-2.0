@@ -1,0 +1,22 @@
+{
+  "name": "ItemSupplyPlanOrderList",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "itemSupplyPlanOrder": {
+      "name": "itemSupplyPlanOrder",
+      "type": "ItemSupplyPlanOrder",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "demandPlanning"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

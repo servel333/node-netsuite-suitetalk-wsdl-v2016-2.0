@@ -1,0 +1,45 @@
+{
+  "name": "CostCategory",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "account": {
+      "name": "account",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemCostType": {
+      "name": "itemCostType",
+      "type": "CostCategoryItemCostType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

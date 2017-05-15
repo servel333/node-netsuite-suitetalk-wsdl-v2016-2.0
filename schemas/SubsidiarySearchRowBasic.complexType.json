@@ -1,0 +1,330 @@
+{
+  "name": "SubsidiarySearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRowBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "accountingBook": {
+      "name": "accountingBook",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "accountingBookCurrency": {
+      "name": "accountingBookCurrency",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "address1": {
+      "name": "address1",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "address2": {
+      "name": "address2",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "address3": {
+      "name": "address3",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "anonymousCustomerInboundEmail": {
+      "name": "anonymousCustomerInboundEmail",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "anonymousCustomerOnlineForms": {
+      "name": "anonymousCustomerOnlineForms",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseAssignmentTemplate": {
+      "name": "caseAssignmentTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseAutomaticClosureTemplate": {
+      "name": "caseAutomaticClosureTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseCopyEmployeeTemplate": {
+      "name": "caseCopyEmployeeTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseCreationTemplate": {
+      "name": "caseCreationTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseEscalationTemplate": {
+      "name": "caseEscalationTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "caseUpdateTemplate": {
+      "name": "caseUpdateTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "city": {
+      "name": "city",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "companyNameForSupportMessages": {
+      "name": "companyNameForSupportMessages",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "country": {
+      "name": "country",
+      "type": "SearchColumnEnumSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveFrom": {
+      "name": "effectiveFrom",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "email": {
+      "name": "email",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "employeeCaseUpdateTemplate": {
+      "name": "employeeCaseUpdateTemplate",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isElimination": {
+      "name": "isElimination",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "legalName": {
+      "name": "legalName",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "mainSupportEmailAddress": {
+      "name": "mainSupportEmailAddress",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "name": {
+      "name": "name",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "nameNoHierarchy": {
+      "name": "nameNoHierarchy",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "nexus": {
+      "name": "nexus",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderAmount": {
+      "name": "purchaseOrderAmount",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderQuantity": {
+      "name": "purchaseOrderQuantity",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderQuantityDiff": {
+      "name": "purchaseOrderQuantityDiff",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "receiptAmount": {
+      "name": "receiptAmount",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "receiptQuantity": {
+      "name": "receiptQuantity",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "receiptQuantityDiff": {
+      "name": "receiptQuantityDiff",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "state": {
+      "name": "state",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "taxEngine": {
+      "name": "taxEngine",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "taxIdNum": {
+      "name": "taxIdNum",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "taxRegistrationNumber": {
+      "name": "taxRegistrationNumber",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "tranPrefix": {
+      "name": "tranPrefix",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "url": {
+      "name": "url",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "validUntil": {
+      "name": "validUntil",
+      "type": "SearchColumnDateField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "zip": {
+      "name": "zip",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchColumnCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RevRecScheduleRecurrenceList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "revRecScheduleRecurrence": {
+      "name": "revRecScheduleRecurrence",
+      "type": "RevRecScheduleRecurrence",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

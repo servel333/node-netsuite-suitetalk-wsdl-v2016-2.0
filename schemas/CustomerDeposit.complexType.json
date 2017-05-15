@@ -1,0 +1,303 @@
+{
+  "name": "CustomerDeposit",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "status": {
+      "name": "status",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customer": {
+      "name": "customer",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesOrder": {
+      "name": "salesOrder",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "payment": {
+      "name": "payment",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "postingPeriod": {
+      "name": "postingPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "paymentMethod": {
+      "name": "paymentMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "ccIsPurchaseCardBin": {
+      "name": "ccIsPurchaseCardBin",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccProcessAsPurchaseCard": {
+      "name": "ccProcessAsPurchaseCard",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currencyName": {
+      "name": "currencyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exchangeRate": {
+      "name": "exchangeRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "checkNum": {
+      "name": "checkNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "creditCardProcessor": {
+      "name": "creditCardProcessor",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "creditCard": {
+      "name": "creditCard",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "ccSecurityCode": {
+      "name": "ccSecurityCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccNumber": {
+      "name": "ccNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "ccExpireDate": {
+      "name": "ccExpireDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "debitCardIssueNo": {
+      "name": "debitCardIssueNo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "validFrom": {
+      "name": "validFrom",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccName": {
+      "name": "ccName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccStreet": {
+      "name": "ccStreet",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccZipCode": {
+      "name": "ccZipCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "chargeIt": {
+      "name": "chargeIt",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccApproved": {
+      "name": "ccApproved",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pnRefNum": {
+      "name": "pnRefNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "authCode": {
+      "name": "authCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccAvsStreetMatch": {
+      "name": "ccAvsStreetMatch",
+      "type": "AvsMatchCode",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "softDescriptor": {
+      "name": "softDescriptor",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccAvsZipMatch": {
+      "name": "ccAvsZipMatch",
+      "type": "AvsMatchCode",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "isRecurringPayment": {
+      "name": "isRecurringPayment",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccSecurityCodeMatch": {
+      "name": "ccSecurityCodeMatch",
+      "type": "AvsMatchCode",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "threeDStatusCode": {
+      "name": "threeDStatusCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ignoreAvs": {
+      "name": "ignoreAvs",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "account": {
+      "name": "account",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "undepFunds": {
+      "name": "undepFunds",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "applyList": {
+      "name": "applyList",
+      "type": "CustomerDepositApplyList",
+      "minOccurs": "0",
+      "typeNamespace": "tranCust"
+    },
+    "accountingBookDetailList": {
+      "name": "accountingBookDetailList",
+      "type": "AccountingBookDetailList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

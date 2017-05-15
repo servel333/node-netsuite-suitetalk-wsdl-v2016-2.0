@@ -1,0 +1,14 @@
+{
+  "name": "PriceList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "price": {
+      "name": "price",
+      "type": "Price",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  }
+}

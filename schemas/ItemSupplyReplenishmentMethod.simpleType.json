@@ -1,0 +1,9 @@
+{
+  "name": "ItemSupplyReplenishmentMethod",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_reorderPoint",
+    "_timePhased"
+  ]
+}

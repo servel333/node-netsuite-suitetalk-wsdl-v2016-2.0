@@ -1,0 +1,16 @@
+{
+  "name": "VendorReturnAuthorizationOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.purchaseTypes.xsd",
+  "enumeration": [
+    "_cancelled",
+    "_closed",
+    "_credited",
+    "_partiallyReturned",
+    "_pendingApproval",
+    "_pendingCredit",
+    "_pendingCreditPartiallyReturned",
+    "_pendingReturn",
+    "_undefined"
+  ]
+}

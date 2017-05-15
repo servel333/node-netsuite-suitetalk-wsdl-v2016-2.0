@@ -1,0 +1,100 @@
+{
+  "name": "TermSearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRowBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "dateDriven": {
+      "name": "dateDriven",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "dayDiscountExpires": {
+      "name": "dayDiscountExpires",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "dayOfMonthNetDue": {
+      "name": "dayOfMonthNetDue",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "daysUntilExpiry": {
+      "name": "daysUntilExpiry",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "daysUntilNetDue": {
+      "name": "daysUntilNetDue",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "discountPercent": {
+      "name": "discountPercent",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "discountPercentDateDriven": {
+      "name": "discountPercentDateDriven",
+      "type": "SearchColumnDoubleField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "dueNextMonthIfWithinDays": {
+      "name": "dueNextMonthIfWithinDays",
+      "type": "SearchColumnLongField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "name": {
+      "name": "name",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "preferred": {
+      "name": "preferred",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "BudgetSearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.financial.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "BudgetSearch",
+      "minOccurs": "0",
+      "typeNamespace": "tranFin"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "BudgetSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "tranFin"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

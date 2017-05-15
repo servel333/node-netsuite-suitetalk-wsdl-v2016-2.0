@@ -1,0 +1,58 @@
+{
+  "name": "ItemAccountMappingSearch",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "ItemAccountMappingSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "classJoin": {
+      "name": "classJoin",
+      "type": "ClassificationSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "departmentJoin": {
+      "name": "departmentJoin",
+      "type": "DepartmentSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "destinationAccountJoin": {
+      "name": "destinationAccountJoin",
+      "type": "AccountSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "locationJoin": {
+      "name": "locationJoin",
+      "type": "LocationSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "sourceAccountJoin": {
+      "name": "sourceAccountJoin",
+      "type": "AccountSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "subsidiaryJoin": {
+      "name": "subsidiaryJoin",
+      "type": "SubsidiarySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

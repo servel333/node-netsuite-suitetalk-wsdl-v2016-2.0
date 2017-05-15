@@ -1,0 +1,28 @@
+{
+  "name": "ChangeEmail",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "currentPassword": {
+      "name": "currentPassword",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "newEmail": {
+      "name": "newEmail",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "newEmail2": {
+      "name": "newEmail2",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "justThisAccount": {
+      "name": "justThisAccount",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

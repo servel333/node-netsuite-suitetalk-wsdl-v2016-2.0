@@ -1,0 +1,25 @@
+{
+  "name": "ItemFulfillmentLicenseExceptionUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_agr",
+    "_apr",
+    "_avs",
+    "_bag",
+    "_civ",
+    "_ctp",
+    "_enc",
+    "_gbs",
+    "_gft",
+    "_gov",
+    "_kmi",
+    "_lvs",
+    "_nlr",
+    "_rpl",
+    "_tmp",
+    "_tspa",
+    "_tsr",
+    "_tsu"
+  ]
+}

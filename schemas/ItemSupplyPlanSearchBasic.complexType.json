@@ -1,0 +1,105 @@
+{
+  "name": "ItemSupplyPlanSearchBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRecordBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalIdString": {
+      "name": "externalIdString",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalIdNumber": {
+      "name": "internalIdNumber",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "orderCreated": {
+      "name": "orderCreated",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "orderDate": {
+      "name": "orderDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "orderType": {
+      "name": "orderType",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "receiptDate": {
+      "name": "receiptDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "units": {
+      "name": "units",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

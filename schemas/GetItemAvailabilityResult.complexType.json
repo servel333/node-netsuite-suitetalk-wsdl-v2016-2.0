@@ -1,0 +1,21 @@
+{
+  "name": "GetItemAvailabilityResult",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:status",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "itemAvailabilityList": {
+      "name": "itemAvailabilityList",
+      "type": "ItemAvailabilityList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

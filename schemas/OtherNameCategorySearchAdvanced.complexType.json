@@ -1,0 +1,33 @@
+{
+  "name": "OtherNameCategorySearchAdvanced",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "OtherNameCategorySearch",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "OtherNameCategorySearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

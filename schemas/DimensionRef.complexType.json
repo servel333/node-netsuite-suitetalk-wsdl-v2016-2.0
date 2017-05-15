@@ -1,0 +1,12 @@
+{
+  "name": "DimensionRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "attributes": {
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

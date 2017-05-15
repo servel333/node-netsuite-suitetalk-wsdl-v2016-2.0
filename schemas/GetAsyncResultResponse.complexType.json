@@ -1,0 +1,14 @@
+{
+  "name": "GetAsyncResultResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:asyncResult",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

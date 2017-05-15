@@ -1,0 +1,11 @@
+{
+  "name": "AccountingTransactionRevenueStatus",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_completed",
+    "_inProgress",
+    "_onRevCommitment",
+    "_pending"
+  ]
+}

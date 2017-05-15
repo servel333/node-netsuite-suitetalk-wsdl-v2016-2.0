@@ -1,0 +1,11 @@
+{
+  "name": "ItemCreateRevenuePlansOn",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_billing",
+    "_fulfillment",
+    "_projectProgress",
+    "_revenueArrangementCreation"
+  ]
+}

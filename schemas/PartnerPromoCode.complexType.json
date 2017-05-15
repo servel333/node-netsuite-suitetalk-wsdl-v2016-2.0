@@ -1,0 +1,25 @@
+{
+  "name": "PartnerPromoCode",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "promoCode": {
+      "name": "promoCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "discount": {
+      "name": "discount",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "SsoPassport",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "authenticationToken": {
+      "name": "authenticationToken",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "partnerId": {
+      "name": "partnerId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "partnerAccount": {
+      "name": "partnerAccount",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "partnerUserId": {
+      "name": "partnerUserId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

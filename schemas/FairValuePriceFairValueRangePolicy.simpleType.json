@@ -1,0 +1,11 @@
+{
+  "name": "FairValuePriceFairValueRangePolicy",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_boundary",
+    "_fairValue",
+    "_high",
+    "_low"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "TopicSolution",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "solution": {
+      "name": "solution",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

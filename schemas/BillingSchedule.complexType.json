@@ -1,0 +1,207 @@
+{
+  "name": "BillingSchedule",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "scheduleType": {
+      "name": "scheduleType",
+      "type": "BillingScheduleType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrencePattern": {
+      "name": "recurrencePattern",
+      "type": "BillingScheduleRecurrencePattern",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "project": {
+      "name": "project",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "initialAmount": {
+      "name": "initialAmount",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "initialTerms": {
+      "name": "initialTerms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "frequency": {
+      "name": "frequency",
+      "type": "BillingScheduleFrequency",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "recurrenceDowMaskList": {
+      "name": "recurrenceDowMaskList",
+      "type": "RecurrenceDowMaskList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "yearMode": {
+      "name": "yearMode",
+      "type": "BillingScheduleRecurrenceMode",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "yearDowim": {
+      "name": "yearDowim",
+      "type": "BillingScheduleYearDowim",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "yearDow": {
+      "name": "yearDow",
+      "type": "BillingScheduleYearDow",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "yearDowimMonth": {
+      "name": "yearDowimMonth",
+      "type": "BillingScheduleYearDowimMonth",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "yearMonth": {
+      "name": "yearMonth",
+      "type": "BillingScheduleYearMonth",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "yearDom": {
+      "name": "yearDom",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "monthMode": {
+      "name": "monthMode",
+      "type": "BillingScheduleRecurrenceMode",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "monthDowim": {
+      "name": "monthDowim",
+      "type": "BillingScheduleMonthDowim",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "monthDow": {
+      "name": "monthDow",
+      "type": "BillingScheduleMonthDow",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "monthDom": {
+      "name": "monthDom",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dayPeriod": {
+      "name": "dayPeriod",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "repeatEvery": {
+      "name": "repeatEvery",
+      "type": "BillingScheduleRepeatEvery",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "billForActuals": {
+      "name": "billForActuals",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "numberRemaining": {
+      "name": "numberRemaining",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inArrears": {
+      "name": "inArrears",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrenceTerms": {
+      "name": "recurrenceTerms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isPublic": {
+      "name": "isPublic",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "applyToSubtotal": {
+      "name": "applyToSubtotal",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "seriesStartDate": {
+      "name": "seriesStartDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrenceList": {
+      "name": "recurrenceList",
+      "type": "BillingScheduleRecurrenceList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "milestoneList": {
+      "name": "milestoneList",
+      "type": "BillingScheduleMilestoneList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

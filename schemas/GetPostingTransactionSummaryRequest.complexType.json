@@ -1,0 +1,28 @@
+{
+  "name": "GetPostingTransactionSummaryRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "fields": {
+      "name": "fields",
+      "type": "PostingTransactionSummaryField",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "filters": {
+      "name": "filters",
+      "type": "PostingTransactionSummaryFilter",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "State",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "country": {
+      "name": "country",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "fullName": {
+      "name": "fullName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shortname": {
+      "name": "shortname",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "PeriodDemandPlan",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "dayOfTheWeek": {
+      "name": "dayOfTheWeek",
+      "type": "DayOfTheWeek",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanningTyp"
+    }
+  }
+}

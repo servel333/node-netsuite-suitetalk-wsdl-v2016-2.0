@@ -1,0 +1,22 @@
+{
+  "name": "IssueRelatedIssuesList",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "issueRelatedIssues": {
+      "name": "issueRelatedIssues",
+      "type": "IssueRelatedIssues",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listSupport"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

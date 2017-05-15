@@ -1,0 +1,33 @@
+{
+  "name": "PayrollItemSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "PayrollItemSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "PayrollItemSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

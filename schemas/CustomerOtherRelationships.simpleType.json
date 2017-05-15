@@ -1,0 +1,10 @@
+{
+  "name": "CustomerOtherRelationships",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_otherName",
+    "_partner",
+    "_vendor"
+  ]
+}

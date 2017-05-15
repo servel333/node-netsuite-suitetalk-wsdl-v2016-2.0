@@ -1,0 +1,11 @@
+{
+  "name": "ItemCostAccountingStatus",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_complete",
+    "_failed",
+    "_pending",
+    "_processing"
+  ]
+}

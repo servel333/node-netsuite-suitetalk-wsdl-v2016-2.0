@@ -1,0 +1,107 @@
+{
+  "name": "RevRecTemplateSearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRowBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "amorMethod": {
+      "name": "amorMethod",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "amorPeriod": {
+      "name": "amorPeriod",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "amorStartOffset": {
+      "name": "amorStartOffset",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "amorTermSrc": {
+      "name": "amorTermSrc",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "amorType": {
+      "name": "amorType",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "contraAccount": {
+      "name": "contraAccount",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "deferralAccount": {
+      "name": "deferralAccount",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchColumnSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "name": {
+      "name": "name",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "periodOffset": {
+      "name": "periodOffset",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "targetAccount": {
+      "name": "targetAccount",
+      "type": "SearchColumnStringField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    },
+    "useForeignAmounts": {
+      "name": "useForeignAmounts",
+      "type": "SearchColumnBooleanField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

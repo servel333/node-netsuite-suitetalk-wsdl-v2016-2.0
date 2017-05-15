@@ -1,0 +1,10 @@
+{
+  "name": "CustomRecordTypeAccessType",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_noPermissionRequired",
+    "_requireCustomRecordEntriesPermission",
+    "_usePermissionList"
+  ]
+}

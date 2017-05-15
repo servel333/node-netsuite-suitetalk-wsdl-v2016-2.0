@@ -1,0 +1,19 @@
+{
+  "name": "LanguageValue",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "value": {
+      "name": "value",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

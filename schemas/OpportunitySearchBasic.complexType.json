@@ -1,0 +1,399 @@
+{
+  "name": "OpportunitySearchBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRecordBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "amount": {
+      "name": "amount",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "availableOffline": {
+      "name": "availableOffline",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buyingReason": {
+      "name": "buyingReason",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buyingTimeFrame": {
+      "name": "buyingTimeFrame",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "closeDate": {
+      "name": "closeDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "competitor": {
+      "name": "competitor",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contribution": {
+      "name": "contribution",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "custType": {
+      "name": "custType",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dateCreated": {
+      "name": "dateCreated",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "daysOpen": {
+      "name": "daysOpen",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "daysToClose": {
+      "name": "daysToClose",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entityStatus": {
+      "name": "entityStatus",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedBudget": {
+      "name": "estimatedBudget",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "expectedCloseDate": {
+      "name": "expectedCloseDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalIdString": {
+      "name": "externalIdString",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "forecastType": {
+      "name": "forecastType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "foreignProjectedAmount": {
+      "name": "foreignProjectedAmount",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "foreignRangeHigh": {
+      "name": "foreignRangeHigh",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "foreignRangeLow": {
+      "name": "foreignRangeLow",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fxTranCostEstimate": {
+      "name": "fxTranCostEstimate",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalIdNumber": {
+      "name": "internalIdNumber",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isBudgetApproved": {
+      "name": "isBudgetApproved",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "leadSource": {
+      "name": "leadSource",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "number": {
+      "name": "number",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "partner": {
+      "name": "partner",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "partnerContribution": {
+      "name": "partnerContribution",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "partnerRole": {
+      "name": "partnerRole",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "partnerTeamMember": {
+      "name": "partnerTeamMember",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "postingPeriod": {
+      "name": "postingPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "postingPeriodRelative": {
+      "name": "postingPeriodRelative",
+      "type": "PostingPeriodDate",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "probability": {
+      "name": "probability",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projAltSalesAmt": {
+      "name": "projAltSalesAmt",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectedTotal": {
+      "name": "projectedTotal",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rangeHigh": {
+      "name": "rangeHigh",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rangeHighAlt": {
+      "name": "rangeHighAlt",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rangeLow": {
+      "name": "rangeLow",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rangeLowAlt": {
+      "name": "rangeLowAlt",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesReadiness": {
+      "name": "salesReadiness",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesRep": {
+      "name": "salesRep",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesTeamMember": {
+      "name": "salesTeamMember",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesTeamRole": {
+      "name": "salesTeamRole",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "status": {
+      "name": "status",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxPeriod": {
+      "name": "taxPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxPeriodRelative": {
+      "name": "taxPeriodRelative",
+      "type": "PostingPeriodDate",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "title": {
+      "name": "title",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranCostEstimate": {
+      "name": "tranCostEstimate",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranEstGrossProfit": {
+      "name": "tranEstGrossProfit",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranEstGrossProfitPct": {
+      "name": "tranEstGrossProfitPct",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranFxEstGrossProfit": {
+      "name": "tranFxEstGrossProfit",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tranId": {
+      "name": "tranId",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "winLossReason": {
+      "name": "winLossReason",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "wonBy": {
+      "name": "wonBy",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

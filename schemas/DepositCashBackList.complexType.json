@@ -1,0 +1,22 @@
+{
+  "name": "DepositCashBackList",
+  "type": "complexType",
+  "file": "transactions.bank.xsd",
+  "elements": {
+    "depositCashBack": {
+      "name": "depositCashBack",
+      "type": "DepositCashBack",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranBank"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "CampaignSearchRow",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "CampaignSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "campaignRecipientJoin": {
+      "name": "campaignRecipientJoin",
+      "type": "EntitySearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "fileJoin": {
+      "name": "fileJoin",
+      "type": "FileSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "messagesJoin": {
+      "name": "messagesJoin",
+      "type": "MessageSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "originatingLeadJoin": {
+      "name": "originatingLeadJoin",
+      "type": "OriginatingLeadSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "promotionCodeJoin": {
+      "name": "promotionCodeJoin",
+      "type": "PromotionCodeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "transactionJoin": {
+      "name": "transactionJoin",
+      "type": "TransactionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userNotesJoin": {
+      "name": "userNotesJoin",
+      "type": "NoteSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchRowBasic",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "ProjectTaskPredecessor",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "task": {
+      "name": "task",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "type": {
+      "name": "type",
+      "type": "ProjectTaskPredecessorPredecessorType",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "lagDays": {
+      "name": "lagDays",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

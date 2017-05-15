@@ -1,0 +1,16 @@
+{
+  "name": "DetachBasicReference",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "DetachReference",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "detachedRecord": {
+      "name": "detachedRecord",
+      "type": "BaseRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

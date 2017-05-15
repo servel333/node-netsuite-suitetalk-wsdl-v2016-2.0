@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnTextNumberField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

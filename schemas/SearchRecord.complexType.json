@@ -1,0 +1,5 @@
+{
+  "name": "SearchRecord",
+  "type": "complexType",
+  "file": "platform.core.xsd"
+}

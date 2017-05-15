@@ -1,0 +1,49 @@
+{
+  "name": "BillingScheduleRecurrence",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "recurrenceId": {
+      "name": "recurrenceId",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "count": {
+      "name": "count",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "units": {
+      "name": "units",
+      "type": "BillingScheduleRecurrenceRecurrenceUnits",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "relativeToPrevious": {
+      "name": "relativeToPrevious",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrenceDate": {
+      "name": "recurrenceDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "paymentTerms": {
+      "name": "paymentTerms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

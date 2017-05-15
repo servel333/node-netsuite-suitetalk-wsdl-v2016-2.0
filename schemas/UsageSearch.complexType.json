@@ -1,0 +1,15 @@
+{
+  "name": "UsageSearch",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "UsageSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

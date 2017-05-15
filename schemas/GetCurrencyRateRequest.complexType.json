@@ -1,0 +1,14 @@
+{
+  "name": "GetCurrencyRateRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "currencyRateFilter": {
+      "name": "currencyRateFilter",
+      "type": "CurrencyRateFilter",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

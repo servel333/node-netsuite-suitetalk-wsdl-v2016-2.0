@@ -1,0 +1,483 @@
+{
+  "name": "Job",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entityId": {
+      "name": "entityId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altName": {
+      "name": "altName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "companyName": {
+      "name": "companyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phoneticName": {
+      "name": "phoneticName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "entityStatus": {
+      "name": "entityStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "defaultAddress": {
+      "name": "defaultAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "percentCompleteOverrideList": {
+      "name": "percentCompleteOverrideList",
+      "type": "JobPercentCompleteOverrideList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billPay": {
+      "name": "billPay",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dateCreated": {
+      "name": "dateCreated",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "workplace": {
+      "name": "workplace",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "language": {
+      "name": "language",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accountNumber": {
+      "name": "accountNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fxRate": {
+      "name": "fxRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altPhone": {
+      "name": "altPhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "calculatedEndDate": {
+      "name": "calculatedEndDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "calculatedEndDateBaseline": {
+      "name": "calculatedEndDateBaseline",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDateBaseline": {
+      "name": "startDateBaseline",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "projectedEndDate": {
+      "name": "projectedEndDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "projectedEndDateBaseline": {
+      "name": "projectedEndDateBaseline",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastBaselineDate": {
+      "name": "lastBaselineDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "jobType": {
+      "name": "jobType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "percentComplete": {
+      "name": "percentComplete",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedCost": {
+      "name": "estimatedCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedRevenue": {
+      "name": "estimatedRevenue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedTime": {
+      "name": "estimatedTime",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedTimeOverride": {
+      "name": "estimatedTimeOverride",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "emailPreference": {
+      "name": "emailPreference",
+      "type": "EmailPreference",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "openingBalance": {
+      "name": "openingBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceDate": {
+      "name": "openingBalanceDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceAccount": {
+      "name": "openingBalanceAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "jobBillingType": {
+      "name": "jobBillingType",
+      "type": "JobBillingType",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "billingSchedule": {
+      "name": "billingSchedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "jobItem": {
+      "name": "jobItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "percentTimeComplete": {
+      "name": "percentTimeComplete",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "actualTime": {
+      "name": "actualTime",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "allowTime": {
+      "name": "allowTime",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeRemaining": {
+      "name": "timeRemaining",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "limitTimeToAssignees": {
+      "name": "limitTimeToAssignees",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedLaborCost": {
+      "name": "estimatedLaborCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedLaborCostBaseline": {
+      "name": "estimatedLaborCostBaseline",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimateRevRecTemplate": {
+      "name": "estimateRevRecTemplate",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revRecForecastRule": {
+      "name": "revRecForecastRule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "usePercentCompleteOverride": {
+      "name": "usePercentCompleteOverride",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedLaborRevenue": {
+      "name": "estimatedLaborRevenue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedGrossProfit": {
+      "name": "estimatedGrossProfit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedGrossProfitPercent": {
+      "name": "estimatedGrossProfitPercent",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "projectExpenseType": {
+      "name": "projectExpenseType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "applyProjectExpenseTypeToAll": {
+      "name": "applyProjectExpenseTypeToAll",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allowAllResourcesForTasks": {
+      "name": "allowAllResourcesForTasks",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "jobPrice": {
+      "name": "jobPrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isUtilizedTime": {
+      "name": "isUtilizedTime",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isProductiveTime": {
+      "name": "isProductiveTime",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isExemptTime": {
+      "name": "isExemptTime",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "materializeTime": {
+      "name": "materializeTime",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allowExpenses": {
+      "name": "allowExpenses",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allocatePayrollExpenses": {
+      "name": "allocatePayrollExpenses",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "includeCrmTasksInTotals": {
+      "name": "includeCrmTasksInTotals",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "globalSubscriptionStatus": {
+      "name": "globalSubscriptionStatus",
+      "type": "GlobalSubscriptionStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "jobResourcesList": {
+      "name": "jobResourcesList",
+      "type": "JobResourcesList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "plStatementList": {
+      "name": "plStatementList",
+      "type": "JobPlStatementList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "addressbookList": {
+      "name": "addressbookList",
+      "type": "JobAddressbookList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "milestonesList": {
+      "name": "milestonesList",
+      "type": "JobMilestonesList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "creditCardsList": {
+      "name": "creditCardsList",
+      "type": "JobCreditCardsList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

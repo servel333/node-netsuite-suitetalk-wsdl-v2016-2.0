@@ -1,0 +1,22 @@
+{
+  "name": "CampaignEmailList",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "campaignEmail": {
+      "name": "campaignEmail",
+      "type": "CampaignEmail",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

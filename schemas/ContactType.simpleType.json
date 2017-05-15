@@ -1,0 +1,12 @@
+{
+  "name": "ContactType",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_customer",
+    "_employee",
+    "_otherName",
+    "_partner",
+    "_vendor"
+  ]
+}

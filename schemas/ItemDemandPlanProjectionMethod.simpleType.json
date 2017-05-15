@@ -1,0 +1,11 @@
+{
+  "name": "ItemDemandPlanProjectionMethod",
+  "type": "simpleType",
+  "file": "transactions.demandPlanningTypes.xsd",
+  "enumeration": [
+    "_linearRegression",
+    "_movingAverage",
+    "_salesForecast",
+    "_seasonalAverage"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "CustomFieldType",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "fieldType": {
+      "name": "fieldType",
+      "type": "CustomizationFieldType",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CustomizationRefList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "customizationRef": {
+      "name": "customizationRef",
+      "type": "CustomizationRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

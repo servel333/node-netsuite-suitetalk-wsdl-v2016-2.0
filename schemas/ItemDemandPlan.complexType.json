@@ -1,0 +1,101 @@
+{
+  "name": "ItemDemandPlan",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "units": {
+      "name": "units",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "year": {
+      "name": "year",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "month": {
+      "name": "month",
+      "type": "DemandPlanMonth",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanningTyp"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "demandPlanCalendarType": {
+      "name": "demandPlanCalendarType",
+      "type": "DemandPlanCalendarType",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanningTyp"
+    },
+    "demandPlanMatrix": {
+      "name": "demandPlanMatrix",
+      "type": "DemandPlanMatrix",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanning"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

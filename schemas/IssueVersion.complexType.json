@@ -1,0 +1,25 @@
+{
+  "name": "IssueVersion",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "primary": {
+      "name": "primary",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "version": {
+      "name": "version",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "build": {
+      "name": "build",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

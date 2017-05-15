@@ -1,0 +1,14 @@
+{
+  "name": "DetachReference",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "detachFrom": {
+      "name": "detachFrom",
+      "type": "BaseRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

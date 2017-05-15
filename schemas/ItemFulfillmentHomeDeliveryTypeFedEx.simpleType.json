@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentHomeDeliveryTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_appointment",
+    "_dateCertain",
+    "_evening"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CalendarEventAttendeeAttendance",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_optional",
+    "_required"
+  ]
+}

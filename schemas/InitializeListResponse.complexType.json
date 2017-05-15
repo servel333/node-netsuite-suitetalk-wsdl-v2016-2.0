@@ -1,0 +1,12 @@
+{
+  "name": "InitializeListResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:readResponseList",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

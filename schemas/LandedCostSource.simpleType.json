@@ -1,0 +1,11 @@
+{
+  "name": "LandedCostSource",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_manual",
+    "_otherTransaction",
+    "_otherTransactionExcludeTax",
+    "_thisTransaction"
+  ]
+}

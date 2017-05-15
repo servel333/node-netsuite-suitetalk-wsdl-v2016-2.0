@@ -1,0 +1,11 @@
+{
+  "name": "BillingScheduleRecurrenceRecurrenceUnits",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_custom",
+    "_days",
+    "_months",
+    "_weeks"
+  ]
+}

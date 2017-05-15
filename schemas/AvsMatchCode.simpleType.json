@@ -1,0 +1,10 @@
+{
+  "name": "AvsMatchCode",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_n",
+    "_x",
+    "_y"
+  ]
+}

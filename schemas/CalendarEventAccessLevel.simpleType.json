@@ -1,0 +1,10 @@
+{
+  "name": "CalendarEventAccessLevel",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_private",
+    "_public",
+    "_showAsBusy"
+  ]
+}

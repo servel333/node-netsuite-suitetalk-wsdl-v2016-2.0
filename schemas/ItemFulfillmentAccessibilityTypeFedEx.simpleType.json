@@ -1,0 +1,9 @@
+{
+  "name": "ItemFulfillmentAccessibilityTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_accessible",
+    "_inaccessible"
+  ]
+}

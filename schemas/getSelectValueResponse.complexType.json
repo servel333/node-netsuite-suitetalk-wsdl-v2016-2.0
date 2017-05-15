@@ -1,0 +1,12 @@
+{
+  "name": "getSelectValueResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getSelectValueResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

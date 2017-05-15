@@ -1,0 +1,10 @@
+{
+  "name": "TaxRounding",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_roundDown",
+    "_roundOff",
+    "_roundUp"
+  ]
+}

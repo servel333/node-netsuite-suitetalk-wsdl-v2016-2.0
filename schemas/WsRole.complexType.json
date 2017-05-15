@@ -1,0 +1,31 @@
+{
+  "name": "WsRole",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "role": {
+      "name": "role",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isDefault": {
+      "name": "isDefault",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isLoggedInRole": {
+      "name": "isLoggedInRole",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

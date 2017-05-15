@@ -1,0 +1,14 @@
+{
+  "name": "GetBudgetExchangeRateRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "budgetExchangeRateFilter": {
+      "name": "budgetExchangeRateFilter",
+      "type": "BudgetExchangeRateFilter",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

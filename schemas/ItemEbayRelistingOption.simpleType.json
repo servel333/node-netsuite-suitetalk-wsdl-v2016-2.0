@@ -1,0 +1,11 @@
+{
+  "name": "ItemEbayRelistingOption",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_doNotRelist",
+    "_relistWhenItemExpires",
+    "_relistWhenItemIsSold",
+    "_relistWhenItemIsSoldExpires"
+  ]
+}

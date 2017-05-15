@@ -1,0 +1,22 @@
+{
+  "name": "SiteCategoryTranslationList",
+  "type": "complexType",
+  "file": "lists.website.xsd",
+  "elements": {
+    "translation": {
+      "name": "translation",
+      "type": "SiteCategoryTranslation",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listSite"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "InterCompanyJournalEntryAccountingBookDetailList",
+  "type": "complexType",
+  "file": "transactions.general.xsd",
+  "elements": {
+    "interCompanyJournalEntryAccountingBookDetail": {
+      "name": "interCompanyJournalEntryAccountingBookDetail",
+      "type": "InterCompanyJournalEntryAccountingBookDetail",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranGeneral"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

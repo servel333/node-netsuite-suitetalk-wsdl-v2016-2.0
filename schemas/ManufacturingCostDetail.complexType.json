@@ -1,0 +1,31 @@
+{
+  "name": "ManufacturingCostDetail",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "elements": {
+    "costCategory": {
+      "name": "costCategory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fixedRate": {
+      "name": "fixedRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "runRate": {
+      "name": "runRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

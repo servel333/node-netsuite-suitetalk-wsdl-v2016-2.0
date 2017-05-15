@@ -1,0 +1,15 @@
+{
+  "name": "TextFileEncoding",
+  "type": "simpleType",
+  "file": "documents.fileCabinetTypes.xsd",
+  "enumeration": [
+    "_big5",
+    "_gb2312",
+    "_gb18030",
+    "_iso88591",
+    "_macRoman",
+    "_shiftJis",
+    "_utf8",
+    "_windows1252"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "ProjectTaskAssignee",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "resource": {
+      "name": "resource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "units": {
+      "name": "units",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "serviceItem": {
+      "name": "serviceItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedWork": {
+      "name": "estimatedWork",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unitCost": {
+      "name": "unitCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unitPrice": {
+      "name": "unitPrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "cost": {
+      "name": "cost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "price": {
+      "name": "price",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

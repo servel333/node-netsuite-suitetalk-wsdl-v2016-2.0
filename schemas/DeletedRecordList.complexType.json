@@ -1,0 +1,14 @@
+{
+  "name": "DeletedRecordList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "deletedRecord": {
+      "name": "deletedRecord",
+      "type": "DeletedRecord",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

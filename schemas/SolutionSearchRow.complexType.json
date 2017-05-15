@@ -1,0 +1,52 @@
+{
+  "name": "SolutionSearchRow",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "SolutionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "caseJoin": {
+      "name": "caseJoin",
+      "type": "SupportCaseSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "relatedSolutionJoin": {
+      "name": "relatedSolutionJoin",
+      "type": "SolutionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "topicJoin": {
+      "name": "topicJoin",
+      "type": "TopicSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userNotesJoin": {
+      "name": "userNotesJoin",
+      "type": "NoteSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchRowBasic",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

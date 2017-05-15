@@ -1,0 +1,12 @@
+{
+  "name": "GetBudgetExchangeRateResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getBudgetExchangeRateResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

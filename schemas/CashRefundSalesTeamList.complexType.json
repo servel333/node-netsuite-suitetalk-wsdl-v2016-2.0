@@ -1,0 +1,22 @@
+{
+  "name": "CashRefundSalesTeamList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "salesTeam": {
+      "name": "salesTeam",
+      "type": "CashRefundSalesTeam",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

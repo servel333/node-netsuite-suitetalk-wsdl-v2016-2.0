@@ -1,0 +1,85 @@
+{
+  "name": "CustomRecordTypePermissions",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "permittedRole": {
+      "name": "permittedRole",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "permittedLevel": {
+      "name": "permittedLevel",
+      "type": "CustomRecordTypePermissionsPermittedLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "restriction": {
+      "name": "restriction",
+      "type": "CustomRecordTypePermissionsRestriction",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "defaultForm": {
+      "name": "defaultForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "restrictForm": {
+      "name": "restrictForm",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "searchForm": {
+      "name": "searchForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "searchResults": {
+      "name": "searchResults",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "listView": {
+      "name": "listView",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "listViewRestricted": {
+      "name": "listViewRestricted",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dashboardView": {
+      "name": "dashboardView",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "restrictDashboardView": {
+      "name": "restrictDashboardView",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sublistView": {
+      "name": "sublistView",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "restrictSublistView": {
+      "name": "restrictSublistView",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

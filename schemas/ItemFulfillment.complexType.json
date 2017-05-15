@@ -1,0 +1,573 @@
+{
+  "name": "ItemFulfillment",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "postingPeriod": {
+      "name": "postingPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "createdFrom": {
+      "name": "createdFrom",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "createdFromShipGroup": {
+      "name": "createdFromShipGroup",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "partner": {
+      "name": "partner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingAddress": {
+      "name": "shippingAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "pickedDate": {
+      "name": "pickedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packedDate": {
+      "name": "packedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippedDate": {
+      "name": "shippedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipIsResidential": {
+      "name": "shipIsResidential",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipAddressList": {
+      "name": "shipAddressList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shipStatus": {
+      "name": "shipStatus",
+      "type": "ItemFulfillmentShipStatus",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "saturdayDeliveryUps": {
+      "name": "saturdayDeliveryUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendShipNotifyEmailUps": {
+      "name": "sendShipNotifyEmailUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendBackupEmailUps": {
+      "name": "sendBackupEmailUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipNotifyEmailAddressUps": {
+      "name": "shipNotifyEmailAddressUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipNotifyEmailAddress2Ups": {
+      "name": "shipNotifyEmailAddress2Ups",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "backupEmailAddressUps": {
+      "name": "backupEmailAddressUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipNotifyEmailMessageUps": {
+      "name": "shipNotifyEmailMessageUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyAcctUps": {
+      "name": "thirdPartyAcctUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyZipcodeUps": {
+      "name": "thirdPartyZipcodeUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyCountryUps": {
+      "name": "thirdPartyCountryUps",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "thirdPartyTypeUps": {
+      "name": "thirdPartyTypeUps",
+      "type": "ItemFulfillmentThirdPartyTypeUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "partiesToTransactionUps": {
+      "name": "partiesToTransactionUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exportTypeUps": {
+      "name": "exportTypeUps",
+      "type": "ItemFulfillmentExportTypeUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "methodOfTransportUps": {
+      "name": "methodOfTransportUps",
+      "type": "ItemFulfillmentMethodOfTransportUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "carrierIdUps": {
+      "name": "carrierIdUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "entryNumberUps": {
+      "name": "entryNumberUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inbondCodeUps": {
+      "name": "inbondCodeUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isRoutedExportTransactionUps": {
+      "name": "isRoutedExportTransactionUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "licenseNumberUps": {
+      "name": "licenseNumberUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "licenseDateUps": {
+      "name": "licenseDateUps",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "licenseExceptionUps": {
+      "name": "licenseExceptionUps",
+      "type": "ItemFulfillmentLicenseExceptionUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "eccNumberUps": {
+      "name": "eccNumberUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recipientTaxIdUps": {
+      "name": "recipientTaxIdUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "blanketStartDateUps": {
+      "name": "blanketStartDateUps",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "blanketEndDateUps": {
+      "name": "blanketEndDateUps",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipmentWeightUps": {
+      "name": "shipmentWeightUps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "saturdayDeliveryFedEx": {
+      "name": "saturdayDeliveryFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "saturdayPickupFedex": {
+      "name": "saturdayPickupFedex",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendShipNotifyEmailFedEx": {
+      "name": "sendShipNotifyEmailFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendBackupEmailFedEx": {
+      "name": "sendBackupEmailFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "signatureHomeDeliveryFedEx": {
+      "name": "signatureHomeDeliveryFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipNotifyEmailAddressFedEx": {
+      "name": "shipNotifyEmailAddressFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "backupEmailAddressFedEx": {
+      "name": "backupEmailAddressFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipDateFedEx": {
+      "name": "shipDateFedEx",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "homeDeliveryTypeFedEx": {
+      "name": "homeDeliveryTypeFedEx",
+      "type": "ItemFulfillmentHomeDeliveryTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "homeDeliveryDateFedEx": {
+      "name": "homeDeliveryDateFedEx",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bookingConfirmationNumFedEx": {
+      "name": "bookingConfirmationNumFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "intlExemptionNumFedEx": {
+      "name": "intlExemptionNumFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "b13aFilingOptionFedEx": {
+      "name": "b13aFilingOptionFedEx",
+      "type": "ItemFulfillmentB13AFilingOptionFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "b13aStatementDataFedEx": {
+      "name": "b13aStatementDataFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyAcctFedEx": {
+      "name": "thirdPartyAcctFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyCountryFedEx": {
+      "name": "thirdPartyCountryFedEx",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "thirdPartyTypeFedEx": {
+      "name": "thirdPartyTypeFedEx",
+      "type": "ItemFulfillmentThirdPartyTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "shipmentWeightFedEx": {
+      "name": "shipmentWeightFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "termsOfSaleFedEx": {
+      "name": "termsOfSaleFedEx",
+      "type": "ItemFulfillmentTermsOfSaleFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "termsFreightChargeFedEx": {
+      "name": "termsFreightChargeFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "termsInsuranceChargeFedEx": {
+      "name": "termsInsuranceChargeFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insideDeliveryFedEx": {
+      "name": "insideDeliveryFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insidePickupFedEx": {
+      "name": "insidePickupFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ancillaryEndorsementFedEx": {
+      "name": "ancillaryEndorsementFedEx",
+      "type": "ItemFulfillmentAncillaryEndorsementFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "holdAtLocationFedEx": {
+      "name": "holdAtLocationFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halPhoneFedEx": {
+      "name": "halPhoneFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halAddr1FedEx": {
+      "name": "halAddr1FedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halAddr2FedEx": {
+      "name": "halAddr2FedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halAddr3FedEx": {
+      "name": "halAddr3FedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halCityFedEx": {
+      "name": "halCityFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halZipFedEx": {
+      "name": "halZipFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halStateFedEx": {
+      "name": "halStateFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "halCountryFedEx": {
+      "name": "halCountryFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "hazmatTypeFedEx": {
+      "name": "hazmatTypeFedEx",
+      "type": "ItemFulfillmentHazmatTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "accessibilityTypeFedEx": {
+      "name": "accessibilityTypeFedEx",
+      "type": "ItemFulfillmentAccessibilityTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "isCargoAircraftOnlyFedEx": {
+      "name": "isCargoAircraftOnlyFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranId": {
+      "name": "tranId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipMethod": {
+      "name": "shipMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "generateIntegratedShipperLabel": {
+      "name": "generateIntegratedShipperLabel",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingCost": {
+      "name": "shippingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingCost": {
+      "name": "handlingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "transferLocation": {
+      "name": "transferLocation",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "packageList": {
+      "name": "packageList",
+      "type": "ItemFulfillmentPackageList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "packageUpsList": {
+      "name": "packageUpsList",
+      "type": "ItemFulfillmentPackageUpsList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "packageUspsList": {
+      "name": "packageUspsList",
+      "type": "ItemFulfillmentPackageUspsList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "packageFedExList": {
+      "name": "packageFedExList",
+      "type": "ItemFulfillmentPackageFedExList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "itemList": {
+      "name": "itemList",
+      "type": "ItemFulfillmentItemList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "shipGroupList": {
+      "name": "shipGroupList",
+      "type": "ItemFulfillmentShipGroupList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

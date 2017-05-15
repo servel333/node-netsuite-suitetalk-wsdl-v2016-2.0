@@ -1,0 +1,549 @@
+{
+  "name": "Employee",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "template": {
+      "name": "template",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entityId": {
+      "name": "entityId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salutation": {
+      "name": "salutation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "firstName": {
+      "name": "firstName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "middleName": {
+      "name": "middleName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastName": {
+      "name": "lastName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altName": {
+      "name": "altName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultAddress": {
+      "name": "defaultAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phoneticName": {
+      "name": "phoneticName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dateCreated": {
+      "name": "dateCreated",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "initials": {
+      "name": "initials",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "officePhone": {
+      "name": "officePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "homePhone": {
+      "name": "homePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "mobilePhone": {
+      "name": "mobilePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "billingClass": {
+      "name": "billingClass",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountNumber": {
+      "name": "accountNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "globalSubscriptionStatus": {
+      "name": "globalSubscriptionStatus",
+      "type": "GlobalSubscriptionStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "image": {
+      "name": "image",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "payFrequency": {
+      "name": "payFrequency",
+      "type": "EmployeePayFrequency",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "lastPaidDate": {
+      "name": "lastPaidDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useTimeData": {
+      "name": "useTimeData",
+      "type": "EmployeeUseTimeData",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "usePerquest": {
+      "name": "usePerquest",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "workplace": {
+      "name": "workplace",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "adpId": {
+      "name": "adpId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "directDeposit": {
+      "name": "directDeposit",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expenseLimit": {
+      "name": "expenseLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "purchaseOrderLimit": {
+      "name": "purchaseOrderLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "purchaseOrderApprovalLimit": {
+      "name": "purchaseOrderApprovalLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "socialSecurityNumber": {
+      "name": "socialSecurityNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "supervisor": {
+      "name": "supervisor",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "approver": {
+      "name": "approver",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "approvalLimit": {
+      "name": "approvalLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeApprover": {
+      "name": "timeApprover",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "employeeType": {
+      "name": "employeeType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isSalesRep": {
+      "name": "isSalesRep",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesRole": {
+      "name": "salesRole",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isSupportRep": {
+      "name": "isSupportRep",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isJobResource": {
+      "name": "isJobResource",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "laborCost": {
+      "name": "laborCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "birthDate": {
+      "name": "birthDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "hireDate": {
+      "name": "hireDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "releaseDate": {
+      "name": "releaseDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastReviewDate": {
+      "name": "lastReviewDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "nextReviewDate": {
+      "name": "nextReviewDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "employeeStatus": {
+      "name": "employeeStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "jobDescription": {
+      "name": "jobDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "maritalStatus": {
+      "name": "maritalStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "ethnicity": {
+      "name": "ethnicity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "gender": {
+      "name": "gender",
+      "type": "Gender",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "purchaseOrderApprover": {
+      "name": "purchaseOrderApprover",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "workCalendar": {
+      "name": "workCalendar",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giveAccess": {
+      "name": "giveAccess",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "concurrentWebServicesUser": {
+      "name": "concurrentWebServicesUser",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "hasOfflineAccess": {
+      "name": "hasOfflineAccess",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password": {
+      "name": "password",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password2": {
+      "name": "password2",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "requirePwdChange": {
+      "name": "requirePwdChange",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inheritIPRules": {
+      "name": "inheritIPRules",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "IPAddressRule": {
+      "name": "IPAddressRule",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "commissionPaymentPreference": {
+      "name": "commissionPaymentPreference",
+      "type": "EmployeeCommissionPaymentPreference",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "billPay": {
+      "name": "billPay",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "eligibleForCommission": {
+      "name": "eligibleForCommission",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subscriptionsList": {
+      "name": "subscriptionsList",
+      "type": "EmployeeSubscriptionsList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "ratesList": {
+      "name": "ratesList",
+      "type": "EmployeeRatesList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "addressbookList": {
+      "name": "addressbookList",
+      "type": "EmployeeAddressbookList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "rolesList": {
+      "name": "rolesList",
+      "type": "EmployeeRolesList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "hrEducationList": {
+      "name": "hrEducationList",
+      "type": "EmployeeHrEducationList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "accruedTimeList": {
+      "name": "accruedTimeList",
+      "type": "EmployeeAccruedTimeList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "directDepositList": {
+      "name": "directDepositList",
+      "type": "EmployeeDirectDepositList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "companyContributionList": {
+      "name": "companyContributionList",
+      "type": "EmployeeCompanyContributionList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "earningList": {
+      "name": "earningList",
+      "type": "EmployeeEarningList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "emergencyContactList": {
+      "name": "emergencyContactList",
+      "type": "EmployeeEmergencyContactList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "deductionList": {
+      "name": "deductionList",
+      "type": "EmployeeDeductionList",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

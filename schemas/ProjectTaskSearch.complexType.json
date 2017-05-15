@@ -1,0 +1,76 @@
+{
+  "name": "ProjectTaskSearch",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "ProjectTaskSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "jobJoin": {
+      "name": "jobJoin",
+      "type": "JobSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "predecessorJoin": {
+      "name": "predecessorJoin",
+      "type": "ProjectTaskSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "projectTaskAssignmentJoin": {
+      "name": "projectTaskAssignmentJoin",
+      "type": "ProjectTaskAssignmentSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "resourceAllocationJoin": {
+      "name": "resourceAllocationJoin",
+      "type": "ResourceAllocationSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "successorJoin": {
+      "name": "successorJoin",
+      "type": "ProjectTaskSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "timeJoin": {
+      "name": "timeJoin",
+      "type": "TimeBillSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "transactionJoin": {
+      "name": "transactionJoin",
+      "type": "TransactionSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userNotesJoin": {
+      "name": "userNotesJoin",
+      "type": "NoteSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

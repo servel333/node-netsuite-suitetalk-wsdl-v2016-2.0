@@ -1,0 +1,220 @@
+{
+  "name": "CustomerSearch",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "CustomerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "billingAccountJoin": {
+      "name": "billingAccountJoin",
+      "type": "BillingAccountSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "billingScheduleJoin": {
+      "name": "billingScheduleJoin",
+      "type": "BillingScheduleSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "callJoin": {
+      "name": "callJoin",
+      "type": "PhoneCallSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "campaignResponseJoin": {
+      "name": "campaignResponseJoin",
+      "type": "CampaignSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "caseJoin": {
+      "name": "caseJoin",
+      "type": "SupportCaseSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "contactJoin": {
+      "name": "contactJoin",
+      "type": "ContactSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "contactPrimaryJoin": {
+      "name": "contactPrimaryJoin",
+      "type": "ContactSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "eventJoin": {
+      "name": "eventJoin",
+      "type": "CalendarEventSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "fileJoin": {
+      "name": "fileJoin",
+      "type": "FileSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "hostedPageJoin": {
+      "name": "hostedPageJoin",
+      "type": "FileSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "jobJoin": {
+      "name": "jobJoin",
+      "type": "JobSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "leadSourceJoin": {
+      "name": "leadSourceJoin",
+      "type": "CampaignSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "messagesJoin": {
+      "name": "messagesJoin",
+      "type": "MessageSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "messagesFromJoin": {
+      "name": "messagesFromJoin",
+      "type": "MessageSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "messagesToJoin": {
+      "name": "messagesToJoin",
+      "type": "MessageSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "opportunityJoin": {
+      "name": "opportunityJoin",
+      "type": "OpportunitySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "originatingLeadJoin": {
+      "name": "originatingLeadJoin",
+      "type": "OriginatingLeadSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "parentCustomerJoin": {
+      "name": "parentCustomerJoin",
+      "type": "CustomerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "partnerJoin": {
+      "name": "partnerJoin",
+      "type": "PartnerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "pricingJoin": {
+      "name": "pricingJoin",
+      "type": "PricingSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "purchasedItemJoin": {
+      "name": "purchasedItemJoin",
+      "type": "ItemSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "resourceAllocationJoin": {
+      "name": "resourceAllocationJoin",
+      "type": "ResourceAllocationSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "salesRepJoin": {
+      "name": "salesRepJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "subCustomerJoin": {
+      "name": "subCustomerJoin",
+      "type": "CustomerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "taskJoin": {
+      "name": "taskJoin",
+      "type": "TaskSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "timeJoin": {
+      "name": "timeJoin",
+      "type": "TimeBillSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "topLevelParentJoin": {
+      "name": "topLevelParentJoin",
+      "type": "CustomerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "transactionJoin": {
+      "name": "transactionJoin",
+      "type": "TransactionSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "upsellItemJoin": {
+      "name": "upsellItemJoin",
+      "type": "ItemSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userNotesJoin": {
+      "name": "userNotesJoin",
+      "type": "NoteSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "webSiteCategoryJoin": {
+      "name": "webSiteCategoryJoin",
+      "type": "SiteCategorySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "webSiteItemJoin": {
+      "name": "webSiteItemJoin",
+      "type": "ItemSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

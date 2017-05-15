@@ -1,0 +1,25 @@
+{
+  "name": "ClassTranslation",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "language": {
+      "name": "language",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

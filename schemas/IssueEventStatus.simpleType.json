@@ -1,0 +1,11 @@
+{
+  "name": "IssueEventStatus",
+  "type": "simpleType",
+  "file": "lists.supportTypes.xsd",
+  "enumeration": [
+    "_closed",
+    "_onHold",
+    "_open",
+    "_resolved"
+  ]
+}

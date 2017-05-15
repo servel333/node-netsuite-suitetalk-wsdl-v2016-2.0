@@ -1,0 +1,130 @@
+{
+  "name": "TimeBillSearchRow",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "TimeBillSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "callJoin": {
+      "name": "callJoin",
+      "type": "PhoneCallSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "caseJoin": {
+      "name": "caseJoin",
+      "type": "SupportCaseSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "chargeJoin": {
+      "name": "chargeJoin",
+      "type": "ChargeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "classJoin": {
+      "name": "classJoin",
+      "type": "ClassificationSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customerJoin": {
+      "name": "customerJoin",
+      "type": "CustomerSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "departmentJoin": {
+      "name": "departmentJoin",
+      "type": "DepartmentSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "employeeJoin": {
+      "name": "employeeJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "eventJoin": {
+      "name": "eventJoin",
+      "type": "CalendarEventSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "itemJoin": {
+      "name": "itemJoin",
+      "type": "ItemSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "jobJoin": {
+      "name": "jobJoin",
+      "type": "JobSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "locationJoin": {
+      "name": "locationJoin",
+      "type": "LocationSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "projectTaskJoin": {
+      "name": "projectTaskJoin",
+      "type": "ProjectTaskSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "projectTaskAssignmentJoin": {
+      "name": "projectTaskAssignmentJoin",
+      "type": "ProjectTaskAssignmentSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "resourceAllocationJoin": {
+      "name": "resourceAllocationJoin",
+      "type": "ResourceAllocationSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "taskJoin": {
+      "name": "taskJoin",
+      "type": "TaskSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "vendorJoin": {
+      "name": "vendorJoin",
+      "type": "VendorSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "timeSheetJoin": {
+      "name": "timeSheetJoin",
+      "type": "TimeSheetSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchRowBasic",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "TokenPassport",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "account": {
+      "name": "account",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "consumerKey": {
+      "name": "consumerKey",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "token": {
+      "name": "token",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "nonce": {
+      "name": "nonce",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "timestamp": {
+      "name": "timestamp",
+      "type": "long",
+      "typeNamespace": "xsd"
+    },
+    "signature": {
+      "name": "signature",
+      "type": "TokenPassportSignature",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "CampaignCampaignEventStatus",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_completed",
+    "_execute",
+    "_inProgress",
+    "_notStarted"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "TimeItem",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "employee": {
+      "name": "employee",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "timeType": {
+      "name": "timeType",
+      "type": "TimeItemTimeType",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customer": {
+      "name": "customer",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isBillable": {
+      "name": "isBillable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "payrollItem": {
+      "name": "payrollItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "temporaryLocalJurisdiction": {
+      "name": "temporaryLocalJurisdiction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "temporaryStateJurisdiction": {
+      "name": "temporaryStateJurisdiction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "hours": {
+      "name": "hours",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "price": {
+      "name": "price",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "overrideRate": {
+      "name": "overrideRate",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "hoursTotal": {
+      "name": "hoursTotal",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "caseTaskEvent": {
+      "name": "caseTaskEvent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isUtilized": {
+      "name": "isUtilized",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isProductive": {
+      "name": "isProductive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isExempt": {
+      "name": "isExempt",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

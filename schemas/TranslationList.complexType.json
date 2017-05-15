@@ -1,0 +1,22 @@
+{
+  "name": "TranslationList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "translation": {
+      "name": "translation",
+      "type": "Translation",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

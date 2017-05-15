@@ -1,0 +1,34 @@
+{
+  "name": "TimeSheetSearch",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "TimeSheetSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "employeeJoin": {
+      "name": "employeeJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "timeEntryJoin": {
+      "name": "timeEntryJoin",
+      "type": "TimeEntrySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchJoin",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

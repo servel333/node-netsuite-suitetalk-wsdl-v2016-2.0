@@ -1,0 +1,10 @@
+{
+  "name": "VsoeSopGroup",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_exclude",
+    "_normal",
+    "_software"
+  ]
+}

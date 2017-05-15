@@ -1,0 +1,31 @@
+{
+  "name": "FileSiteCategory",
+  "type": "complexType",
+  "file": "documents.fileCabinet.xsd",
+  "elements": {
+    "isDefault": {
+      "name": "isDefault",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "categoryDescription": {
+      "name": "categoryDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "website": {
+      "name": "website",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

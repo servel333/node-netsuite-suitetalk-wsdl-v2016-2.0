@@ -1,0 +1,21 @@
+{
+  "name": "SearchDoubleFieldOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "between",
+    "empty",
+    "equalTo",
+    "greaterThan",
+    "greaterThanOrEqualTo",
+    "lessThan",
+    "lessThanOrEqualTo",
+    "notBetween",
+    "notEmpty",
+    "notEqualTo",
+    "notGreaterThan",
+    "notGreaterThanOrEqualTo",
+    "notLessThan",
+    "notLessThanOrEqualTo"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "LanguageValueList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "languageValue": {
+      "name": "languageValue",
+      "type": "LanguageValue",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

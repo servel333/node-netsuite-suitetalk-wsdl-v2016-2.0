@@ -1,0 +1,22 @@
+{
+  "name": "TaxTypeNexusesTaxList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "nexusesTax": {
+      "name": "nexusesTax",
+      "type": "TaxTypeNexusesTax",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

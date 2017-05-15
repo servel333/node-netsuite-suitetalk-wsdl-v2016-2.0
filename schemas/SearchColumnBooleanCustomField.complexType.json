@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnBooleanCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

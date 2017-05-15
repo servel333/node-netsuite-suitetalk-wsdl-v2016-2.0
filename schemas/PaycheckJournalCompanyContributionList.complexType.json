@@ -1,0 +1,22 @@
+{
+  "name": "PaycheckJournalCompanyContributionList",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "elements": {
+    "paycheckJournalCompanyContribution": {
+      "name": "paycheckJournalCompanyContribution",
+      "type": "PaycheckJournalCompanyContribution",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranEmp"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CustomerGroupPricingList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "groupPricing": {
+      "name": "groupPricing",
+      "type": "CustomerGroupPricing",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

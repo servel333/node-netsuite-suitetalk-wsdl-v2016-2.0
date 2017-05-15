@@ -1,0 +1,55 @@
+{
+  "name": "ItemVendor",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "vendor": {
+      "name": "vendor",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorCode": {
+      "name": "vendorCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vendorCurrencyName": {
+      "name": "vendorCurrencyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vendorCurrency": {
+      "name": "vendorCurrency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchasePrice": {
+      "name": "purchasePrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "preferredVendor": {
+      "name": "preferredVendor",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "schedule": {
+      "name": "schedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

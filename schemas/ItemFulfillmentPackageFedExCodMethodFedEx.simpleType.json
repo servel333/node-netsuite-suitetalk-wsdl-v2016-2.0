@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentPackageFedExCodMethodFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_any",
+    "_cash",
+    "_guaranteedFunds"
+  ]
+}

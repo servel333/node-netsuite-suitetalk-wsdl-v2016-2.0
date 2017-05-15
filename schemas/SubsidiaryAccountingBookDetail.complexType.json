@@ -1,0 +1,25 @@
+{
+  "name": "SubsidiaryAccountingBookDetail",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "accountingBook": {
+      "name": "accountingBook",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "bookStatus": {
+      "name": "bookStatus",
+      "type": "AccountingBookStatus",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    }
+  }
+}

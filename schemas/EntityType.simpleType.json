@@ -1,0 +1,18 @@
+{
+  "name": "EntityType",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_company",
+    "_contact",
+    "_customer",
+    "_employee",
+    "_genericResource",
+    "_group",
+    "_internal",
+    "_job",
+    "_otherName",
+    "_partner",
+    "_vendor"
+  ]
+}

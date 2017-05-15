@@ -1,0 +1,12 @@
+{
+  "name": "BillingScheduleMonthDowim",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_first",
+    "_second",
+    "_third",
+    "_fourth",
+    "_last"
+  ]
+}

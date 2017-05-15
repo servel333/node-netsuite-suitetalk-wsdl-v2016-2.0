@@ -1,0 +1,22 @@
+{
+  "name": "CustomRecordTranslationsList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "customRecordTranslations": {
+      "name": "customRecordTranslations",
+      "type": "CustomRecordTranslations",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

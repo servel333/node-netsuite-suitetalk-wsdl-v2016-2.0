@@ -1,0 +1,10 @@
+{
+  "name": "ItemSupplyType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_build",
+    "_purchase",
+    "_transfer"
+  ]
+}

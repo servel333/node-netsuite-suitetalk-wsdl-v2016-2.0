@@ -1,0 +1,10 @@
+{
+  "name": "RevenueCommitStatus",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_committed",
+    "_partiallyCommitted",
+    "_pendingCommitment"
+  ]
+}

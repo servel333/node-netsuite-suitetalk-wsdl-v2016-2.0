@@ -1,0 +1,25 @@
+{
+  "name": "VendorCurrency",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "balance": {
+      "name": "balance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unbilledOrders": {
+      "name": "unbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

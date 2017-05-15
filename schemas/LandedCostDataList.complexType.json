@@ -1,0 +1,22 @@
+{
+  "name": "LandedCostDataList",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "landedCostData": {
+      "name": "landedCostData",
+      "type": "LandedCostData",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

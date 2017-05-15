@@ -1,0 +1,259 @@
+{
+  "name": "LotNumberedInventoryItemLocations",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "onHandValueMli": {
+      "name": "onHandValueMli",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "serialNumbers": {
+      "name": "serialNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "averageCostMli": {
+      "name": "averageCostMli",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastPurchasePriceMli": {
+      "name": "lastPurchasePriceMli",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reorderPoint": {
+      "name": "reorderPoint",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "preferredStockLevel": {
+      "name": "preferredStockLevel",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "leadTime": {
+      "name": "leadTime",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultReturnCost": {
+      "name": "defaultReturnCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "safetyStockLevel": {
+      "name": "safetyStockLevel",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "cost": {
+      "name": "cost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inventoryCostTemplate": {
+      "name": "inventoryCostTemplate",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildTime": {
+      "name": "buildTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastInvtCountDate": {
+      "name": "lastInvtCountDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "nextInvtCountDate": {
+      "name": "nextInvtCountDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isWip": {
+      "name": "isWip",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "invtCountInterval": {
+      "name": "invtCountInterval",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "invtClassification": {
+      "name": "invtClassification",
+      "type": "ItemInvtClassification",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "costingLotSize": {
+      "name": "costingLotSize",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnOrder": {
+      "name": "quantityOnOrder",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityCommitted": {
+      "name": "quantityCommitted",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityAvailable": {
+      "name": "quantityAvailable",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityBackOrdered": {
+      "name": "quantityBackOrdered",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "locationId": {
+      "name": "locationId",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationlookup": {
+      "name": "locationlookup",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location_display": {
+      "name": "location_display",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "supplyReplenishmentMethod": {
+      "name": "supplyReplenishmentMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "alternateDemandSourceItem": {
+      "name": "alternateDemandSourceItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fixedLotSize": {
+      "name": "fixedLotSize",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "periodicLotSizeType": {
+      "name": "periodicLotSizeType",
+      "type": "PeriodicLotSizeType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "periodicLotSizeDays": {
+      "name": "periodicLotSizeDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "supplyType": {
+      "name": "supplyType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supplyLotSizingMethod": {
+      "name": "supplyLotSizingMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "demandSource": {
+      "name": "demandSource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "backwardConsumptionDays": {
+      "name": "backwardConsumptionDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "forwardConsumptionDays": {
+      "name": "forwardConsumptionDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "demandTimeFence": {
+      "name": "demandTimeFence",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "supplyTimeFence": {
+      "name": "supplyTimeFence",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "rescheduleInDays": {
+      "name": "rescheduleInDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "rescheduleOutDays": {
+      "name": "rescheduleOutDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

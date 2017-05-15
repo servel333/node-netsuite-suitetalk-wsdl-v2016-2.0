@@ -1,0 +1,12 @@
+{
+  "name": "GetPostingTransactionSummaryResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getPostingTransactionSummaryResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

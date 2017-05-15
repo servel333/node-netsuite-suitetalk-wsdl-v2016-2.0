@@ -1,0 +1,1671 @@
+{
+  "name": "ItemSearchBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRecordBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "account": {
+      "name": "account",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountingBook": {
+      "name": "accountingBook",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountingBookAmortization": {
+      "name": "accountingBookAmortization",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountingBookRevRecSchedule": {
+      "name": "accountingBookRevRecSchedule",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "allowedShippingMethod": {
+      "name": "allowedShippingMethod",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "alternateDemandSourceItem": {
+      "name": "alternateDemandSourceItem",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "atpLeadTime": {
+      "name": "atpLeadTime",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "atpMethod": {
+      "name": "atpMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "autoLeadTime": {
+      "name": "autoLeadTime",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "autoPreferredStockLevel": {
+      "name": "autoPreferredStockLevel",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "autoReorderPoint": {
+      "name": "autoReorderPoint",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "availableToPartners": {
+      "name": "availableToPartners",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "averageCost": {
+      "name": "averageCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "backwardConsumptionDays": {
+      "name": "backwardConsumptionDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "binNumber": {
+      "name": "binNumber",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "binOnHandAvail": {
+      "name": "binOnHandAvail",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "binOnHandCount": {
+      "name": "binOnHandCount",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "bomQuantity": {
+      "name": "bomQuantity",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildEntireAssembly": {
+      "name": "buildEntireAssembly",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buildTime": {
+      "name": "buildTime",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "buyItNowPrice": {
+      "name": "buyItNowPrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "caption": {
+      "name": "caption",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "category": {
+      "name": "category",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "component": {
+      "name": "component",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "componentOf": {
+      "name": "componentOf",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "componentYield": {
+      "name": "componentYield",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "copyDescription": {
+      "name": "copyDescription",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItem": {
+      "name": "correlatedItem",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItemCorrelation": {
+      "name": "correlatedItemCorrelation",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItemCount": {
+      "name": "correlatedItemCount",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItemLift": {
+      "name": "correlatedItemLift",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItemPurchaseRate": {
+      "name": "correlatedItemPurchaseRate",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "cost": {
+      "name": "cost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "costAccountingStatus": {
+      "name": "costAccountingStatus",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "costCategory": {
+      "name": "costCategory",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "costEstimate": {
+      "name": "costEstimate",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "costEstimateType": {
+      "name": "costEstimateType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "costingMethod": {
+      "name": "costingMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "countryOfManufacture": {
+      "name": "countryOfManufacture",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "created": {
+      "name": "created",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "createJob": {
+      "name": "createJob",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "createRevenuePlansOn": {
+      "name": "createRevenuePlansOn",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dateViewed": {
+      "name": "dateViewed",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "daysBeforeExpiration": {
+      "name": "daysBeforeExpiration",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "defaultReturnCost": {
+      "name": "defaultReturnCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "defaultShippingMethod": {
+      "name": "defaultShippingMethod",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "deferRevRec": {
+      "name": "deferRevRec",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "demandModifier": {
+      "name": "demandModifier",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "demandSource": {
+      "name": "demandSource",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "demandTimeFence": {
+      "name": "demandTimeFence",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "displayIneBayStore": {
+      "name": "displayIneBayStore",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "displayName": {
+      "name": "displayName",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "distributionCategory": {
+      "name": "distributionCategory",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "distributionNetwork": {
+      "name": "distributionNetwork",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dontShowPrice": {
+      "name": "dontShowPrice",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "eBayItemDescription": {
+      "name": "eBayItemDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "eBayItemSubtitle": {
+      "name": "eBayItemSubtitle",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "eBayItemTitle": {
+      "name": "eBayItemTitle",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "ebayRelistingOption": {
+      "name": "ebayRelistingOption",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveBomControl": {
+      "name": "effectiveBomControl",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveDate": {
+      "name": "effectiveDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveRevision": {
+      "name": "effectiveRevision",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "endAuctionsWhenOutOfStock": {
+      "name": "endAuctionsWhenOutOfStock",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "excludeFromSitemap": {
+      "name": "excludeFromSitemap",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "externalIdString": {
+      "name": "externalIdString",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "featuredDescription": {
+      "name": "featuredDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "feedDescription": {
+      "name": "feedDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "feedName": {
+      "name": "feedName",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fixedLotSize": {
+      "name": "fixedLotSize",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "forwardConsumptionDays": {
+      "name": "forwardConsumptionDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fraudRisk": {
+      "name": "fraudRisk",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "froogleProductFeed": {
+      "name": "froogleProductFeed",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fxCost": {
+      "name": "fxCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "generateAccruals": {
+      "name": "generateAccruals",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertAuthCode": {
+      "name": "giftCertAuthCode",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertEmail": {
+      "name": "giftCertEmail",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertExpDate": {
+      "name": "giftCertExpDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertFrom": {
+      "name": "giftCertFrom",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertMsg": {
+      "name": "giftCertMsg",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertOrigAmt": {
+      "name": "giftCertOrigAmt",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giftCertRecipient": {
+      "name": "giftCertRecipient",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "imageUrl": {
+      "name": "imageUrl",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "includeChildren": {
+      "name": "includeChildren",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "internalIdNumber": {
+      "name": "internalIdNumber",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "inventoryLocation": {
+      "name": "inventoryLocation",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "invtClassification": {
+      "name": "invtClassification",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "invtCountInterval": {
+      "name": "invtCountInterval",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isAvailable": {
+      "name": "isAvailable",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isDropShipItem": {
+      "name": "isDropShipItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isFulfillable": {
+      "name": "isFulfillable",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isGcoCompliant": {
+      "name": "isGcoCompliant",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isLotItem": {
+      "name": "isLotItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isOnline": {
+      "name": "isOnline",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isPreferredVendor": {
+      "name": "isPreferredVendor",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isSerialItem": {
+      "name": "isSerialItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isSpecialOrderItem": {
+      "name": "isSpecialOrderItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isSpecialWorkOrderItem": {
+      "name": "isSpecialWorkOrderItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "issueProduct": {
+      "name": "issueProduct",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isTaxable": {
+      "name": "isTaxable",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isVsoeBundle": {
+      "name": "isVsoeBundle",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isWip": {
+      "name": "isWip",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemId": {
+      "name": "itemId",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemRevenueCategory": {
+      "name": "itemRevenueCategory",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemUrl": {
+      "name": "itemUrl",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastInvtCountDate": {
+      "name": "lastInvtCountDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastPurchasePrice": {
+      "name": "lastPurchasePrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastQuantityAvailableChange": {
+      "name": "lastQuantityAvailableChange",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "leadTime": {
+      "name": "leadTime",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "listingDuration": {
+      "name": "listingDuration",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationAtpLeadTime": {
+      "name": "locationAtpLeadTime",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationAverageCost": {
+      "name": "locationAverageCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationBuildTime": {
+      "name": "locationBuildTime",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationCost": {
+      "name": "locationCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationCostAccountingStatus": {
+      "name": "locationCostAccountingStatus",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationDefaultReturnCost": {
+      "name": "locationDefaultReturnCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationDemandSource": {
+      "name": "locationDemandSource",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationDemandTimeFence": {
+      "name": "locationDemandTimeFence",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationFixedLotSize": {
+      "name": "locationFixedLotSize",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationInventoryCostTemplate": {
+      "name": "locationInventoryCostTemplate",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationInvtClassification": {
+      "name": "locationInvtClassification",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationInvtCountInterval": {
+      "name": "locationInvtCountInterval",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationLastInvtCountDate": {
+      "name": "locationLastInvtCountDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationLeadTime": {
+      "name": "locationLeadTime",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationNextInvtCountDate": {
+      "name": "locationNextInvtCountDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationPeriodicLotSizeDays": {
+      "name": "locationPeriodicLotSizeDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationPeriodicLotSizeType": {
+      "name": "locationPeriodicLotSizeType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationPreferredStockLevel": {
+      "name": "locationPreferredStockLevel",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityAvailable": {
+      "name": "locationQuantityAvailable",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityBackOrdered": {
+      "name": "locationQuantityBackOrdered",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityCommitted": {
+      "name": "locationQuantityCommitted",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityInTransit": {
+      "name": "locationQuantityInTransit",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityOnHand": {
+      "name": "locationQuantityOnHand",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationQuantityOnOrder": {
+      "name": "locationQuantityOnOrder",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationReorderPoint": {
+      "name": "locationReorderPoint",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationRescheduleInDays": {
+      "name": "locationRescheduleInDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationRescheduleOutDays": {
+      "name": "locationRescheduleOutDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationSafetyStockLevel": {
+      "name": "locationSafetyStockLevel",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationSupplyLotSizingMethod": {
+      "name": "locationSupplyLotSizingMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationSupplyTimeFence": {
+      "name": "locationSupplyTimeFence",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationSupplyType": {
+      "name": "locationSupplyType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locationTotalValue": {
+      "name": "locationTotalValue",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locBackwardConsumptionDays": {
+      "name": "locBackwardConsumptionDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "locForwardConsumptionDays": {
+      "name": "locForwardConsumptionDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturer": {
+      "name": "manufacturer",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufactureraddr1": {
+      "name": "manufactureraddr1",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturerCity": {
+      "name": "manufacturerCity",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturerState": {
+      "name": "manufacturerState",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturerTariff": {
+      "name": "manufacturerTariff",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturerTaxId": {
+      "name": "manufacturerTaxId",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturerZip": {
+      "name": "manufacturerZip",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "manufacturingChargeItem": {
+      "name": "manufacturingChargeItem",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "matchBillToReceipt": {
+      "name": "matchBillToReceipt",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "matrix": {
+      "name": "matrix",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "matrixChild": {
+      "name": "matrixChild",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "metaTagHtml": {
+      "name": "metaTagHtml",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "minimumQuantity": {
+      "name": "minimumQuantity",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "mossApplies": {
+      "name": "mossApplies",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "mpn": {
+      "name": "mpn",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "multManufactureAddr": {
+      "name": "multManufactureAddr",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "nexTagCategory": {
+      "name": "nexTagCategory",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "nexTagProductFeed": {
+      "name": "nexTagProductFeed",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "nextInvtCountDate": {
+      "name": "nextInvtCountDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "numActiveListings": {
+      "name": "numActiveListings",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "numberAllowedDownloads": {
+      "name": "numberAllowedDownloads",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "numCurrentlyListed": {
+      "name": "numCurrentlyListed",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "obsoleteDate": {
+      "name": "obsoleteDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "obsoleteRevision": {
+      "name": "obsoleteRevision",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "offerSupport": {
+      "name": "offerSupport",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "onlineCustomerPrice": {
+      "name": "onlineCustomerPrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "onSpecial": {
+      "name": "onSpecial",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "otherVendor": {
+      "name": "otherVendor",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "outOfStockBehavior": {
+      "name": "outOfStockBehavior",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "overallQuantityPricingType": {
+      "name": "overallQuantityPricingType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "overheadType": {
+      "name": "overheadType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "pageTitle": {
+      "name": "pageTitle",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "periodicLotSizeDays": {
+      "name": "periodicLotSizeDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "periodicLotSizeType": {
+      "name": "periodicLotSizeType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "preferenceCriterion": {
+      "name": "preferenceCriterion",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "preferredBin": {
+      "name": "preferredBin",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "preferredLocation": {
+      "name": "preferredLocation",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "preferredStockLevel": {
+      "name": "preferredStockLevel",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "preferredStockLevelDays": {
+      "name": "preferredStockLevelDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "price": {
+      "name": "price",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "pricesIncludeTax": {
+      "name": "pricesIncludeTax",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "pricingGroup": {
+      "name": "pricingGroup",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "primaryCategory": {
+      "name": "primaryCategory",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderAmount": {
+      "name": "purchaseOrderAmount",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderQuantity": {
+      "name": "purchaseOrderQuantity",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseOrderQuantityDiff": {
+      "name": "purchaseOrderQuantityDiff",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchaseUnit": {
+      "name": "purchaseUnit",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityAvailable": {
+      "name": "quantityAvailable",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityBackOrdered": {
+      "name": "quantityBackOrdered",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityCommitted": {
+      "name": "quantityCommitted",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityOnOrder": {
+      "name": "quantityOnOrder",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantityPricingSchedule": {
+      "name": "quantityPricingSchedule",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "receiptAmount": {
+      "name": "receiptAmount",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "receiptQuantity": {
+      "name": "receiptQuantity",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "receiptQuantityDiff": {
+      "name": "receiptQuantityDiff",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reorderMultiple": {
+      "name": "reorderMultiple",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reorderPoint": {
+      "name": "reorderPoint",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rescheduleInDays": {
+      "name": "rescheduleInDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rescheduleOutDays": {
+      "name": "rescheduleOutDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "reservePrice": {
+      "name": "reservePrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revenueAllocationGroup": {
+      "name": "revenueAllocationGroup",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revenueRecognitionRule": {
+      "name": "revenueRecognitionRule",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revRecSchedule": {
+      "name": "revRecSchedule",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "roundUpAsComponent": {
+      "name": "roundUpAsComponent",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "safetyStockLevel": {
+      "name": "safetyStockLevel",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "safetyStockLevelDays": {
+      "name": "safetyStockLevelDays",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesDescription": {
+      "name": "salesDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "saleUnit": {
+      "name": "saleUnit",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sameAsPrimaryBookAmortization": {
+      "name": "sameAsPrimaryBookAmortization",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sameAsPrimaryBookRevRec": {
+      "name": "sameAsPrimaryBookRevRec",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "scheduleBCode": {
+      "name": "scheduleBCode",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "scheduleBNumber": {
+      "name": "scheduleBNumber",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "scheduleBQuantity": {
+      "name": "scheduleBQuantity",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "searchKeywords": {
+      "name": "searchKeywords",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "seasonalDemand": {
+      "name": "seasonalDemand",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sellOnEBay": {
+      "name": "sellOnEBay",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "serialNumber": {
+      "name": "serialNumber",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "serialNumberLocation": {
+      "name": "serialNumberLocation",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shipIndividually": {
+      "name": "shipIndividually",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shipPackage": {
+      "name": "shipPackage",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingCarrier": {
+      "name": "shippingCarrier",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingRate": {
+      "name": "shippingRate",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shoppingDotComCategory": {
+      "name": "shoppingDotComCategory",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shoppingProductFeed": {
+      "name": "shoppingProductFeed",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shopzillaCategoryId": {
+      "name": "shopzillaCategoryId",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shopzillaProductFeed": {
+      "name": "shopzillaProductFeed",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sitemapPriority": {
+      "name": "sitemapPriority",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "softDescriptor": {
+      "name": "softDescriptor",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "startingPrice": {
+      "name": "startingPrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "stockDescription": {
+      "name": "stockDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "stockUnit": {
+      "name": "stockUnit",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "storeDescription": {
+      "name": "storeDescription",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subType": {
+      "name": "subType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supplyLotSizingMethod": {
+      "name": "supplyLotSizingMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supplyReplenishmentMethod": {
+      "name": "supplyReplenishmentMethod",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supplyTimeFence": {
+      "name": "supplyTimeFence",
+      "type": "SearchLongField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supplyType": {
+      "name": "supplyType",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxCode": {
+      "name": "taxCode",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxSchedule": {
+      "name": "taxSchedule",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "thumbnailUrl": {
+      "name": "thumbnailUrl",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "totalValue": {
+      "name": "totalValue",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "trackLandedCost": {
+      "name": "trackLandedCost",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "transferPrice": {
+      "name": "transferPrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "type": {
+      "name": "type",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "unitsType": {
+      "name": "unitsType",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "upcCode": {
+      "name": "upcCode",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "urlComponent": {
+      "name": "urlComponent",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useBins": {
+      "name": "useBins",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useComponentYield": {
+      "name": "useComponentYield",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useMarginalRates": {
+      "name": "useMarginalRates",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendor": {
+      "name": "vendor",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorCode": {
+      "name": "vendorCode",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorCost": {
+      "name": "vendorCost",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorCostEntered": {
+      "name": "vendorCostEntered",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorName": {
+      "name": "vendorName",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vendorPriceCurrency": {
+      "name": "vendorPriceCurrency",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vsoeDeferral": {
+      "name": "vsoeDeferral",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vsoeDelivered": {
+      "name": "vsoeDelivered",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vsoePermitDiscount": {
+      "name": "vsoePermitDiscount",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vsoePrice": {
+      "name": "vsoePrice",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "webSite": {
+      "name": "webSite",
+      "type": "SearchMultiSelectField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "weight": {
+      "name": "weight",
+      "type": "SearchDoubleField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "yahooProductFeed": {
+      "name": "yahooProductFeed",
+      "type": "SearchBooleanField",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "SearchCustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

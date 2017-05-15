@@ -1,0 +1,22 @@
+{
+  "name": "InventoryNumberLocationsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "locations": {
+      "name": "locations",
+      "type": "InventoryNumberLocations",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

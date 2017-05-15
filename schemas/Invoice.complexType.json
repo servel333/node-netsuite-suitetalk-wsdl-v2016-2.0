@@ -1,0 +1,837 @@
+{
+  "name": "Invoice",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "nextApprover": {
+      "name": "nextApprover",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "billingAccount": {
+      "name": "billingAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "recurringBill": {
+      "name": "recurringBill",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranDate": {
+      "name": "tranDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranId": {
+      "name": "tranId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "source": {
+      "name": "source",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdFrom": {
+      "name": "createdFrom",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "postingPeriod": {
+      "name": "postingPeriod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "opportunity": {
+      "name": "opportunity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "terms": {
+      "name": "terms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dueDate": {
+      "name": "dueDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "discountDate": {
+      "name": "discountDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "discountAmount": {
+      "name": "discountAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesRep": {
+      "name": "salesRep",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contribPct": {
+      "name": "contribPct",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "partner": {
+      "name": "partner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "leadSource": {
+      "name": "leadSource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "otherRefNum": {
+      "name": "otherRefNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "memo": {
+      "name": "memo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesEffectiveDate": {
+      "name": "salesEffectiveDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "excludeCommission": {
+      "name": "excludeCommission",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "totalCostEstimate": {
+      "name": "totalCostEstimate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estGrossProfit": {
+      "name": "estGrossProfit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estGrossProfitPercent": {
+      "name": "estGrossProfitPercent",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revRecSchedule": {
+      "name": "revRecSchedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "revRecStartDate": {
+      "name": "revRecStartDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revRecEndDate": {
+      "name": "revRecEndDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amountPaid": {
+      "name": "amountPaid",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amountRemaining": {
+      "name": "amountRemaining",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "balance": {
+      "name": "balance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "account": {
+      "name": "account",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "onCreditHold": {
+      "name": "onCreditHold",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exchangeRate": {
+      "name": "exchangeRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currencyName": {
+      "name": "currencyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "promoCode": {
+      "name": "promoCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "discountItem": {
+      "name": "discountItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "discountRate": {
+      "name": "discountRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isTaxable": {
+      "name": "isTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxItem": {
+      "name": "taxItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxRate": {
+      "name": "taxRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "toBePrinted": {
+      "name": "toBePrinted",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "toBeEmailed": {
+      "name": "toBeEmailed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "toBeFaxed": {
+      "name": "toBeFaxed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "messageSel": {
+      "name": "messageSel",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billingAddress": {
+      "name": "billingAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "billAddressList": {
+      "name": "billAddressList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingAddress": {
+      "name": "shippingAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "shipIsResidential": {
+      "name": "shipIsResidential",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipAddressList": {
+      "name": "shipAddressList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fob": {
+      "name": "fob",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipDate": {
+      "name": "shipDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipMethod": {
+      "name": "shipMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "shippingCost": {
+      "name": "shippingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTax1Rate": {
+      "name": "shippingTax1Rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTax2Rate": {
+      "name": "shippingTax2Rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingTaxCode": {
+      "name": "shippingTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "handlingTaxCode": {
+      "name": "handlingTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "handlingTax1Rate": {
+      "name": "handlingTax1Rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingCost": {
+      "name": "handlingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "handlingTax2Rate": {
+      "name": "handlingTax2Rate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "trackingNumbers": {
+      "name": "trackingNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "linkedTrackingNumbers": {
+      "name": "linkedTrackingNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesGroup": {
+      "name": "salesGroup",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "subTotal": {
+      "name": "subTotal",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revenueStatus": {
+      "name": "revenueStatus",
+      "type": "RevenueStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "recognizedRevenue": {
+      "name": "recognizedRevenue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "deferredRevenue": {
+      "name": "deferredRevenue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revRecOnRevCommitment": {
+      "name": "revRecOnRevCommitment",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "syncSalesTeams": {
+      "name": "syncSalesTeams",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "discountTotal": {
+      "name": "discountTotal",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxTotal": {
+      "name": "taxTotal",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altShippingCost": {
+      "name": "altShippingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altHandlingCost": {
+      "name": "altHandlingCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "total": {
+      "name": "total",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "status": {
+      "name": "status",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "job": {
+      "name": "job",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "billingSchedule": {
+      "name": "billingSchedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tax2Total": {
+      "name": "tax2Total",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vatRegNum": {
+      "name": "vatRegNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostDiscount": {
+      "name": "expCostDiscount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemCostDiscount": {
+      "name": "itemCostDiscount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "timeDiscount": {
+      "name": "timeDiscount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "expCostDiscRate": {
+      "name": "expCostDiscRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostDiscRate": {
+      "name": "itemCostDiscRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeDiscRate": {
+      "name": "timeDiscRate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostDiscAmount": {
+      "name": "expCostDiscAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostTaxRate1": {
+      "name": "expCostTaxRate1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostTaxRate2": {
+      "name": "expCostTaxRate2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostDiscAmount": {
+      "name": "itemCostDiscAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostTaxCode": {
+      "name": "expCostTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "expCostDiscTax1Amt": {
+      "name": "expCostDiscTax1Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostTaxRate1": {
+      "name": "itemCostTaxRate1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeDiscAmount": {
+      "name": "timeDiscAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostTaxCode": {
+      "name": "itemCostTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "expCostDiscTaxable": {
+      "name": "expCostDiscTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostDiscTaxable": {
+      "name": "itemCostDiscTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostTaxRate2": {
+      "name": "itemCostTaxRate2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostDiscTax1Amt": {
+      "name": "itemCostDiscTax1Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemCostDiscPrint": {
+      "name": "itemCostDiscPrint",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeDiscTaxable": {
+      "name": "timeDiscTaxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeTaxRate1": {
+      "name": "timeTaxRate1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expCostDiscPrint": {
+      "name": "expCostDiscPrint",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeTaxCode": {
+      "name": "timeTaxCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "timeDiscPrint": {
+      "name": "timeDiscPrint",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "giftCertApplied": {
+      "name": "giftCertApplied",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeDiscTax1Amt": {
+      "name": "timeDiscTax1Amt",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranIsVsoeBundle": {
+      "name": "tranIsVsoeBundle",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timeTaxRate2": {
+      "name": "timeTaxRate2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vsoeAutoCalc": {
+      "name": "vsoeAutoCalc",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "syncPartnerTeams": {
+      "name": "syncPartnerTeams",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesTeamList": {
+      "name": "salesTeamList",
+      "type": "InvoiceSalesTeamList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "partnersList": {
+      "name": "partnersList",
+      "type": "InvoicePartnersList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "itemList": {
+      "name": "itemList",
+      "type": "InvoiceItemList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "itemCostList": {
+      "name": "itemCostList",
+      "type": "InvoiceItemCostList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "giftCertRedemptionList": {
+      "name": "giftCertRedemptionList",
+      "type": "GiftCertRedemptionList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "promotionsList": {
+      "name": "promotionsList",
+      "type": "PromotionsList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "expCostList": {
+      "name": "expCostList",
+      "type": "InvoiceExpCostList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "timeList": {
+      "name": "timeList",
+      "type": "InvoiceTimeList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "shipGroupList": {
+      "name": "shipGroupList",
+      "type": "InvoiceShipGroupList",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "approvalStatus": {
+      "name": "approvalStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountingBookDetailList": {
+      "name": "accountingBookDetailList",
+      "type": "AccountingBookDetailList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

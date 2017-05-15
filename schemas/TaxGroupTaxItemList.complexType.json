@@ -1,0 +1,22 @@
+{
+  "name": "TaxGroupTaxItemList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "taxItem": {
+      "name": "taxItem",
+      "type": "TaxGroupTaxItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

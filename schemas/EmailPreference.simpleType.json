@@ -1,0 +1,10 @@
+{
+  "name": "EmailPreference",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_default",
+    "_hTML",
+    "_pDF"
+  ]
+}

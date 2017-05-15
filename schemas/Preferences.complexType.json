@@ -1,0 +1,37 @@
+{
+  "name": "Preferences",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "warningAsError": {
+      "name": "warningAsError",
+      "minOccurs": "0",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    },
+    "disableMandatoryCustomFieldValidation": {
+      "name": "disableMandatoryCustomFieldValidation",
+      "minOccurs": "0",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    },
+    "disableSystemNotesForCustomFields": {
+      "name": "disableSystemNotesForCustomFields",
+      "minOccurs": "0",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    },
+    "ignoreReadOnlyFields": {
+      "name": "ignoreReadOnlyFields",
+      "minOccurs": "0",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    },
+    "runServerSuiteScriptAndTriggerWorkflows": {
+      "name": "runServerSuiteScriptAndTriggerWorkflows",
+      "minOccurs": "0",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    }
+  }
+}

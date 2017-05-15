@@ -1,0 +1,13 @@
+{
+  "name": "UpdateInviteeStatusRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "updateInviteeStatusReference": {
+      "name": "updateInviteeStatusReference",
+      "type": "UpdateInviteeStatusReference",
+      "minOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

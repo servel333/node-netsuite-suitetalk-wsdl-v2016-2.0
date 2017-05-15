@@ -1,0 +1,27 @@
+{
+  "name": "AsyncStatusResult",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "jobId": {
+      "name": "jobId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "status": {
+      "name": "status",
+      "type": "AsyncStatusType",
+      "typeNamespace": "platformCoreTyp"
+    },
+    "percentCompleted": {
+      "name": "percentCompleted",
+      "type": "double",
+      "typeNamespace": "xsd"
+    },
+    "estRemainingDuration": {
+      "name": "estRemainingDuration",
+      "type": "double",
+      "typeNamespace": "xsd"
+    }
+  }
+}

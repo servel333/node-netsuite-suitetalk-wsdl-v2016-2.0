@@ -1,0 +1,85 @@
+{
+  "name": "Translation",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "language": {
+      "name": "language",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displayName": {
+      "name": "displayName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salesDescription": {
+      "name": "salesDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDisplayName": {
+      "name": "storeDisplayName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDescription": {
+      "name": "storeDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDetailedDescription": {
+      "name": "storeDetailedDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "featuredDescription": {
+      "name": "featuredDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "specialsDescription": {
+      "name": "specialsDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pageTitle": {
+      "name": "pageTitle",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "noPriceMessage": {
+      "name": "noPriceMessage",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "outOfStockMessage": {
+      "name": "outOfStockMessage",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

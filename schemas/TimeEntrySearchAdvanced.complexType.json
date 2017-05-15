@@ -1,0 +1,33 @@
+{
+  "name": "TimeEntrySearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "TimeEntrySearch",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "TimeEntrySearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

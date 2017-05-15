@@ -1,0 +1,11 @@
+{
+  "name": "ItemSource",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_stock",
+    "_phantom",
+    "_workOrder",
+    "_purchaseOrder"
+  ]
+}

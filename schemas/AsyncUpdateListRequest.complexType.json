@@ -1,0 +1,14 @@
+{
+  "name": "AsyncUpdateListRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "record": {
+      "name": "record",
+      "type": "Record",
+      "minOccurs": "1",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "StringDimensionRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "DimensionRef",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "value": {
+      "name": "value",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

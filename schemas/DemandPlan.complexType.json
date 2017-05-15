@@ -1,0 +1,31 @@
+{
+  "name": "DemandPlan",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "calculatedQuantity": {
+      "name": "calculatedQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "periodDemandPlanList": {
+      "name": "periodDemandPlanList",
+      "type": "PeriodDemandPlanList",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanning"
+    }
+  }
+}

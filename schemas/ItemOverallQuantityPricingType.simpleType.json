@@ -1,0 +1,11 @@
+{
+  "name": "ItemOverallQuantityPricingType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_byLineQuantity",
+    "_byOverallItemQuantity",
+    "_byOverallParentQuantity",
+    "_byOverallScheduleQuantity"
+  ]
+}

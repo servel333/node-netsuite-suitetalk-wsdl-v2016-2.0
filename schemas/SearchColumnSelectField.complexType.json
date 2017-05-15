@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnSelectField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

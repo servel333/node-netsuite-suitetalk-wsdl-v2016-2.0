@@ -1,0 +1,22 @@
+{
+  "name": "IssueVersionList",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "issueVersion": {
+      "name": "issueVersion",
+      "type": "IssueVersion",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listSupport"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

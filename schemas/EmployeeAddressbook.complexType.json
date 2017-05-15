@@ -1,0 +1,37 @@
+{
+  "name": "EmployeeAddressbook",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "defaultShipping": {
+      "name": "defaultShipping",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultBilling": {
+      "name": "defaultBilling",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "label": {
+      "name": "label",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "addressbookAddress": {
+      "name": "addressbookAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

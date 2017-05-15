@@ -1,0 +1,118 @@
+{
+  "name": "OpportunitySearchRow",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "OpportunitySearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "actualJoin": {
+      "name": "actualJoin",
+      "type": "TransactionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "callJoin": {
+      "name": "callJoin",
+      "type": "PhoneCallSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customerJoin": {
+      "name": "customerJoin",
+      "type": "CustomerSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "decisionMakerJoin": {
+      "name": "decisionMakerJoin",
+      "type": "ContactSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "estimateJoin": {
+      "name": "estimateJoin",
+      "type": "TransactionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "eventJoin": {
+      "name": "eventJoin",
+      "type": "CalendarEventSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "fileJoin": {
+      "name": "fileJoin",
+      "type": "FileSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "itemJoin": {
+      "name": "itemJoin",
+      "type": "ItemSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "leadSourceJoin": {
+      "name": "leadSourceJoin",
+      "type": "CampaignSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "messagesJoin": {
+      "name": "messagesJoin",
+      "type": "MessageSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "orderJoin": {
+      "name": "orderJoin",
+      "type": "TransactionSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "originatingLeadJoin": {
+      "name": "originatingLeadJoin",
+      "type": "OriginatingLeadSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "partnerJoin": {
+      "name": "partnerJoin",
+      "type": "PartnerSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "salesRepJoin": {
+      "name": "salesRepJoin",
+      "type": "EmployeeSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "taskJoin": {
+      "name": "taskJoin",
+      "type": "TaskSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userNotesJoin": {
+      "name": "userNotesJoin",
+      "type": "NoteSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customSearchJoin": {
+      "name": "customSearchJoin",
+      "type": "CustomSearchRowBasic",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

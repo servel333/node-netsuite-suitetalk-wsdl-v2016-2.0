@@ -1,0 +1,22 @@
+{
+  "name": "InterCompanyJournalEntryLineList",
+  "type": "complexType",
+  "file": "transactions.general.xsd",
+  "elements": {
+    "line": {
+      "name": "line",
+      "type": "InterCompanyJournalEntryLine",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranGeneral"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

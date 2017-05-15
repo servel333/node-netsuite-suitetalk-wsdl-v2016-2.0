@@ -1,0 +1,25 @@
+{
+  "name": "CustomRecordTypeForms",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "formEdit": {
+      "name": "formEdit",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "formName": {
+      "name": "formName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "formPref": {
+      "name": "formPref",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

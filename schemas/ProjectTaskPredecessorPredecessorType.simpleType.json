@@ -1,0 +1,11 @@
+{
+  "name": "ProjectTaskPredecessorPredecessorType",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_finishToFinish",
+    "_finishToStart",
+    "_startToFinish",
+    "_startToStart"
+  ]
+}

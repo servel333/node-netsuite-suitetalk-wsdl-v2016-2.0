@@ -1,0 +1,175 @@
+{
+  "name": "TransferOrderItem",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "line": {
+      "name": "line",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityAvailable": {
+      "name": "quantityAvailable",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityBackOrdered": {
+      "name": "quantityBackOrdered",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityCommitted": {
+      "name": "quantityCommitted",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityFulfilled": {
+      "name": "quantityFulfilled",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityPacked": {
+      "name": "quantityPacked",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityPicked": {
+      "name": "quantityPicked",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityReceived": {
+      "name": "quantityReceived",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "units": {
+      "name": "units",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inventoryDetail": {
+      "name": "inventoryDetail",
+      "type": "InventoryDetail",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "serialNumbers": {
+      "name": "serialNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "commitInventory": {
+      "name": "commitInventory",
+      "type": "TransferOrderItemCommitInventory",
+      "minOccurs": "0",
+      "typeNamespace": "tranInvtTyp"
+    },
+    "orderPriority": {
+      "name": "orderPriority",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "options": {
+      "name": "options",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastPurchasePrice": {
+      "name": "lastPurchasePrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "averageCost": {
+      "name": "averageCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expectedShipDate": {
+      "name": "expectedShipDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expectedReceiptDate": {
+      "name": "expectedReceiptDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

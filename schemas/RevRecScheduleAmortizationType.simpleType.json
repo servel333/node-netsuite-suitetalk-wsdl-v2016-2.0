@@ -1,0 +1,9 @@
+{
+  "name": "RevRecScheduleAmortizationType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_standard",
+    "_variable"
+  ]
+}

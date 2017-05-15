@@ -1,0 +1,16 @@
+{
+  "name": "SalesOrderOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_pendingApproval",
+    "_pendingFulfillment",
+    "_cancelled",
+    "_partiallyFulfilled",
+    "_pendingBillingPartFulfilled",
+    "_pendingBilling",
+    "_fullyBilled",
+    "_closed",
+    "_undefined"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ChargeStage",
+  "type": "simpleType",
+  "file": "transactions.customerTypes.xsd",
+  "enumeration": [
+    "_hold",
+    "_nonBillable",
+    "_processed",
+    "_ready"
+  ]
+}

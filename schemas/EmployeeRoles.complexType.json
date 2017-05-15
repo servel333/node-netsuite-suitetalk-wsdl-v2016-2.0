@@ -1,0 +1,13 @@
+{
+  "name": "EmployeeRoles",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "selectedRole": {
+      "name": "selectedRole",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

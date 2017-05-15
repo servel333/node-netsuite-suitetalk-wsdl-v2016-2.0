@@ -1,0 +1,177 @@
+{
+  "name": "PhoneCall",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "company": {
+      "name": "company",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supportCase": {
+      "name": "supportCase",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "milestone": {
+      "name": "milestone",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "assigned": {
+      "name": "assigned",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timedEvent": {
+      "name": "timedEvent",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "completedDate": {
+      "name": "completedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "status": {
+      "name": "status",
+      "type": "PhoneCallStatus",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "priority": {
+      "name": "priority",
+      "type": "PhoneCallPriority",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reminderType": {
+      "name": "reminderType",
+      "type": "PhoneCallReminderType",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "reminderMinutes": {
+      "name": "reminderMinutes",
+      "type": "PhoneCallReminderMinutes",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "contactList": {
+      "name": "contactList",
+      "type": "PhoneCallContactList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "timeItemList": {
+      "name": "timeItemList",
+      "type": "PhoneCallTimeItemList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

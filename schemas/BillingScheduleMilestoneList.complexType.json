@@ -1,0 +1,22 @@
+{
+  "name": "BillingScheduleMilestoneList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "billingScheduleMilestone": {
+      "name": "billingScheduleMilestone",
+      "type": "BillingScheduleMilestone",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

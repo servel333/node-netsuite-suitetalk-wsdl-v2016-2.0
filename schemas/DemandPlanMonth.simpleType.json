@@ -1,0 +1,19 @@
+{
+  "name": "DemandPlanMonth",
+  "type": "simpleType",
+  "file": "transactions.demandPlanningTypes.xsd",
+  "enumeration": [
+    "_april",
+    "_august",
+    "_december",
+    "_february",
+    "_january",
+    "_july",
+    "_june",
+    "_march",
+    "_may",
+    "_november",
+    "_october",
+    "_september"
+  ]
+}

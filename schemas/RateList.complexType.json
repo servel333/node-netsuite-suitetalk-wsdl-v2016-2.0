@@ -1,0 +1,14 @@
+{
+  "name": "RateList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "rate": {
+      "name": "rate",
+      "type": "Rate",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  }
+}

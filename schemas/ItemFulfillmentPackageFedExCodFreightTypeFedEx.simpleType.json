@@ -1,0 +1,13 @@
+{
+  "name": "ItemFulfillmentPackageFedExCodFreightTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_cODCharge",
+    "_noneSelected",
+    "_orderChargeNet",
+    "_orderChargeTotal",
+    "_shippingCharge",
+    "_totalCharge"
+  ]
+}

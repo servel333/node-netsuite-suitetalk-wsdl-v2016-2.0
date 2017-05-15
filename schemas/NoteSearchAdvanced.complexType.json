@@ -1,0 +1,33 @@
+{
+  "name": "NoteSearchAdvanced",
+  "type": "complexType",
+  "file": "general.communication.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "NoteSearch",
+      "minOccurs": "0",
+      "typeNamespace": "generalComm"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "NoteSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "generalComm"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

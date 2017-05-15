@@ -1,0 +1,77 @@
+{
+  "name": "PostingTransactionSummaryFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "period": {
+      "name": "period",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "account": {
+      "name": "account",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "parentItem": {
+      "name": "parentItem",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "department": {
+      "name": "department",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "class": {
+      "name": "class",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "book": {
+      "name": "book",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

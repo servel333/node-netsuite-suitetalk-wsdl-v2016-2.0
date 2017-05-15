@@ -1,0 +1,18 @@
+{
+  "name": "IssueRelationship",
+  "type": "simpleType",
+  "file": "lists.supportTypes.xsd",
+  "enumeration": [
+    "_blocks",
+    "_dependsOn",
+    "_duplicatedBy",
+    "_duplicates",
+    "_followedUpBy",
+    "_followUpFor",
+    "_injectedBy",
+    "_injects",
+    "_isBlockedBy",
+    "_isRequiredFor",
+    "_relatedTo"
+  ]
+}

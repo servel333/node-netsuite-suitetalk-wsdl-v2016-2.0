@@ -1,0 +1,28 @@
+{
+  "name": "DataCenterUrls",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "restDomain": {
+      "name": "restDomain",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "webservicesDomain": {
+      "name": "webservicesDomain",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "systemDomain": {
+      "name": "systemDomain",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

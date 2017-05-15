@@ -1,0 +1,55 @@
+{
+  "name": "BillingScheduleMilestone",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "milestoneId": {
+      "name": "milestoneId",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneAmount": {
+      "name": "milestoneAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneTerms": {
+      "name": "milestoneTerms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "projectTask": {
+      "name": "projectTask",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "milestoneDate": {
+      "name": "milestoneDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneCompleted": {
+      "name": "milestoneCompleted",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneActualCompletionDate": {
+      "name": "milestoneActualCompletionDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

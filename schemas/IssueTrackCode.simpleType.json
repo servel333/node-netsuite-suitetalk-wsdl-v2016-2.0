@@ -1,0 +1,13 @@
+{
+  "name": "IssueTrackCode",
+  "type": "simpleType",
+  "file": "lists.supportTypes.xsd",
+  "enumeration": [
+    "_never",
+    "_onAnyChange",
+    "_whenBaseStatusIsClosed",
+    "_whenBaseStatusIsOnHold",
+    "_whenBaseStatusIsOpen",
+    "_whenBaseStatusIsResolved"
+  ]
+}

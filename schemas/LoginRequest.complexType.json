@@ -1,0 +1,12 @@
+{
+  "name": "LoginRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "passport": {
+      "name": "passport",
+      "type": "Passport",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

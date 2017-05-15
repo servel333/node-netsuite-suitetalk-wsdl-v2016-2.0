@@ -1,0 +1,9 @@
+{
+  "name": "SalesOrderItemCreatePo",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_dropShipment",
+    "_specialOrder"
+  ]
+}

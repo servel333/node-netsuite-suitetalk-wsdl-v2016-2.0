@@ -1,0 +1,33 @@
+{
+  "name": "PartnerSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "PartnerSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "PartnerSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

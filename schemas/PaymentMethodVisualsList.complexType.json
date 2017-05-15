@@ -1,0 +1,22 @@
+{
+  "name": "PaymentMethodVisualsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "paymentMethodVisuals": {
+      "name": "paymentMethodVisuals",
+      "type": "PaymentMethodVisuals",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

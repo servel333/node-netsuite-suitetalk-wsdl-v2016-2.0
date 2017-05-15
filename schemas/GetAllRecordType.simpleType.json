@@ -1,0 +1,28 @@
+{
+  "name": "GetAllRecordType",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "budgetCategory",
+    "campaignAudience",
+    "campaignCategory",
+    "campaignChannel",
+    "campaignFamily",
+    "campaignOffer",
+    "campaignSearchEngine",
+    "campaignSubscription",
+    "campaignVertical",
+    "currency",
+    "leadSource",
+    "salesTaxItem",
+    "state",
+    "supportCaseIssue",
+    "supportCaseOrigin",
+    "supportCasePriority",
+    "supportCaseStatus",
+    "supportCaseType",
+    "taxAcct",
+    "taxGroup",
+    "taxType"
+  ]
+}

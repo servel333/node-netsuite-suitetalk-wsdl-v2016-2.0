@@ -1,0 +1,16 @@
+{
+  "name": "SearchStringFieldOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "contains",
+    "doesNotContain",
+    "doesNotStartWith",
+    "empty",
+    "hasKeywords",
+    "is",
+    "isNot",
+    "notEmpty",
+    "startsWith"
+  ]
+}

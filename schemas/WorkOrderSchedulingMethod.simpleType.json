@@ -1,0 +1,9 @@
+{
+  "name": "WorkOrderSchedulingMethod",
+  "type": "simpleType",
+  "file": "transactions.inventoryTypes.xsd",
+  "enumeration": [
+    "_backward",
+    "_forward"
+  ]
+}

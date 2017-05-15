@@ -1,0 +1,22 @@
+{
+  "name": "InvoiceShipGroupList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "shipGroup": {
+      "name": "shipGroup",
+      "type": "TransactionShipGroup",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

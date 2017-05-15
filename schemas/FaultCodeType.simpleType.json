@@ -1,0 +1,32 @@
+{
+  "name": "FaultCodeType",
+  "type": "simpleType",
+  "file": "platform.faultTypes.xsd",
+  "enumeration": [
+    "ACCT_TEMP_UNAVAILABLE",
+    "EMAIL_ADDRS_REQD",
+    "INSUFFICIENT_PERMISSION",
+    "INVALID_ACCT",
+    "INVALID_JOB_ID",
+    "INVALID_LOGIN_CREDENTIALS",
+    "INVALID_PAGE_INDEX",
+    "INVALID_ROLE",
+    "INVALID_WS_VERSION",
+    "JOB_NOT_COMPLETE",
+    "LOGIN_DISABLED",
+    "MAX_RCRDS_EXCEEDED",
+    "OI_FEATURE_REQD",
+    "OI_PERMISSION_REQD",
+    "PSWD_REQD",
+    "ROLE_REQUIRED",
+    "SESSION_TIMED_OUT",
+    "UNEXPECTED_ERROR",
+    "UNSUPPORTED_WS_VERSION",
+    "USER_ERROR",
+    "WS_CONCUR_SESSION_DISALLWD",
+    "WS_FEATURE_REQD",
+    "WS_PERMISSION_REQD",
+    "WS_LOG_IN_REQD",
+    "WS_REQUEST_BLOCKED"
+  ]
+}

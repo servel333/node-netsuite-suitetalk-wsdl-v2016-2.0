@@ -1,0 +1,12 @@
+{
+  "name": "ChangeEmailRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "changeEmail": {
+      "name": "changeEmail",
+      "type": "ChangeEmail",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

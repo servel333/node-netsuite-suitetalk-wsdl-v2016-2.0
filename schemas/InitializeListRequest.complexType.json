@@ -1,0 +1,14 @@
+{
+  "name": "InitializeListRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "initializeRecord": {
+      "name": "initializeRecord",
+      "type": "InitializeRecord",
+      "minOccurs": "1",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

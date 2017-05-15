@@ -1,0 +1,9 @@
+{
+  "name": "SearchMultiSelectFieldOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "anyOf",
+    "noneOf"
+  ]
+}

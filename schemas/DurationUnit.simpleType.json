@@ -1,0 +1,8 @@
+{
+  "name": "DurationUnit",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "hour"
+  ]
+}

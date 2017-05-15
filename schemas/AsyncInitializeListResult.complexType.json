@@ -1,0 +1,14 @@
+{
+  "name": "AsyncInitializeListResult",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "extends": "AsyncResult",
+  "extendsNamespace": "platformMsgs",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:readResponseList",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

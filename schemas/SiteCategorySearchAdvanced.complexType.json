@@ -1,0 +1,33 @@
+{
+  "name": "SiteCategorySearchAdvanced",
+  "type": "complexType",
+  "file": "lists.website.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "SiteCategorySearch",
+      "minOccurs": "0",
+      "typeNamespace": "listSite"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "SiteCategorySearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listSite"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

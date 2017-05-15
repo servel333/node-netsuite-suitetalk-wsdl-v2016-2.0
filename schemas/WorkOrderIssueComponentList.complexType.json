@@ -1,0 +1,22 @@
+{
+  "name": "WorkOrderIssueComponentList",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "workOrderIssueComponent": {
+      "name": "workOrderIssueComponent",
+      "type": "WorkOrderIssueComponent",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranInvt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

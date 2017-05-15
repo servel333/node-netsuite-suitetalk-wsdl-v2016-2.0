@@ -1,0 +1,13 @@
+{
+  "name": "SerializedInventoryItemNumbers",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "serialNumber": {
+      "name": "serialNumber",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

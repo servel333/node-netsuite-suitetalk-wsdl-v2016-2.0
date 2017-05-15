@@ -1,0 +1,11 @@
+{
+  "name": "RevRecScheduleAmortizationStatus",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_notStarted",
+    "_inProgress",
+    "_completed",
+    "_onHold"
+  ]
+}

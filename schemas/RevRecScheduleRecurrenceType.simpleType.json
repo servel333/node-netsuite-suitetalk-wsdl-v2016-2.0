@@ -1,0 +1,12 @@
+{
+  "name": "RevRecScheduleRecurrenceType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_custom",
+    "_straightLineByEvenPeriods",
+    "_straightLineProrateFirstAndLastPeriod",
+    "_straightLineProrateFirstAndLastPeriodPeriodRate",
+    "_straightLineUsingExactDays"
+  ]
+}

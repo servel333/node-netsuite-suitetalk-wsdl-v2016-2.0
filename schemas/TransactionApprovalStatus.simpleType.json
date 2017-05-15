@@ -1,0 +1,10 @@
+{
+  "name": "TransactionApprovalStatus",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_approved",
+    "_pendingApproval",
+    "_rejected"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "CustomRecordTypeTabs",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "tabTitle": {
+      "name": "tabTitle",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tabParent": {
+      "name": "tabParent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "tabTitleLanguageValueList": {
+      "name": "tabTitleLanguageValueList",
+      "type": "LanguageValueList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    }
+  }
+}

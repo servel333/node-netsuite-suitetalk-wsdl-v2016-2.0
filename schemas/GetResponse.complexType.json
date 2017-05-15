@@ -1,0 +1,12 @@
+{
+  "name": "GetResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:readResponse",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

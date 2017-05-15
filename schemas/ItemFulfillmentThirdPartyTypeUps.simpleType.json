@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentThirdPartyTypeUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_consigneeBilling",
+    "_noneSelected",
+    "_thirdPartyBilling"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "CategoryList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

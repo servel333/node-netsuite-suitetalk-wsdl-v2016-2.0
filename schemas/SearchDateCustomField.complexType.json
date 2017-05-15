@@ -1,0 +1,34 @@
+{
+  "name": "SearchDateCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "predefinedSearchValue": {
+      "name": "predefinedSearchValue",
+      "type": "SearchDate",
+      "minOccurs": "0",
+      "typeNamespace": "platformCoreTyp"
+    },
+    "searchValue": {
+      "name": "searchValue",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "searchValue2": {
+      "name": "searchValue2",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "SearchDateFieldOperator",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

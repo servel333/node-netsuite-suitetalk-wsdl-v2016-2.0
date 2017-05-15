@@ -1,0 +1,31 @@
+{
+  "name": "TaxGroupTaxItem",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "taxName": {
+      "name": "taxName",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "basis": {
+      "name": "basis",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxType": {
+      "name": "taxType",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

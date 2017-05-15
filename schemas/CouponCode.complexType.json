@@ -1,0 +1,57 @@
+{
+  "name": "CouponCode",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "promotion": {
+      "name": "promotion",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "code": {
+      "name": "code",
+      "type": "string",
+      "minOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "recipient": {
+      "name": "recipient",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dateSent": {
+      "name": "dateSent",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "used": {
+      "name": "used",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "useCount": {
+      "name": "useCount",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ManufacturingOperationTaskStatus",
+  "type": "simpleType",
+  "file": "lists.supplyChainTypes.xsd",
+  "enumeration": [
+    "_completed",
+    "_inProgress",
+    "_notStarted"
+  ]
+}

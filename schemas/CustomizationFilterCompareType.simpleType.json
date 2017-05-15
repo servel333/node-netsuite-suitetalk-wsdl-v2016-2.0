@@ -1,0 +1,13 @@
+{
+  "name": "CustomizationFilterCompareType",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_equal",
+    "_greaterThan",
+    "_greaterThanOrEqual",
+    "_lessThan",
+    "_lessThanOrEqual",
+    "_notEqual"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ApplicationInfo",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "applicationId": {
+      "name": "applicationId",
+      "minOccurs": "0",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

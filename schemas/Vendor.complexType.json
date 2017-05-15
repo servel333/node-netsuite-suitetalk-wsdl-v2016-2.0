@@ -1,0 +1,483 @@
+{
+  "name": "Vendor",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entityId": {
+      "name": "entityId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altName": {
+      "name": "altName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isPerson": {
+      "name": "isPerson",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phoneticName": {
+      "name": "phoneticName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salutation": {
+      "name": "salutation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "firstName": {
+      "name": "firstName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "middleName": {
+      "name": "middleName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastName": {
+      "name": "lastName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "companyName": {
+      "name": "companyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "url": {
+      "name": "url",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultAddress": {
+      "name": "defaultAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dateCreated": {
+      "name": "dateCreated",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "printOnCheckAs": {
+      "name": "printOnCheckAs",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altPhone": {
+      "name": "altPhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "homePhone": {
+      "name": "homePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "mobilePhone": {
+      "name": "mobilePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altEmail": {
+      "name": "altEmail",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "globalSubscriptionStatus": {
+      "name": "globalSubscriptionStatus",
+      "type": "GlobalSubscriptionStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "image": {
+      "name": "image",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "emailPreference": {
+      "name": "emailPreference",
+      "type": "EmailPreference",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "representingSubsidiary": {
+      "name": "representingSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accountNumber": {
+      "name": "accountNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "legalName": {
+      "name": "legalName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vatRegNumber": {
+      "name": "vatRegNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expenseAccount": {
+      "name": "expenseAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "payablesAccount": {
+      "name": "payablesAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "terms": {
+      "name": "terms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "incoterm": {
+      "name": "incoterm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "creditLimit": {
+      "name": "creditLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "balancePrimary": {
+      "name": "balancePrimary",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalance": {
+      "name": "openingBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceDate": {
+      "name": "openingBalanceDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceAccount": {
+      "name": "openingBalanceAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "balance": {
+      "name": "balance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unbilledOrdersPrimary": {
+      "name": "unbilledOrdersPrimary",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bcn": {
+      "name": "bcn",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unbilledOrders": {
+      "name": "unbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "is1099Eligible": {
+      "name": "is1099Eligible",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isJobResourceVend": {
+      "name": "isJobResourceVend",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "laborCost": {
+      "name": "laborCost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "purchaseOrderQuantity": {
+      "name": "purchaseOrderQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "purchaseOrderAmount": {
+      "name": "purchaseOrderAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "purchaseOrderQuantityDiff": {
+      "name": "purchaseOrderQuantityDiff",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "receiptQuantity": {
+      "name": "receiptQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "receiptAmount": {
+      "name": "receiptAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "receiptQuantityDiff": {
+      "name": "receiptQuantityDiff",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "workCalendar": {
+      "name": "workCalendar",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxIdNum": {
+      "name": "taxIdNum",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxItem": {
+      "name": "taxItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "giveAccess": {
+      "name": "giveAccess",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billPay": {
+      "name": "billPay",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isAccountant": {
+      "name": "isAccountant",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password": {
+      "name": "password",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password2": {
+      "name": "password2",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "requirePwdChange": {
+      "name": "requirePwdChange",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "eligibleForCommission": {
+      "name": "eligibleForCommission",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "emailTransactions": {
+      "name": "emailTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "printTransactions": {
+      "name": "printTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "faxTransactions": {
+      "name": "faxTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pricingScheduleList": {
+      "name": "pricingScheduleList",
+      "type": "VendorPricingScheduleList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "subscriptionsList": {
+      "name": "subscriptionsList",
+      "type": "SubscriptionsList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "addressbookList": {
+      "name": "addressbookList",
+      "type": "VendorAddressbookList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "currencyList": {
+      "name": "currencyList",
+      "type": "VendorCurrencyList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "rolesList": {
+      "name": "rolesList",
+      "type": "VendorRolesList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

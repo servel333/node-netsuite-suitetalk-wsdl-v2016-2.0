@@ -1,0 +1,121 @@
+{
+  "name": "ItemMember",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "memberDescr": {
+      "name": "memberDescr",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "componentYield": {
+      "name": "componentYield",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bomQuantity": {
+      "name": "bomQuantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemSource": {
+      "name": "itemSource",
+      "type": "ItemSource",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "memberUnit": {
+      "name": "memberUnit",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "vsoeDeferral": {
+      "name": "vsoeDeferral",
+      "type": "VsoeDeferral",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "vsoePermitDiscount": {
+      "name": "vsoePermitDiscount",
+      "type": "VsoePermitDiscount",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "vsoeDelivered": {
+      "name": "vsoeDelivered",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxSchedule": {
+      "name": "taxSchedule",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxcode": {
+      "name": "taxcode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxrate": {
+      "name": "taxrate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "effectiveDate": {
+      "name": "effectiveDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "obsoleteDate": {
+      "name": "obsoleteDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "effectiveRevision": {
+      "name": "effectiveRevision",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "obsoleteRevision": {
+      "name": "obsoleteRevision",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lineNumber": {
+      "name": "lineNumber",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "memberKey": {
+      "name": "memberKey",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

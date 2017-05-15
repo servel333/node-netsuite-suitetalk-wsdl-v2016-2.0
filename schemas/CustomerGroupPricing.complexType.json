@@ -1,0 +1,19 @@
+{
+  "name": "CustomerGroupPricing",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "group": {
+      "name": "group",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "level": {
+      "name": "level",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

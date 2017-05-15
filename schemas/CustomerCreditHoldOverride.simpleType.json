@@ -1,0 +1,10 @@
+{
+  "name": "CustomerCreditHoldOverride",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_auto",
+    "_on",
+    "_off"
+  ]
+}

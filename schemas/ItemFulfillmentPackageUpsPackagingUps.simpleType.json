@@ -1,0 +1,12 @@
+{
+  "name": "ItemFulfillmentPackageUpsPackagingUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_upsExpressBox",
+    "_upsLetter",
+    "_upsPak",
+    "_upsTube",
+    "_yourPackaging"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "AttachResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:writeResponse",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SupportCaseStage",
+  "type": "simpleType",
+  "file": "lists.supportTypes.xsd",
+  "enumeration": [
+    "_closed",
+    "_escalated",
+    "_open"
+  ]
+}

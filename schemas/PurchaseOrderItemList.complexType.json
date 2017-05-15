@@ -1,0 +1,22 @@
+{
+  "name": "PurchaseOrderItemList",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "PurchaseOrderItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranPurch"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

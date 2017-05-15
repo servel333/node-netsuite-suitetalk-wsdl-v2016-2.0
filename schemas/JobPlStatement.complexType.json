@@ -1,0 +1,37 @@
+{
+  "name": "JobPlStatement",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "costCategory": {
+      "name": "costCategory",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revenue": {
+      "name": "revenue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "cost": {
+      "name": "cost",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "profit": {
+      "name": "profit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "margin": {
+      "name": "margin",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

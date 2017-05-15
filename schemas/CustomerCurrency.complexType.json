@@ -1,0 +1,79 @@
+{
+  "name": "CustomerCurrency",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "balance": {
+      "name": "balance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolBalance": {
+      "name": "consolBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "depositBalance": {
+      "name": "depositBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolDepositBalance": {
+      "name": "consolDepositBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "overdueBalance": {
+      "name": "overdueBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolOverdueBalance": {
+      "name": "consolOverdueBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unbilledOrders": {
+      "name": "unbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolUnbilledOrders": {
+      "name": "consolUnbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "overrideCurrencyFormat": {
+      "name": "overrideCurrencyFormat",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displaySymbol": {
+      "name": "displaySymbol",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "symbolPlacement": {
+      "name": "symbolPlacement",
+      "type": "CurrencySymbolPlacement",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    }
+  }
+}

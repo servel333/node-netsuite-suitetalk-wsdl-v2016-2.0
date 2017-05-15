@@ -1,0 +1,79 @@
+{
+  "name": "ItemFulfillmentPackageUsps",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "packageWeightUsps": {
+      "name": "packageWeightUsps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageDescrUsps": {
+      "name": "packageDescrUsps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageTrackingNumberUsps": {
+      "name": "packageTrackingNumberUsps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packagingUsps": {
+      "name": "packagingUsps",
+      "type": "ItemFulfillmentPackageUspsPackagingUsps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "useInsuredValueUsps": {
+      "name": "useInsuredValueUsps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insuredValueUsps": {
+      "name": "insuredValueUsps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reference1Usps": {
+      "name": "reference1Usps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reference2Usps": {
+      "name": "reference2Usps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageLengthUsps": {
+      "name": "packageLengthUsps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageWidthUsps": {
+      "name": "packageWidthUsps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageHeightUsps": {
+      "name": "packageHeightUsps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "deliveryConfUsps": {
+      "name": "deliveryConfUsps",
+      "type": "ItemFulfillmentPackageUspsDeliveryConfUsps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    }
+  }
+}

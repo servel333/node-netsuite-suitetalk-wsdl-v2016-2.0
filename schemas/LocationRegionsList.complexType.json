@@ -1,0 +1,22 @@
+{
+  "name": "LocationRegionsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "locationRegions": {
+      "name": "locationRegions",
+      "type": "LocationRegions",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CampaignStatus",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_closed",
+    "_completed",
+    "_execute",
+    "_inProgress",
+    "_scheduled",
+    "_sent",
+    "_toPrint"
+  ]
+}

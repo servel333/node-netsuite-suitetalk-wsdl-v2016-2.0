@@ -1,0 +1,49 @@
+{
+  "name": "ItemSupplyPlanOrder",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "orderLineId": {
+      "name": "orderLineId",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "orderDate": {
+      "name": "orderDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "receiptDate": {
+      "name": "receiptDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sourceLocation": {
+      "name": "sourceLocation",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "orderCreated": {
+      "name": "orderCreated",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "orderType": {
+      "name": "orderType",
+      "type": "ItemSupplyPlanOrderType",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanningTyp"
+    }
+  }
+}

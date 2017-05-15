@@ -1,0 +1,22 @@
+{
+  "name": "ItemFulfillmentPackageList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "package": {
+      "name": "package",
+      "type": "ItemFulfillmentPackage",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

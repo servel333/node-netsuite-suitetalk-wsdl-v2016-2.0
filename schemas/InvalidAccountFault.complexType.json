@@ -1,0 +1,7 @@
+{
+  "name": "InvalidAccountFault",
+  "type": "complexType",
+  "file": "platform.faults.xsd",
+  "extends": "SoapFault",
+  "extendsNamespace": "platformFaults"
+}

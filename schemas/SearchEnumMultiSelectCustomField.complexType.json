@@ -1,0 +1,23 @@
+{
+  "name": "SearchEnumMultiSelectCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "string",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "SearchEnumMultiSelectFieldOperator",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

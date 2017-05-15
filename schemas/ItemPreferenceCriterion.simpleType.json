@@ -1,0 +1,13 @@
+{
+  "name": "ItemPreferenceCriterion",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_A",
+    "_B",
+    "_C",
+    "_D",
+    "_E",
+    "_F"
+  ]
+}

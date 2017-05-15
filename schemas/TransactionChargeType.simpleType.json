@@ -1,0 +1,17 @@
+{
+  "name": "TransactionChargeType",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_concession",
+    "_fixedDate",
+    "_fixedUsage",
+    "_milestone",
+    "_oneTime",
+    "_penalty",
+    "_projectProgress",
+    "_recurringService",
+    "_timeBased",
+    "_variableUsage"
+  ]
+}

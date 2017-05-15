@@ -1,0 +1,13 @@
+{
+  "name": "ItemOptionsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "itemOptions": {
+      "name": "itemOptions",
+      "type": "RecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

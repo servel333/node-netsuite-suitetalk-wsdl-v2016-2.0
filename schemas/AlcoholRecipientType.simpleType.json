@@ -1,0 +1,9 @@
+{
+  "name": "AlcoholRecipientType",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_consumer",
+    "_licensee"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "TransactionSearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "TransactionSearch",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "TransactionSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

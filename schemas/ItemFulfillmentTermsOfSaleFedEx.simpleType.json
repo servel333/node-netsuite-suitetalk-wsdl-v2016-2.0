@@ -1,0 +1,18 @@
+{
+  "name": "ItemFulfillmentTermsOfSaleFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_cfr",
+    "_cif",
+    "_cip",
+    "_cpt",
+    "_dap",
+    "_dat",
+    "_ddp",
+    "_ddu",
+    "_exw",
+    "_fca",
+    "_fob"
+  ]
+}

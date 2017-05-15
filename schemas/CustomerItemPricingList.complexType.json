@@ -1,0 +1,22 @@
+{
+  "name": "CustomerItemPricingList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "itemPricing": {
+      "name": "itemPricing",
+      "type": "CustomerItemPricing",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

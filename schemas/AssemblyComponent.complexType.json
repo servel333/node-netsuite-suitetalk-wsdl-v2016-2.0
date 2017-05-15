@@ -1,0 +1,49 @@
+{
+  "name": "AssemblyComponent",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "componentInventoryDetail": {
+      "name": "componentInventoryDetail",
+      "type": "InventoryDetail",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "componentNumbers": {
+      "name": "componentNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "binNumbers": {
+      "name": "binNumbers",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lineNumber": {
+      "name": "lineNumber",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

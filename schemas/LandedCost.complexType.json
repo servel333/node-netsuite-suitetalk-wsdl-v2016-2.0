@@ -1,0 +1,15 @@
+{
+  "name": "LandedCost",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "landedCostDataList": {
+      "name": "landedCostDataList",
+      "type": "LandedCostDataList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

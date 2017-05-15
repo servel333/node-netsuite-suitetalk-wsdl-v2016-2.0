@@ -1,0 +1,22 @@
+{
+  "name": "PurchaseRequisitionItemList",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "purchaseRequisitionItem": {
+      "name": "purchaseRequisitionItem",
+      "type": "PurchaseRequisitionItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranPurch"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

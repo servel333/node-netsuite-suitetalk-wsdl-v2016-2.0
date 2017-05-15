@@ -1,0 +1,25 @@
+{
+  "name": "ServiceItemTaskTemplates",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "taskName": {
+      "name": "taskName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taskStartOffset": {
+      "name": "taskStartOffset",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taskDuration": {
+      "name": "taskDuration",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

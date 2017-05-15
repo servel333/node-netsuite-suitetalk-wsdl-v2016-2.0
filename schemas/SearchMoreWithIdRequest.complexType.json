@@ -1,0 +1,17 @@
+{
+  "name": "SearchMoreWithIdRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "searchId": {
+      "name": "searchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "typeNamespace": "xsd"
+    }
+  }
+}

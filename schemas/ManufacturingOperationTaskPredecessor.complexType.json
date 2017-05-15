@@ -1,0 +1,49 @@
+{
+  "name": "ManufacturingOperationTaskPredecessor",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "elements": {
+    "task": {
+      "name": "task",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "type": {
+      "name": "type",
+      "type": "ManufacturingOperationTaskPredecessorPredecessorType",
+      "minOccurs": "0",
+      "typeNamespace": "listScmTyp"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lagType": {
+      "name": "lagType",
+      "type": "ManufacturingLagType",
+      "minOccurs": "0",
+      "typeNamespace": "listScmTyp"
+    },
+    "lagAmount": {
+      "name": "lagAmount",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lagUnits": {
+      "name": "lagUnits",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

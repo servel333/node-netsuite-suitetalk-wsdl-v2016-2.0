@@ -1,0 +1,7 @@
+{
+  "name": "InvalidVersionFault",
+  "type": "complexType",
+  "file": "platform.faults.xsd",
+  "extends": "SoapFault",
+  "extendsNamespace": "platformFaults"
+}

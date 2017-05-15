@@ -1,0 +1,13 @@
+{
+  "name": "BudgetExchangeRateList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "budgetExchangeRate": {
+      "name": "budgetExchangeRate",
+      "type": "BudgetExchangeRate",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

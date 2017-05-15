@@ -1,0 +1,24 @@
+{
+  "name": "InitializeAuxRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "BaseRef",
+  "extendsNamespace": "platformCore",
+  "attributes": {
+    "type": {
+      "name": "type",
+      "type": "InitializeAuxRefType",
+      "typeNamespace": "platformCoreTyp"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ExpenseCategoryRates",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "defaultRate": {
+      "name": "defaultRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "OpportunityCompetitors",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "competitor": {
+      "name": "competitor",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "url": {
+      "name": "url",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "notes": {
+      "name": "notes",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "strategy": {
+      "name": "strategy",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "winner": {
+      "name": "winner",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

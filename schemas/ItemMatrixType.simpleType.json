@@ -1,0 +1,9 @@
+{
+  "name": "ItemMatrixType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_parent",
+    "_child"
+  ]
+}

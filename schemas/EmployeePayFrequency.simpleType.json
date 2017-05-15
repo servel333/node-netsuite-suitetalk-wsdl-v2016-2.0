@@ -1,0 +1,25 @@
+{
+  "name": "EmployeePayFrequency",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_annually",
+    "_custom",
+    "_daily",
+    "_endOfPeriod",
+    "_everyFourWeeks",
+    "_everyThreeYears",
+    "_everyTwoMonths",
+    "_everyTwoWeeks",
+    "_everyTwoYears",
+    "_hourly",
+    "_monthly",
+    "_never",
+    "_oneTime",
+    "_quarterly",
+    "_startOfPeriod",
+    "_twiceAMonth",
+    "_twiceAYear",
+    "_weekly"
+  ]
+}

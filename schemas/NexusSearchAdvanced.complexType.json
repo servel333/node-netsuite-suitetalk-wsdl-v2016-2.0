@@ -1,0 +1,33 @@
+{
+  "name": "NexusSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "NexusSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "NexusSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

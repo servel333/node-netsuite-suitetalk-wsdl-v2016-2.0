@@ -1,0 +1,13 @@
+{
+  "name": "ItemsList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "items": {
+      "name": "items",
+      "type": "RecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ItemFulfillmentPackage",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "packageWeight": {
+      "name": "packageWeight",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageDescr": {
+      "name": "packageDescr",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageTrackingNumber": {
+      "name": "packageTrackingNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

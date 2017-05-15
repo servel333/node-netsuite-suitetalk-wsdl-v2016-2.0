@@ -1,0 +1,10 @@
+{
+  "name": "TransactionBillVarianceStatus",
+  "type": "simpleType",
+  "file": "transactions.purchaseTypes.xsd",
+  "enumeration": [
+    "_journalNotPosted",
+    "_journalPosted",
+    "_noVariances"
+  ]
+}

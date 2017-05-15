@@ -1,0 +1,10 @@
+{
+  "name": "Gender",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_omitted",
+    "_female",
+    "_male"
+  ]
+}

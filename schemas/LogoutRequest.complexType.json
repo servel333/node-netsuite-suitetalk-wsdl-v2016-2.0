@@ -1,0 +1,5 @@
+{
+  "name": "LogoutRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd"
+}

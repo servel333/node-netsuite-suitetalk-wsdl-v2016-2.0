@@ -1,0 +1,11 @@
+{
+  "name": "TransactionPaymentEventResult",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_accept",
+    "_holdOverride",
+    "_paymentHold",
+    "_reject"
+  ]
+}

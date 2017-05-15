@@ -1,0 +1,37 @@
+{
+  "name": "EmployeeEmergencyContact",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "relationship": {
+      "name": "relationship",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "address": {
+      "name": "address",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

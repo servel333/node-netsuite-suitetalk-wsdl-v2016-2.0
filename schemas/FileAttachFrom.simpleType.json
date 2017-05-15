@@ -1,0 +1,9 @@
+{
+  "name": "FileAttachFrom",
+  "type": "simpleType",
+  "file": "documents.fileCabinetTypes.xsd",
+  "enumeration": [
+    "_computer",
+    "_web"
+  ]
+}

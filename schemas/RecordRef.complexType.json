@@ -1,0 +1,24 @@
+{
+  "name": "RecordRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "BaseRef",
+  "extendsNamespace": "platformCore",
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "type": {
+      "name": "type",
+      "type": "RecordType",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

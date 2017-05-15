@@ -1,0 +1,26 @@
+{
+  "name": "PayrollItemItemTypeNoHierarchy",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_addition",
+    "_commission",
+    "_deduction",
+    "_directDeposit",
+    "_disability",
+    "_earning",
+    "_employerContribution",
+    "_expense",
+    "_federal",
+    "_medicare",
+    "_other",
+    "_salary",
+    "_sick",
+    "_socialSecurity",
+    "_state",
+    "_tax",
+    "_unemployment",
+    "_vacation",
+    "_wage"
+  ]
+}

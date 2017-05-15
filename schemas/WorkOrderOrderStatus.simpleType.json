@@ -1,0 +1,14 @@
+{
+  "name": "WorkOrderOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.inventoryTypes.xsd",
+  "enumeration": [
+    "_built",
+    "_cancelled",
+    "_closed",
+    "_inProcess",
+    "_planned",
+    "_released",
+    "_undefined"
+  ]
+}

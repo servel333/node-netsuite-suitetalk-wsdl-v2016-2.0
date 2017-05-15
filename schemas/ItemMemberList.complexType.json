@@ -1,0 +1,22 @@
+{
+  "name": "ItemMemberList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "itemMember": {
+      "name": "itemMember",
+      "type": "ItemMember",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

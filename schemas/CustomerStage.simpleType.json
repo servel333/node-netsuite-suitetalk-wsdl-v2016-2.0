@@ -1,0 +1,10 @@
+{
+  "name": "CustomerStage",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_customer",
+    "_lead",
+    "_prospect"
+  ]
+}

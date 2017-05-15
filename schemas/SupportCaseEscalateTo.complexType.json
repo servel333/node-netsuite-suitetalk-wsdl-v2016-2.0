@@ -1,0 +1,25 @@
+{
+  "name": "SupportCaseEscalateTo",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "escalatee": {
+      "name": "escalatee",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

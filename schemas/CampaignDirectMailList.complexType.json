@@ -1,0 +1,22 @@
+{
+  "name": "CampaignDirectMailList",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "campaignDirectMail": {
+      "name": "campaignDirectMail",
+      "type": "CampaignDirectMail",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

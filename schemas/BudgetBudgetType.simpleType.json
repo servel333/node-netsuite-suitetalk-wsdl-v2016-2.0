@@ -1,0 +1,9 @@
+{
+  "name": "BudgetBudgetType",
+  "type": "simpleType",
+  "file": "transactions.financialTypes.xsd",
+  "enumeration": [
+    "_global",
+    "_local"
+  ]
+}

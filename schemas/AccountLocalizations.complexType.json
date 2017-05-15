@@ -1,0 +1,31 @@
+{
+  "name": "AccountLocalizations",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "accountingContext": {
+      "name": "accountingContext",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "acctNumber": {
+      "name": "acctNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "acctName": {
+      "name": "acctName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    }
+  }
+}

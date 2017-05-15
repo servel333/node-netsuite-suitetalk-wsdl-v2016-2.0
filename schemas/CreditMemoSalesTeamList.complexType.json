@@ -1,0 +1,22 @@
+{
+  "name": "CreditMemoSalesTeamList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "salesTeam": {
+      "name": "salesTeam",
+      "type": "CreditMemoSalesTeam",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

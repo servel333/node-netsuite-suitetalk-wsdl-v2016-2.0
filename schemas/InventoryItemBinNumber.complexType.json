@@ -1,0 +1,37 @@
+{
+  "name": "InventoryItemBinNumber",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "binNumber": {
+      "name": "binNumber",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "onHand": {
+      "name": "onHand",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "onHandAvail": {
+      "name": "onHandAvail",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "preferredBin": {
+      "name": "preferredBin",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

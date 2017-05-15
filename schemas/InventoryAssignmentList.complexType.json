@@ -1,0 +1,22 @@
+{
+  "name": "InventoryAssignmentList",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "inventoryAssignment": {
+      "name": "inventoryAssignment",
+      "type": "InventoryAssignment",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

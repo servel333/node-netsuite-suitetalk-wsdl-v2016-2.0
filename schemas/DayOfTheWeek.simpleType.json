@@ -1,0 +1,14 @@
+{
+  "name": "DayOfTheWeek",
+  "type": "simpleType",
+  "file": "transactions.demandPlanningTypes.xsd",
+  "enumeration": [
+    "_sunday",
+    "_monday",
+    "_tuesday",
+    "_wednesday",
+    "_thursday",
+    "_friday",
+    "_saturday"
+  ]
+}

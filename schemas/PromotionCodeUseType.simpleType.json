@@ -1,0 +1,9 @@
+{
+  "name": "PromotionCodeUseType",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_multipleUses",
+    "_singleUse"
+  ]
+}

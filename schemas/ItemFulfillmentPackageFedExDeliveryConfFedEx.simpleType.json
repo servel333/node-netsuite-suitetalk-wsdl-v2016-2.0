@@ -1,0 +1,8 @@
+{
+  "name": "ItemFulfillmentPackageFedExDeliveryConfFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_signatureRequired"
+  ]
+}

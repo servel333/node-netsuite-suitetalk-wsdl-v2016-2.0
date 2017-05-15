@@ -1,0 +1,14 @@
+{
+  "name": "BaseRefList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "baseRef": {
+      "name": "baseRef",
+      "type": "BaseRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

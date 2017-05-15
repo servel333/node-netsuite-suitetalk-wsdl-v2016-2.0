@@ -1,0 +1,14 @@
+{
+  "name": "Record",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "nullFieldList": {
+      "name": "nullFieldList",
+      "type": "NullField",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

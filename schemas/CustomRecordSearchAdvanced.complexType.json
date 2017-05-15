@@ -1,0 +1,33 @@
+{
+  "name": "CustomRecordSearchAdvanced",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "CustomRecordSearch",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "CustomRecordSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

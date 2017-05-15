@@ -1,0 +1,14 @@
+{
+  "name": "WsRoleList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "wsRole": {
+      "name": "wsRole",
+      "type": "WsRole",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

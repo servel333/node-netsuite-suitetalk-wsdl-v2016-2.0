@@ -1,0 +1,15 @@
+{
+  "name": "BillingScheduleSearch",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "BillingScheduleSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

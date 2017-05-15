@@ -1,0 +1,22 @@
+{
+  "name": "SiteCategoryList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "siteCategory": {
+      "name": "siteCategory",
+      "type": "SiteCategory",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

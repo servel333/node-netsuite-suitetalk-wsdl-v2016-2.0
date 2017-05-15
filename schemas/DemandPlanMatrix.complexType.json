@@ -1,0 +1,22 @@
+{
+  "name": "DemandPlanMatrix",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "demandPlan": {
+      "name": "demandPlan",
+      "type": "DemandPlan",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "demandPlanning"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

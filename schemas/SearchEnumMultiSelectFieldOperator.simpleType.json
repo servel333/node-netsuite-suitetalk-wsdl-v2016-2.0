@@ -1,0 +1,9 @@
+{
+  "name": "SearchEnumMultiSelectFieldOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "anyOf",
+    "noneOf"
+  ]
+}

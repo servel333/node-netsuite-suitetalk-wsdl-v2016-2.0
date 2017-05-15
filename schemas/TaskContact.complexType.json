@@ -1,0 +1,19 @@
+{
+  "name": "TaskContact",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "company": {
+      "name": "company",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

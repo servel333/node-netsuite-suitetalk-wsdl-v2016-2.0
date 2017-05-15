@@ -1,0 +1,20 @@
+{
+  "name": "SearchStringField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "SearchStringFieldOperator",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

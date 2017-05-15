@@ -1,0 +1,28 @@
+{
+  "name": "GetDeletedFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "deletedDate": {
+      "name": "deletedDate",
+      "type": "SearchDateField",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "type": {
+      "name": "type",
+      "type": "SearchEnumMultiSelectField",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "scriptId": {
+      "name": "scriptId",
+      "type": "SearchStringField",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

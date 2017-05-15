@@ -1,0 +1,14 @@
+{
+  "name": "GetDataCenterUrlsRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "account": {
+      "name": "account",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

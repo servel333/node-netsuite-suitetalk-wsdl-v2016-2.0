@@ -1,0 +1,37 @@
+{
+  "name": "CustomListCustomValue",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "value": {
+      "name": "value",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "abbreviation": {
+      "name": "abbreviation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "valueId": {
+      "name": "valueId",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "valueLanguageValueList": {
+      "name": "valueLanguageValueList",
+      "type": "LanguageValueList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ResourceAllocationSearchAdvanced",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "ResourceAllocationSearch",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "ResourceAllocationSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

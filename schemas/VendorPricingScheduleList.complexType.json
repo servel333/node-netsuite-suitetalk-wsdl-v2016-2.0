@@ -1,0 +1,22 @@
+{
+  "name": "VendorPricingScheduleList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "pricingSchedule": {
+      "name": "pricingSchedule",
+      "type": "VendorPricingSchedule",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

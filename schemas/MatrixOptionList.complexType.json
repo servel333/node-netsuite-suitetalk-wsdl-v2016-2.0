@@ -1,0 +1,14 @@
+{
+  "name": "MatrixOptionList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "matrixOption": {
+      "name": "matrixOption",
+      "type": "SelectCustomFieldRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

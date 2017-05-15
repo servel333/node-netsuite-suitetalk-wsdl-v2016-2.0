@@ -1,0 +1,19 @@
+{
+  "name": "SitemapPriority",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_00",
+    "_01",
+    "_02",
+    "_03",
+    "_04",
+    "_05",
+    "_06",
+    "_07",
+    "_08",
+    "_09",
+    "_10",
+    "_auto"
+  ]
+}

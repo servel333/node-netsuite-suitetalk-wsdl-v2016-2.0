@@ -1,0 +1,14 @@
+{
+  "name": "TransactionPaymentEventType",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_authorizationRequest",
+    "_captureRequest",
+    "_creditRequest",
+    "_overrideHold",
+    "_refundRequest",
+    "_saleRequest",
+    "_voidRequest"
+  ]
+}

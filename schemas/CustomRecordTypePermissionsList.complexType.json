@@ -1,0 +1,22 @@
+{
+  "name": "CustomRecordTypePermissionsList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "permissions": {
+      "name": "permissions",
+      "type": "CustomRecordTypePermissions",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

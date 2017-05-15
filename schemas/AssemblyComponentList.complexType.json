@@ -1,0 +1,22 @@
+{
+  "name": "AssemblyComponentList",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "component": {
+      "name": "component",
+      "type": "AssemblyComponent",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranInvt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

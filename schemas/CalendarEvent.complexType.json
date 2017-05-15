@@ -1,0 +1,231 @@
+{
+  "name": "CalendarEvent",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "company": {
+      "name": "company",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supportCase": {
+      "name": "supportCase",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "period": {
+      "name": "period",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "frequency": {
+      "name": "frequency",
+      "type": "RecurrenceFrequency",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "recurrenceDowMaskList": {
+      "name": "recurrenceDowMaskList",
+      "type": "RecurrenceDowMaskList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "recurrenceDow": {
+      "name": "recurrenceDow",
+      "type": "RecurrenceDow",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "recurrenceDowim": {
+      "name": "recurrenceDowim",
+      "type": "RecurrenceDowim",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "seriesStartDate": {
+      "name": "seriesStartDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endByDate": {
+      "name": "endByDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "noEndDate": {
+      "name": "noEndDate",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrence": {
+      "name": "recurrence",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allDayEvent": {
+      "name": "allDayEvent",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timedEvent": {
+      "name": "timedEvent",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reminderType": {
+      "name": "reminderType",
+      "type": "CalendarEventReminderType",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "reminderMinutes": {
+      "name": "reminderMinutes",
+      "type": "CalendarEventReminderMinutes",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "status": {
+      "name": "status",
+      "type": "CalendarEventStatus",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "CalendarEventAccessLevel",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "organizer": {
+      "name": "organizer",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exclusionDateList": {
+      "name": "exclusionDateList",
+      "type": "ExclusionDateList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "attendeeList": {
+      "name": "attendeeList",
+      "type": "CalendarEventAttendeeList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "resourceList": {
+      "name": "resourceList",
+      "type": "CalendarEventResourceList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "timeItemList": {
+      "name": "timeItemList",
+      "type": "CalendarEventTimeItemList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

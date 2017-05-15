@@ -1,0 +1,21 @@
+{
+  "name": "GetDeletedRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "getDeletedFilter": {
+      "name": "getDeletedFilter",
+      "type": "GetDeletedFilter",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

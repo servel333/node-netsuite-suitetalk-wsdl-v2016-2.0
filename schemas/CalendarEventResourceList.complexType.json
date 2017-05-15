@@ -1,0 +1,22 @@
+{
+  "name": "CalendarEventResourceList",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "resource": {
+      "name": "resource",
+      "type": "CalendarEventResource",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

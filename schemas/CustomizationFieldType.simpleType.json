@@ -1,0 +1,29 @@
+{
+  "name": "CustomizationFieldType",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_checkBox",
+    "_currency",
+    "_date",
+    "_datetime",
+    "_decimalNumber",
+    "_document",
+    "_eMailAddress",
+    "_freeFormText",
+    "_help",
+    "_hyperlink",
+    "_image",
+    "_inlineHTML",
+    "_integerNumber",
+    "_listRecord",
+    "_longText",
+    "_multipleSelect",
+    "_password",
+    "_percent",
+    "_phoneNumber",
+    "_richText",
+    "_textArea",
+    "_timeOfDay"
+  ]
+}

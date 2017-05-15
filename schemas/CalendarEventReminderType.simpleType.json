@@ -1,0 +1,10 @@
+{
+  "name": "CalendarEventReminderType",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_none",
+    "_eMail",
+    "_popupWindow"
+  ]
+}

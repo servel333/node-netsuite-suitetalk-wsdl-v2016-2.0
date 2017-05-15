@@ -1,0 +1,10 @@
+{
+  "name": "DemandPlanCalendarType",
+  "type": "simpleType",
+  "file": "transactions.demandPlanningTypes.xsd",
+  "enumeration": [
+    "_daily",
+    "_monthly",
+    "_weekly"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "CampaignResponseResponse",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_bounced",
+    "_clickedThru",
+    "_purchased",
+    "_received",
+    "_responded",
+    "_sent",
+    "_subscribed",
+    "_unsubscribed"
+  ]
+}

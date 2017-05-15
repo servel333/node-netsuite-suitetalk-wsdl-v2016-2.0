@@ -1,0 +1,19 @@
+{
+  "name": "Promotions",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "promoCode": {
+      "name": "promoCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "couponCode": {
+      "name": "couponCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

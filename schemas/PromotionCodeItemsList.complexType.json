@@ -1,0 +1,22 @@
+{
+  "name": "PromotionCodeItemsList",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "items": {
+      "name": "items",
+      "type": "PromotionCodeItems",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

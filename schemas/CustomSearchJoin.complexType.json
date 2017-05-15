@@ -1,0 +1,17 @@
+{
+  "name": "CustomSearchJoin",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "customizationRef": {
+      "name": "customizationRef",
+      "type": "CustomizationRef",
+      "typeNamespace": "platformCore"
+    },
+    "searchRecordBasic": {
+      "name": "searchRecordBasic",
+      "type": "SearchRecordBasic",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

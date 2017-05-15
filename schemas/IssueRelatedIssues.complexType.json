@@ -1,0 +1,25 @@
+{
+  "name": "IssueRelatedIssues",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "relationship": {
+      "name": "relationship",
+      "type": "IssueRelationship",
+      "minOccurs": "0",
+      "typeNamespace": "listSupportTyp"
+    },
+    "issueNumber": {
+      "name": "issueNumber",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "relationshipComment": {
+      "name": "relationshipComment",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

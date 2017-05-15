@@ -1,0 +1,13 @@
+{
+  "name": "SolutionTopics",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "topic": {
+      "name": "topic",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

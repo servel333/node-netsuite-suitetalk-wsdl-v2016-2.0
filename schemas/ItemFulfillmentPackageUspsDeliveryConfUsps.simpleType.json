@@ -1,0 +1,9 @@
+{
+  "name": "ItemFulfillmentPackageUspsDeliveryConfUsps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_deliveryConfirmation",
+    "_signatureConfirmation"
+  ]
+}

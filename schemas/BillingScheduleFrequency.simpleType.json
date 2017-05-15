@@ -1,0 +1,16 @@
+{
+  "name": "BillingScheduleFrequency",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_annually",
+    "_custom",
+    "_daily",
+    "_endOfPeriod",
+    "_monthly",
+    "_never",
+    "_oneTime",
+    "_startOfPeriod",
+    "_weekly"
+  ]
+}

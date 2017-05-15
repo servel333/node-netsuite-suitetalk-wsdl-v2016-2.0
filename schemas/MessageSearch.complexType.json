@@ -1,0 +1,105 @@
+{
+  "name": "MessageSearch",
+  "type": "complexType",
+  "file": "general.communication.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "MessageSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "attachmentsJoin": {
+      "name": "attachmentsJoin",
+      "type": "FileSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "authorJoin": {
+      "name": "authorJoin",
+      "type": "EntitySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "campaignJoin": {
+      "name": "campaignJoin",
+      "type": "CampaignSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "caseJoin": {
+      "name": "caseJoin",
+      "type": "SupportCaseSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "contactJoin": {
+      "name": "contactJoin",
+      "type": "ContactSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customerJoin": {
+      "name": "customerJoin",
+      "type": "CustomerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "employeeJoin": {
+      "name": "employeeJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "entityJoin": {
+      "name": "entityJoin",
+      "type": "EntitySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "opportunityJoin": {
+      "name": "opportunityJoin",
+      "type": "OpportunitySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "originatingLeadJoin": {
+      "name": "originatingLeadJoin",
+      "type": "OriginatingLeadSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "partnerJoin": {
+      "name": "partnerJoin",
+      "type": "PartnerSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "recipientJoin": {
+      "name": "recipientJoin",
+      "type": "EntitySearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "transactionJoin": {
+      "name": "transactionJoin",
+      "type": "TransactionSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "userJoin": {
+      "name": "userJoin",
+      "type": "EmployeeSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "vendorJoin": {
+      "name": "vendorJoin",
+      "type": "VendorSearchBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

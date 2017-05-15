@@ -1,0 +1,33 @@
+{
+  "name": "CustomerSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "CustomerSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "CustomerSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

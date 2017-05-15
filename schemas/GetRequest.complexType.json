@@ -1,0 +1,12 @@
+{
+  "name": "GetRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "baseRef": {
+      "name": "baseRef",
+      "type": "BaseRef",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

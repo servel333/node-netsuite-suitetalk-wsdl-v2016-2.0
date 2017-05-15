@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentPackageFedExPriorityAlertTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_fedexPriorityAlert",
+    "_fedexPriorityAlertPlus",
+    "_noneSelected"
+  ]
+}

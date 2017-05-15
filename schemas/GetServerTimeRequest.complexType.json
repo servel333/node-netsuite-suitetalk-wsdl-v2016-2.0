@@ -1,0 +1,5 @@
+{
+  "name": "GetServerTimeRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd"
+}

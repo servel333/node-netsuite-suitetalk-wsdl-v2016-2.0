@@ -1,0 +1,19 @@
+{
+  "name": "PromotionCodePartners",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "partner": {
+      "name": "partner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "code": {
+      "name": "code",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

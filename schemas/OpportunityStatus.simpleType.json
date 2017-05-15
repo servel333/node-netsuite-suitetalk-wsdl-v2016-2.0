@@ -1,0 +1,11 @@
+{
+  "name": "OpportunityStatus",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_closedLost",
+    "_closedWon",
+    "_inProgress",
+    "_issuedEstimate"
+  ]
+}

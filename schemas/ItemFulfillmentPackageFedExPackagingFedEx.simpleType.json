@@ -1,0 +1,14 @@
+{
+  "name": "ItemFulfillmentPackageFedExPackagingFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_fedExBox",
+    "_fedEx10kgBox",
+    "_fedEx25kgBox",
+    "_fedExEnvelope",
+    "_fedExPak",
+    "_fedExTube",
+    "_yourPackaging"
+  ]
+}

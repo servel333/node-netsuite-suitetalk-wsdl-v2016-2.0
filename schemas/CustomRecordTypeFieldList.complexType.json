@@ -1,0 +1,22 @@
+{
+  "name": "CustomRecordTypeFieldList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "customField": {
+      "name": "customField",
+      "type": "CustomRecordCustomField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

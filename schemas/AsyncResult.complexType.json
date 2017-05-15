@@ -1,0 +1,5 @@
+{
+  "name": "AsyncResult",
+  "type": "complexType",
+  "file": "platform.messages.xsd"
+}

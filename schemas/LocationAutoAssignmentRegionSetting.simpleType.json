@@ -1,0 +1,11 @@
+{
+  "name": "LocationAutoAssignmentRegionSetting",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_allowSpecifiedRegionsOnly",
+    "_allowWorldwide",
+    "_allowWorldwideExceptExcludedRegions",
+    "_disallow"
+  ]
+}

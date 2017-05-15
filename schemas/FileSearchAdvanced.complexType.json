@@ -1,0 +1,33 @@
+{
+  "name": "FileSearchAdvanced",
+  "type": "complexType",
+  "file": "documents.fileCabinet.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "FileSearch",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCab"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "FileSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCab"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

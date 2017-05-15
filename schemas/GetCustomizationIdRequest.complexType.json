@@ -1,0 +1,19 @@
+{
+  "name": "GetCustomizationIdRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "customizationType": {
+      "name": "customizationType",
+      "type": "CustomizationType",
+      "minOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "includeInactives": {
+      "name": "includeInactives",
+      "type": "boolean",
+      "minOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

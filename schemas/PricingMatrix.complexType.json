@@ -1,0 +1,22 @@
+{
+  "name": "PricingMatrix",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "pricing": {
+      "name": "pricing",
+      "type": "Pricing",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "false",
+      "typeNamespace": "xsd"
+    }
+  }
+}

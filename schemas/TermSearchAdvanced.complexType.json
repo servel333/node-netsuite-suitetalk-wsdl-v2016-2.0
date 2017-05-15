@@ -1,0 +1,33 @@
+{
+  "name": "TermSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "TermSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "TermSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

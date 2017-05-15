@@ -1,0 +1,15 @@
+{
+  "name": "PurchaseOrderOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.purchaseTypes.xsd",
+  "enumeration": [
+    "_closed",
+    "_fullyBilled",
+    "_partiallyReceived",
+    "_pendingBillingPartiallyReceived",
+    "_pendingBilling",
+    "_pendingReceipt",
+    "_pendingSupervisorApproval",
+    "_rejectedBySupervisor"
+  ]
+}

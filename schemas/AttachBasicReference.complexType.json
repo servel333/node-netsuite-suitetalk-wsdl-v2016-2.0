@@ -1,0 +1,16 @@
+{
+  "name": "AttachBasicReference",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "AttachReference",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "attachedRecord": {
+      "name": "attachedRecord",
+      "type": "BaseRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

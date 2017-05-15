@@ -1,0 +1,11 @@
+{
+  "name": "CalendarEventAttendeeResponse",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "_accepted",
+    "_declined",
+    "_noResponse",
+    "_tentative"
+  ]
+}

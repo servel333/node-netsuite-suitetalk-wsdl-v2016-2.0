@@ -1,0 +1,22 @@
+{
+  "name": "OpportunityPartnersList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "partners": {
+      "name": "partners",
+      "type": "Partners",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

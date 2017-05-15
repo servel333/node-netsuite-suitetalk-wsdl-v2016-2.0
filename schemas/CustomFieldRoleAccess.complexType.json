@@ -1,0 +1,25 @@
+{
+  "name": "CustomFieldRoleAccess",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "role": {
+      "name": "role",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "CustomizationAccessLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "searchLevel": {
+      "name": "searchLevel",
+      "type": "CustomizationSearchLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    }
+  }
+}

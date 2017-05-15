@@ -1,0 +1,43 @@
+{
+  "name": "SearchResult",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:searchRowList",
+      "minOccurs": "0",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "totalRecords": {
+      "name": "totalRecords",
+      "type": "int",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pageSize": {
+      "name": "pageSize",
+      "type": "int",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "totalPages": {
+      "name": "totalPages",
+      "type": "int",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "searchId": {
+      "name": "searchId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

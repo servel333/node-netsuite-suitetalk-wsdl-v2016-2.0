@@ -1,0 +1,30 @@
+{
+  "name": "InitializeRefType",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "assemblyItem",
+    "assemblyBuild",
+    "cashSale",
+    "creditMemo",
+    "customer",
+    "customerDeposit",
+    "employee",
+    "estimate",
+    "interCompanyTransferOrder",
+    "invoice",
+    "location",
+    "lotNumberedAssemblyItem",
+    "opportunity",
+    "purchaseOrder",
+    "purchaseRequisition",
+    "returnAuthorization",
+    "salesOrder",
+    "serializedAssemblyItem",
+    "transferOrder",
+    "vendor",
+    "vendorBill",
+    "vendorReturnAuthorization",
+    "workOrder"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "SignatureAlgorithm",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "HMAC_SHA256",
+    "HMAC_SHA1"
+  ]
+}

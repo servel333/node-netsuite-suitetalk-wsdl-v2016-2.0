@@ -1,0 +1,22 @@
+{
+  "name": "ManufacturingOperationTaskPredecessorList",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "elements": {
+    "manufacturingOperationTaskPredecessor": {
+      "name": "manufacturingOperationTaskPredecessor",
+      "type": "ManufacturingOperationTaskPredecessor",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listScm"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

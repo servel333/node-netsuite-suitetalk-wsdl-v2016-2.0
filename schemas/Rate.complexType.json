@@ -1,0 +1,19 @@
+{
+  "name": "Rate",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "value": {
+      "name": "value",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "priceLevel": {
+      "name": "priceLevel",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

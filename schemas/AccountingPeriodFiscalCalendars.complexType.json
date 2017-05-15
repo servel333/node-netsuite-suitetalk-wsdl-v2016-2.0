@@ -1,0 +1,19 @@
+{
+  "name": "AccountingPeriodFiscalCalendars",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "fiscalCalendar": {
+      "name": "fiscalCalendar",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

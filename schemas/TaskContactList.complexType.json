@@ -1,0 +1,22 @@
+{
+  "name": "TaskContactList",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "contact": {
+      "name": "contact",
+      "type": "TaskContact",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

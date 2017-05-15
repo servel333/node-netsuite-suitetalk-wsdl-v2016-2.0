@@ -1,0 +1,14 @@
+{
+  "name": "GroupMemberSearchBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "SearchRecordBasic",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "groupId": {
+      "name": "groupId",
+      "type": "RecordRef",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

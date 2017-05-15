@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentExportTypeUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_domesticExports",
+    "_foreignExports",
+    "_foreignMilitarySales"
+  ]
+}

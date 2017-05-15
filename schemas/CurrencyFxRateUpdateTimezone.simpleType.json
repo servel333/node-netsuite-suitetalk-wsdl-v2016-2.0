@@ -1,0 +1,11 @@
+{
+  "name": "CurrencyFxRateUpdateTimezone",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_americaNewYork",
+    "_asiaMagadan",
+    "_asiaTokyo",
+    "_europeParis"
+  ]
+}

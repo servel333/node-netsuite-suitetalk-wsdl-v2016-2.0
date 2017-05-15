@@ -1,0 +1,9 @@
+{
+  "name": "ItemAtpMethod",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_cumulativeAtpWithLookAhead",
+    "_discreteAtp"
+  ]
+}

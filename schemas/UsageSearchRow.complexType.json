@@ -1,0 +1,15 @@
+{
+  "name": "UsageSearchRow",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "basic": {
+      "name": "basic",
+      "type": "UsageSearchRowBasic",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "OpportunityCompetitorsList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "competitors": {
+      "name": "competitors",
+      "type": "OpportunityCompetitors",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

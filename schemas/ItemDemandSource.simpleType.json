@@ -1,0 +1,11 @@
+{
+  "name": "ItemDemandSource",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_enteredAndPlannedOrders",
+    "_forecastAndOrders",
+    "_forecastConsumption",
+    "_forecastFromDemandPlan"
+  ]
+}

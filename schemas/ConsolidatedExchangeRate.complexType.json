@@ -1,0 +1,56 @@
+{
+  "name": "ConsolidatedExchangeRate",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "period": {
+      "name": "period",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "book": {
+      "name": "book",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "fromSubsidiary": {
+      "name": "fromSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "toSubsidiary": {
+      "name": "toSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "currentRate": {
+      "name": "currentRate",
+      "type": "double",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "averageRate": {
+      "name": "averageRate",
+      "type": "double",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "historicalRate": {
+      "name": "historicalRate",
+      "type": "double",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

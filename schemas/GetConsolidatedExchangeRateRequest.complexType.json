@@ -1,0 +1,14 @@
+{
+  "name": "GetConsolidatedExchangeRateRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "consolidatedExchangeRateFilter": {
+      "name": "consolidatedExchangeRateFilter",
+      "type": "ConsolidatedExchangeRateFilter",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

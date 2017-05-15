@@ -1,0 +1,147 @@
+{
+  "name": "SiteCategory",
+  "type": "complexType",
+  "file": "lists.website.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "website": {
+      "name": "website",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemId": {
+      "name": "itemId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "parentCategory": {
+      "name": "parentCategory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "categoryListLayout": {
+      "name": "categoryListLayout",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemListLayout": {
+      "name": "itemListLayout",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "relatedItemsListLayout": {
+      "name": "relatedItemsListLayout",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "correlatedItemsListLayout": {
+      "name": "correlatedItemsListLayout",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isOnline": {
+      "name": "isOnline",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDetailedDescription": {
+      "name": "storeDetailedDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDisplayThumbnail": {
+      "name": "storeDisplayThumbnail",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "storeDisplayImage": {
+      "name": "storeDisplayImage",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "pageTitle": {
+      "name": "pageTitle",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "metaTagHtml": {
+      "name": "metaTagHtml",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "excludeFromSitemap": {
+      "name": "excludeFromSitemap",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "urlComponent": {
+      "name": "urlComponent",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "sitemapPriority": {
+      "name": "sitemapPriority",
+      "type": "SitemapPriority",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "searchKeywords": {
+      "name": "searchKeywords",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "presentationItemList": {
+      "name": "presentationItemList",
+      "type": "SiteCategoryPresentationItemList",
+      "minOccurs": "0",
+      "typeNamespace": "listSite"
+    },
+    "translationsList": {
+      "name": "translationsList",
+      "type": "SiteCategoryTranslationList",
+      "minOccurs": "0",
+      "typeNamespace": "listSite"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

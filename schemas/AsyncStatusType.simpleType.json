@@ -1,0 +1,12 @@
+{
+  "name": "AsyncStatusType",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "failed",
+    "finishedWithErrors",
+    "pending",
+    "processing",
+    "finished"
+  ]
+}

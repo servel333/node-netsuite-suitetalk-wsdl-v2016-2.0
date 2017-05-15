@@ -1,0 +1,14 @@
+{
+  "name": "GetSelectFilterByFieldValueList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "filterBy": {
+      "name": "filterBy",
+      "type": "GetSelectFilterByFieldValue",
+      "minOccurs": "1",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

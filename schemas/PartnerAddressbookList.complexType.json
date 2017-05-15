@@ -1,0 +1,22 @@
+{
+  "name": "PartnerAddressbookList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "addressbook": {
+      "name": "addressbook",
+      "type": "PartnerAddressbook",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

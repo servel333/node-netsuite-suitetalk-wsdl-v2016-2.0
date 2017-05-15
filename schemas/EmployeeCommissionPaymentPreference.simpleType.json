@@ -1,0 +1,10 @@
+{
+  "name": "EmployeeCommissionPaymentPreference",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_accountsPayable",
+    "_payroll",
+    "_systemPreference"
+  ]
+}

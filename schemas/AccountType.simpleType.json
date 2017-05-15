@@ -1,0 +1,27 @@
+{
+  "name": "AccountType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_accountsPayable",
+    "_accountsReceivable",
+    "_bank",
+    "_costOfGoodsSold",
+    "_creditCard",
+    "_deferredExpense",
+    "_deferredRevenue",
+    "_equity",
+    "_expense",
+    "_fixedAsset",
+    "_income",
+    "_longTermLiability",
+    "_nonPosting",
+    "_otherAsset",
+    "_otherCurrentAsset",
+    "_otherCurrentLiability",
+    "_otherExpense",
+    "_otherIncome",
+    "_statistical",
+    "_unbilledReceivable"
+  ]
+}

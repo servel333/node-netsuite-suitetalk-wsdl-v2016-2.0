@@ -1,0 +1,5 @@
+{
+  "name": "SearchNextRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd"
+}

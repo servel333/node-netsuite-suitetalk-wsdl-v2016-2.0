@@ -1,0 +1,22 @@
+{
+  "name": "ItemType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_assembly",
+    "_description",
+    "_discount",
+    "_downloadItem",
+    "_giftCertificateItem",
+    "_inventoryItem",
+    "_itemGroup",
+    "_kit",
+    "_markup",
+    "_nonInventoryItem",
+    "_otherCharge",
+    "_payment",
+    "_service",
+    "_subscriptionPlan",
+    "_subtotal"
+  ]
+}

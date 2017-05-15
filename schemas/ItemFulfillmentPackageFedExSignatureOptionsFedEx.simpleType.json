@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentPackageFedExSignatureOptionsFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_adult",
+    "_direct",
+    "_indirect"
+  ]
+}

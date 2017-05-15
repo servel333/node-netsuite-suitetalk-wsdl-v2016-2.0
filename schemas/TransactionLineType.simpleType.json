@@ -1,0 +1,32 @@
+{
+  "name": "TransactionLineType",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_adjustedQuantity",
+    "_advanceToApplyAmount",
+    "_billExchangeRateVariance",
+    "_billPriceVariance",
+    "_billQuantityVariance",
+    "_countQuantity",
+    "_dropshipExpense",
+    "_gainLoss",
+    "_item",
+    "_materialOverhead",
+    "_nonReimbursuableExpenseOffset",
+    "_nonReimbursuableExpenseOriginal",
+    "_productionPriceVariance",
+    "_productionQuantityVariance",
+    "_purchasePriceVariance",
+    "_receiving",
+    "_routingItem",
+    "_routingWorkInProcess",
+    "_scrap",
+    "_shipping",
+    "_snapshotQuantity",
+    "_totalBillVariance",
+    "_unbuildVariance",
+    "_workInProcess",
+    "_workInProcessVariance"
+  ]
+}

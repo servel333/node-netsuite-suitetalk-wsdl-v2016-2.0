@@ -1,0 +1,12 @@
+{
+  "name": "PermissionLevel",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_create",
+    "_edit",
+    "_full",
+    "_none",
+    "_view"
+  ]
+}

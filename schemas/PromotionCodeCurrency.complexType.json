@@ -1,0 +1,19 @@
+{
+  "name": "PromotionCodeCurrency",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "minimumOrderAmount": {
+      "name": "minimumOrderAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

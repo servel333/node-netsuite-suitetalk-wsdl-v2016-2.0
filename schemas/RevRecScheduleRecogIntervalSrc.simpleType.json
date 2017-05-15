@@ -1,0 +1,11 @@
+{
+  "name": "RevRecScheduleRecogIntervalSrc",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_revRecDatesSpecifiedOnTransaction",
+    "_billingScheduleTranDateOnSalesOrder",
+    "_billingScheduleRevRecDateOnSalesOrder",
+    "_revRecDatesSpecifiedOnSalesOrder"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "EmployeeDirectDepositAccountStatus",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_active",
+    "_pending",
+    "_verifying",
+    "_failed",
+    "_inactive"
+  ]
+}

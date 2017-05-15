@@ -1,0 +1,10 @@
+{
+  "name": "ItemSupplyPlanOrderType",
+  "type": "simpleType",
+  "file": "transactions.demandPlanningTypes.xsd",
+  "enumeration": [
+    "_purchaseOrder",
+    "_transferOrder",
+    "_workOrder"
+  ]
+}

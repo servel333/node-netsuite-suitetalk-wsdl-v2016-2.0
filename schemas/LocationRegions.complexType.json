@@ -1,0 +1,13 @@
+{
+  "name": "LocationRegions",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "region": {
+      "name": "region",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

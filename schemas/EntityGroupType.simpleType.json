@@ -1,0 +1,12 @@
+{
+  "name": "EntityGroupType",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_contact",
+    "_customer",
+    "_employee",
+    "_partner",
+    "_vendor"
+  ]
+}

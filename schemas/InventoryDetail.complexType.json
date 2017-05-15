@@ -1,0 +1,21 @@
+{
+  "name": "InventoryDetail",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "inventoryAssignmentList": {
+      "name": "inventoryAssignmentList",
+      "type": "InventoryAssignmentList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

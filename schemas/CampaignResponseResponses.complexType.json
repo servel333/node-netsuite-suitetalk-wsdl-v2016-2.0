@@ -1,0 +1,31 @@
+{
+  "name": "CampaignResponseResponses",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "response": {
+      "name": "response",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "responseDate": {
+      "name": "responseDate",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "author": {
+      "name": "author",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "note": {
+      "name": "note",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

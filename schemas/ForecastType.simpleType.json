@@ -1,0 +1,11 @@
+{
+  "name": "ForecastType",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_omitted",
+    "_worstCase",
+    "_mostLikely",
+    "_upside"
+  ]
+}

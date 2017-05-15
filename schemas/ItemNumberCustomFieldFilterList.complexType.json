@@ -1,0 +1,22 @@
+{
+  "name": "ItemNumberCustomFieldFilterList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "filter": {
+      "name": "filter",
+      "type": "ItemNumberCustomFieldFilter",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

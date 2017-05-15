@@ -1,0 +1,22 @@
+{
+  "name": "InventoryItemBinNumberList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "binNumber": {
+      "name": "binNumber",
+      "type": "InventoryItemBinNumber",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

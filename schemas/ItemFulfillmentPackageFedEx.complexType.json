@@ -1,0 +1,157 @@
+{
+  "name": "ItemFulfillmentPackageFedEx",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "packageWeightFedEx": {
+      "name": "packageWeightFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dryIceWeightFedEx": {
+      "name": "dryIceWeightFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageTrackingNumberFedEx": {
+      "name": "packageTrackingNumberFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packagingFedEx": {
+      "name": "packagingFedEx",
+      "type": "ItemFulfillmentPackageFedExPackagingFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "admPackageTypeFedEx": {
+      "name": "admPackageTypeFedEx",
+      "type": "ItemFulfillmentPackageFedExAdmPackageTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "isNonStandardContainerFedEx": {
+      "name": "isNonStandardContainerFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isAlcoholFedEx": {
+      "name": "isAlcoholFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "alcoholRecipientTypeFedEx": {
+      "name": "alcoholRecipientTypeFedEx",
+      "type": "AlcoholRecipientType",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "isNonHazLithiumFedEx": {
+      "name": "isNonHazLithiumFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insuredValueFedEx": {
+      "name": "insuredValueFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "useInsuredValueFedEx": {
+      "name": "useInsuredValueFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reference1FedEx": {
+      "name": "reference1FedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "priorityAlertTypeFedEx": {
+      "name": "priorityAlertTypeFedEx",
+      "type": "ItemFulfillmentPackageFedExPriorityAlertTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "priorityAlertContentFedEx": {
+      "name": "priorityAlertContentFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageLengthFedEx": {
+      "name": "packageLengthFedEx",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageWidthFedEx": {
+      "name": "packageWidthFedEx",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageHeightFedEx": {
+      "name": "packageHeightFedEx",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "useCodFedEx": {
+      "name": "useCodFedEx",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "codAmountFedEx": {
+      "name": "codAmountFedEx",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "codMethodFedEx": {
+      "name": "codMethodFedEx",
+      "type": "ItemFulfillmentPackageFedExCodMethodFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "codFreightTypeFedEx": {
+      "name": "codFreightTypeFedEx",
+      "type": "ItemFulfillmentPackageFedExCodFreightTypeFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "deliveryConfFedEx": {
+      "name": "deliveryConfFedEx",
+      "type": "ItemFulfillmentPackageFedExDeliveryConfFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "signatureOptionsFedEx": {
+      "name": "signatureOptionsFedEx",
+      "type": "ItemFulfillmentPackageFedExSignatureOptionsFedEx",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "signatureReleaseFedEx": {
+      "name": "signatureReleaseFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "authorizationNumberFedEx": {
+      "name": "authorizationNumberFedEx",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

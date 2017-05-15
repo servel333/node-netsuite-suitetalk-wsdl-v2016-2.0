@@ -1,0 +1,22 @@
+{
+  "name": "TimeSheetTimeGridList",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "elements": {
+    "timeSheetTimeGrid": {
+      "name": "timeSheetTimeGrid",
+      "type": "TimeSheetTimeGrid",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranEmp"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

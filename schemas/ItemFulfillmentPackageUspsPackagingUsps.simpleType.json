@@ -1,0 +1,16 @@
+{
+  "name": "ItemFulfillmentPackageUspsPackagingUsps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_parcel",
+    "_flatRateBox",
+    "_flatRateEnvelope",
+    "_smallFlatRateBox",
+    "_mediumFlatRateBox",
+    "_largeFlatRateBox",
+    "_irregularPackage",
+    "_largePackage",
+    "_oversizedPackage"
+  ]
+}

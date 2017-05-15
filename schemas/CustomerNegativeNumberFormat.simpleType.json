@@ -1,0 +1,9 @@
+{
+  "name": "CustomerNegativeNumberFormat",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_bracketSurrounded",
+    "_minusSigned"
+  ]
+}

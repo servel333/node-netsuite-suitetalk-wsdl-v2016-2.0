@@ -1,0 +1,13 @@
+{
+  "name": "EmailEmployeesList",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "emailEmployees": {
+      "name": "emailEmployees",
+      "type": "RecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

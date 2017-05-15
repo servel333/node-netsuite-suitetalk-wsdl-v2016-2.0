@@ -1,0 +1,25 @@
+{
+  "name": "CustomFieldDepartmentAccess",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "dept": {
+      "name": "dept",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "CustomizationAccessLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "searchLevel": {
+      "name": "searchLevel",
+      "type": "CustomizationSearchLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    }
+  }
+}

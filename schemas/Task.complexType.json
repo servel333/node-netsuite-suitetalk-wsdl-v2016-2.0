@@ -1,0 +1,219 @@
+{
+  "name": "Task",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "company": {
+      "name": "company",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "supportCase": {
+      "name": "supportCase",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "milestone": {
+      "name": "milestone",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "assigned": {
+      "name": "assigned",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "timedEvent": {
+      "name": "timedEvent",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedTime": {
+      "name": "estimatedTime",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedTimeOverride": {
+      "name": "estimatedTimeOverride",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "actualTime": {
+      "name": "actualTime",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "timeRemaining": {
+      "name": "timeRemaining",
+      "type": "Duration",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "percentTimeComplete": {
+      "name": "percentTimeComplete",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "percentComplete": {
+      "name": "percentComplete",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dueDate": {
+      "name": "dueDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "completedDate": {
+      "name": "completedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "priority": {
+      "name": "priority",
+      "type": "TaskPriority",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "status": {
+      "name": "status",
+      "type": "TaskStatus",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reminderType": {
+      "name": "reminderType",
+      "type": "TaskReminderType",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "reminderMinutes": {
+      "name": "reminderMinutes",
+      "type": "TaskReminderMinutes",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contactList": {
+      "name": "contactList",
+      "type": "TaskContactList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "timeItemList": {
+      "name": "timeItemList",
+      "type": "TaskTimeItemList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

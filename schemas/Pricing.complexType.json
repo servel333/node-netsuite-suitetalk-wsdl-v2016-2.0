@@ -1,0 +1,31 @@
+{
+  "name": "Pricing",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "priceLevel": {
+      "name": "priceLevel",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "discount": {
+      "name": "discount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "priceList": {
+      "name": "priceList",
+      "type": "PriceList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  }
+}

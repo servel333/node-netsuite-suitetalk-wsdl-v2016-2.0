@@ -1,0 +1,19 @@
+{
+  "name": "SessionResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:wsRoleList",
+      "minOccurs": "0",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "userId": {
+      "name": "userId",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

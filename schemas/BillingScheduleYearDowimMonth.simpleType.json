@@ -1,0 +1,19 @@
+{
+  "name": "BillingScheduleYearDowimMonth",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_january",
+    "_february",
+    "_march",
+    "_april",
+    "_may",
+    "_june",
+    "_july",
+    "_august",
+    "_september",
+    "_october",
+    "_november",
+    "_december"
+  ]
+}

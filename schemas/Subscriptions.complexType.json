@@ -1,0 +1,25 @@
+{
+  "name": "Subscriptions",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "subscribed": {
+      "name": "subscribed",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subscription": {
+      "name": "subscription",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

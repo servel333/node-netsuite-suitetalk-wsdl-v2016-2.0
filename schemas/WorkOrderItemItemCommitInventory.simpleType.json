@@ -1,0 +1,10 @@
+{
+  "name": "WorkOrderItemItemCommitInventory",
+  "type": "simpleType",
+  "file": "transactions.inventoryTypes.xsd",
+  "enumeration": [
+    "_availableQty",
+    "_completeQty",
+    "_doNotCommit"
+  ]
+}

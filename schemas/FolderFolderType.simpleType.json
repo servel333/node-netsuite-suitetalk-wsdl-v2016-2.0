@@ -1,0 +1,24 @@
+{
+  "name": "FolderFolderType",
+  "type": "simpleType",
+  "file": "documents.fileCabinetTypes.xsd",
+  "enumeration": [
+    "_appPackages",
+    "_attachmentsReceived",
+    "_attachmentsSent",
+    "_certificates",
+    "_documentsAndFiles",
+    "_emailTemplates",
+    "_faxTemplates",
+    "_images",
+    "_letterTemplates",
+    "_mailMerge",
+    "_marketingTemplates",
+    "_pdfTemplates",
+    "_suitebundles",
+    "_suitecommerceAdvancedSiteTemplates",
+    "_suitescripts",
+    "_templates",
+    "_webSiteHostingFiles"
+  ]
+}

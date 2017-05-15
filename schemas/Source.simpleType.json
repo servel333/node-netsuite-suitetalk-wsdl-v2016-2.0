@@ -1,0 +1,22 @@
+{
+  "name": "Source",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_adp",
+    "_automatedMemorizedTransaction",
+    "_csv",
+    "_customerCenter",
+    "_ebay",
+    "_mobile",
+    "_offlineClient",
+    "_perquest",
+    "_qif",
+    "_quickbooks",
+    "_smbxml",
+    "_sync",
+    "_web",
+    "_webServices",
+    "_yahoo"
+  ]
+}

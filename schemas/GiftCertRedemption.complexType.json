@@ -1,0 +1,31 @@
+{
+  "name": "GiftCertRedemption",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "authCode": {
+      "name": "authCode",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "authCodeApplied": {
+      "name": "authCodeApplied",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "authCodeAmtRemaining": {
+      "name": "authCodeAmtRemaining",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "giftCertAvailable": {
+      "name": "giftCertAvailable",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "WorkOrderIssueComponent",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "operationSequenceNumber": {
+      "name": "operationSequenceNumber",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantity": {
+      "name": "quantity",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "componentInventoryDetail": {
+      "name": "componentInventoryDetail",
+      "type": "InventoryDetail",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "lineNumber": {
+      "name": "lineNumber",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

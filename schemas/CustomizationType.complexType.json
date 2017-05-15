@@ -1,0 +1,12 @@
+{
+  "name": "CustomizationType",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "attributes": {
+    "getCustomizationType": {
+      "name": "getCustomizationType",
+      "type": "GetCustomizationType",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

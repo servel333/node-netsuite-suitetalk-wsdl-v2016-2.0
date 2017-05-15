@@ -1,0 +1,22 @@
+{
+  "name": "JobPercentCompleteOverrideList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "jobPercentCompleteOverride": {
+      "name": "jobPercentCompleteOverride",
+      "type": "JobPercentCompleteOverride",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

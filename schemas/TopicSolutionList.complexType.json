@@ -1,0 +1,22 @@
+{
+  "name": "TopicSolutionList",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "elements": {
+    "solution": {
+      "name": "solution",
+      "type": "TopicSolution",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listSupport"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

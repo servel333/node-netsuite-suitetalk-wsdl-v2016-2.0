@@ -1,0 +1,13 @@
+{
+  "name": "ItemCostingMethod",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_average",
+    "_fifo",
+    "_lifo",
+    "_lotNumbered",
+    "_serialized",
+    "_standard"
+  ]
+}

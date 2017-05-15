@@ -1,0 +1,37 @@
+{
+  "name": "JobMilestones",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "milestoneName": {
+      "name": "milestoneName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneOrder": {
+      "name": "milestoneOrder",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneEstComplete": {
+      "name": "milestoneEstComplete",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneCompleted": {
+      "name": "milestoneCompleted",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "milestoneComments": {
+      "name": "milestoneComments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

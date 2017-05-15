@@ -1,0 +1,19 @@
+{
+  "name": "SubsidiaryNexus",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "nexusId": {
+      "name": "nexusId",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "country": {
+      "name": "country",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

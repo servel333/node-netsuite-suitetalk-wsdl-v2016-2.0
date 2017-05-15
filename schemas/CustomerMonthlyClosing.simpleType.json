@@ -1,0 +1,14 @@
+{
+  "name": "CustomerMonthlyClosing",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_one",
+    "_five",
+    "_ten",
+    "_fifteen",
+    "_twenty",
+    "_twentyFive",
+    "_endOfTheMonth"
+  ]
+}

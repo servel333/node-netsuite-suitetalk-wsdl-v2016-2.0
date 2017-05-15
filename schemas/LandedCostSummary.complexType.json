@@ -1,0 +1,31 @@
+{
+  "name": "LandedCostSummary",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "source": {
+      "name": "source",
+      "type": "LandedCostSource",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "transaction": {
+      "name": "transaction",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

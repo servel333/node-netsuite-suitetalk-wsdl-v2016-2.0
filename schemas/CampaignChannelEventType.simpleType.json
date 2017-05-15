@@ -1,0 +1,11 @@
+{
+  "name": "CampaignChannelEventType",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_directMail",
+    "_email",
+    "_integration",
+    "_other"
+  ]
+}

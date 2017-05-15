@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnDateCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

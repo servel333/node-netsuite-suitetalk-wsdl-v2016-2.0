@@ -1,0 +1,13 @@
+{
+  "name": "FldFilterSelList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "fldFilterSel": {
+      "name": "fldFilterSel",
+      "type": "RecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

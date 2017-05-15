@@ -1,0 +1,13 @@
+{
+  "name": "CustomerNumberFormat",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_spaceAsDigitGroupSeparatorAndDecimalComma",
+    "_spaceAsDigitGroupSeparatorAndDecimalPoint",
+    "_commaAsDigitGroupSeparatorAndDecimalPoint",
+    "_pointAsDigitGroupSeparatorAndDecimalComma",
+    "_apostropheAsDigitGroupSeparatorAndDecimalComma",
+    "_apostropheAsDigitGroupSeparatorAndDecimalPoint"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "InitializeRefList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "initializeRef": {
+      "name": "initializeRef",
+      "type": "InitializeRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

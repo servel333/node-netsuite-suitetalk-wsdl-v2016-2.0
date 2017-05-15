@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnLongCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

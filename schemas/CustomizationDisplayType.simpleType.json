@@ -1,0 +1,12 @@
+{
+  "name": "CustomizationDisplayType",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_disabled",
+    "_hidden",
+    "_inlineText",
+    "_normal",
+    "_showAsList"
+  ]
+}

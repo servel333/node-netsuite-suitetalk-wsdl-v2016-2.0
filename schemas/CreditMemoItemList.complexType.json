@@ -1,0 +1,22 @@
+{
+  "name": "CreditMemoItemList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "CreditMemoItem",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

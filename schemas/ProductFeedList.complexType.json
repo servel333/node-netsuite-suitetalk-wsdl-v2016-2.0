@@ -1,0 +1,13 @@
+{
+  "name": "ProductFeedList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "productFeed": {
+      "name": "productFeed",
+      "type": "ItemProductFeed",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcctTyp"
+    }
+  }
+}

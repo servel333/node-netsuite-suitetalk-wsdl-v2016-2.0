@@ -1,0 +1,9 @@
+{
+  "name": "EmployeeUseTimeData",
+  "type": "simpleType",
+  "file": "lists.employeeTypes.xsd",
+  "enumeration": [
+    "_wage",
+    "_salary"
+  ]
+}

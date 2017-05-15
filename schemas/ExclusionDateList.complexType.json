@@ -1,0 +1,13 @@
+{
+  "name": "ExclusionDateList",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "exclusionDate": {
+      "name": "exclusionDate",
+      "type": "dateTime",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "InitializeType",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "assemblyBuild",
+    "assemblyUnbuild",
+    "binWorksheet",
+    "cashRefund",
+    "cashSale",
+    "creditMemo",
+    "customerPayment",
+    "customerRefund",
+    "depositApplication",
+    "estimate",
+    "invoice",
+    "itemFulfillment",
+    "itemReceipt",
+    "inventoryTransfer",
+    "purchaseOrder",
+    "returnAuthorization",
+    "salesOrder",
+    "vendorBill",
+    "vendorCredit",
+    "vendorReturnAuthorization",
+    "vendorPayment",
+    "workOrder",
+    "workOrderIssue",
+    "workOrderCompletion",
+    "workOrderClose"
+  ]
+}

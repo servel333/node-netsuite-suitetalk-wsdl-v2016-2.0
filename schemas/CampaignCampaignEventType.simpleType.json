@@ -1,0 +1,13 @@
+{
+  "name": "CampaignCampaignEventType",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_default",
+    "_directMail",
+    "_email",
+    "_integration",
+    "_leadNurturingEmail",
+    "_other"
+  ]
+}

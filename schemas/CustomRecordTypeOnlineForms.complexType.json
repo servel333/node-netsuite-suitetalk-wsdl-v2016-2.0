@@ -1,0 +1,25 @@
+{
+  "name": "CustomRecordTypeOnlineForms",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "onlineFormName": {
+      "name": "onlineFormName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isOnline": {
+      "name": "isOnline",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "templateName": {
+      "name": "templateName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

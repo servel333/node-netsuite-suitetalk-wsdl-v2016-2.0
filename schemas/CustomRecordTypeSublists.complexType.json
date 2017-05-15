@@ -1,0 +1,37 @@
+{
+  "name": "CustomRecordTypeSublists",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "recordSearch": {
+      "name": "recordSearch",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "recordDescr": {
+      "name": "recordDescr",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recordDescrLanguageValueList": {
+      "name": "recordDescrLanguageValueList",
+      "type": "LanguageValueList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "recordTab": {
+      "name": "recordTab",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "recordId": {
+      "name": "recordId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

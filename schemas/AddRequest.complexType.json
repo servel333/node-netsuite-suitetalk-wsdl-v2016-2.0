@@ -1,0 +1,12 @@
+{
+  "name": "AddRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "record": {
+      "name": "record",
+      "type": "Record",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

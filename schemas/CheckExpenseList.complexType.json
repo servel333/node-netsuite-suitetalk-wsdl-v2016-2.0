@@ -1,0 +1,22 @@
+{
+  "name": "CheckExpenseList",
+  "type": "complexType",
+  "file": "transactions.bank.xsd",
+  "elements": {
+    "expense": {
+      "name": "expense",
+      "type": "CheckExpense",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranBank"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

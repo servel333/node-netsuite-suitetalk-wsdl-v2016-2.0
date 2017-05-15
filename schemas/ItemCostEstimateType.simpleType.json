@@ -1,0 +1,15 @@
+{
+  "name": "ItemCostEstimateType",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_averageCost",
+    "_custom",
+    "_derivedFromMemberItems",
+    "_itemDefinedCost",
+    "_lastPurchasePrice",
+    "_preferredVendorRate",
+    "_purchaseOrderRate",
+    "_purchasePrice"
+  ]
+}

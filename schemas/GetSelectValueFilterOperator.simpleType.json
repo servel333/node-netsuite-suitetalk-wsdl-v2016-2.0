@@ -1,0 +1,10 @@
+{
+  "name": "GetSelectValueFilterOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "contains",
+    "is",
+    "startsWith"
+  ]
+}

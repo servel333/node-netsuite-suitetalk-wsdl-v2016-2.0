@@ -1,0 +1,25 @@
+{
+  "name": "CustomRecordTypeLinks",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "linkCenter": {
+      "name": "linkCenter",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "linkSection": {
+      "name": "linkSection",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "linkLabel": {
+      "name": "linkLabel",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

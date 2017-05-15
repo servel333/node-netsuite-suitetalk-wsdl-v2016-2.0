@@ -1,0 +1,49 @@
+{
+  "name": "TimeSheetTimeGrid",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "elements": {
+    "sunday": {
+      "name": "sunday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "monday": {
+      "name": "monday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "tuesday": {
+      "name": "tuesday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "wednesday": {
+      "name": "wednesday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "thursday": {
+      "name": "thursday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "friday": {
+      "name": "friday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "saturday": {
+      "name": "saturday",
+      "type": "TimeEntry",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    }
+  }
+}

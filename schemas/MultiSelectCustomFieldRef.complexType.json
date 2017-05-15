@@ -1,0 +1,15 @@
+{
+  "name": "MultiSelectCustomFieldRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "CustomFieldRef",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "value": {
+      "name": "value",
+      "type": "ListOrRecordRef",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

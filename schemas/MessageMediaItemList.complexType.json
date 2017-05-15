@@ -1,0 +1,21 @@
+{
+  "name": "MessageMediaItemList",
+  "type": "complexType",
+  "file": "general.communication.xsd",
+  "elements": {
+    "mediaItem": {
+      "name": "mediaItem",
+      "type": "File",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "docFileCab"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

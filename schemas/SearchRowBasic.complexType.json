@@ -1,0 +1,7 @@
+{
+  "name": "SearchRowBasic",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchRow",
+  "extendsNamespace": "platformCore"
+}

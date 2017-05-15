@@ -1,0 +1,12 @@
+{
+  "name": "CustomRecordTypePermissionsPermittedLevel",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_create",
+    "_edit",
+    "_full",
+    "_none",
+    "_view"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DoubleCustomFieldRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "CustomFieldRef",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "value": {
+      "name": "value",
+      "type": "double",
+      "typeNamespace": "xsd"
+    }
+  }
+}

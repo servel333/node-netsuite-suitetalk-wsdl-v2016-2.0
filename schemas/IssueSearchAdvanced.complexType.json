@@ -1,0 +1,33 @@
+{
+  "name": "IssueSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.support.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "IssueSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "IssueSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listSupport"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

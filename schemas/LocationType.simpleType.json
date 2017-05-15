@@ -1,0 +1,9 @@
+{
+  "name": "LocationType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_store",
+    "_warehouse"
+  ]
+}

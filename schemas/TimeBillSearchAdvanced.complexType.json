@@ -1,0 +1,33 @@
+{
+  "name": "TimeBillSearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.employees.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "TimeBillSearch",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "TimeBillSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "tranEmp"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

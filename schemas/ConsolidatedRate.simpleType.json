@@ -1,0 +1,10 @@
+{
+  "name": "ConsolidatedRate",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_average",
+    "_current",
+    "_historical"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "SearchColumnMultiSelectCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "ListOrRecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

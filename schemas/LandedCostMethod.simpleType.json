@@ -1,0 +1,11 @@
+{
+  "name": "LandedCostMethod",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_quantity",
+    "_value",
+    "_weight",
+    "_line"
+  ]
+}

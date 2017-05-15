@@ -1,0 +1,25 @@
+{
+  "name": "EmployeeHrEducation",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "education": {
+      "name": "education",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "degree": {
+      "name": "degree",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "degreeDate": {
+      "name": "degreeDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

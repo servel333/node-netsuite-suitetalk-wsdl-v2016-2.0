@@ -1,0 +1,22 @@
+{
+  "name": "CustomFieldRoleAccessList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "roleAccess": {
+      "name": "roleAccess",
+      "type": "CustomFieldRoleAccess",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

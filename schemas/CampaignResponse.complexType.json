@@ -1,0 +1,69 @@
+{
+  "name": "CampaignResponse",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "entity": {
+      "name": "entity",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "leadSource": {
+      "name": "leadSource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "campaignEvent": {
+      "name": "campaignEvent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "campaignResponseDate": {
+      "name": "campaignResponseDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "channel": {
+      "name": "channel",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "response": {
+      "name": "response",
+      "type": "CampaignResponseResponse",
+      "minOccurs": "0",
+      "typeNamespace": "listMktTyp"
+    },
+    "note": {
+      "name": "note",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "responsesList": {
+      "name": "responsesList",
+      "type": "CampaignResponseResponsesList",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

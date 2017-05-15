@@ -1,0 +1,28 @@
+{
+  "name": "GetSelectFilterByFieldValue",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "sublist": {
+      "name": "sublist",
+      "type": "string",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "field": {
+      "name": "field",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

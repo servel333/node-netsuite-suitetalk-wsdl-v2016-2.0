@@ -1,0 +1,9 @@
+{
+  "name": "ProjectTaskConstraintType",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_asSoonAsPossible",
+    "_fixedStart"
+  ]
+}

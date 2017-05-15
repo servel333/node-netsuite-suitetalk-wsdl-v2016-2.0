@@ -1,0 +1,25 @@
+{
+  "name": "JobPercentCompleteOverride",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "period": {
+      "name": "period",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "percent": {
+      "name": "percent",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

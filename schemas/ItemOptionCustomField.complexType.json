@@ -1,0 +1,268 @@
+{
+  "name": "ItemOptionCustomField",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "extends": "CustomFieldType",
+  "extendsNamespace": "setupCustom",
+  "elements": {
+    "label": {
+      "name": "label",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "selectRecordType": {
+      "name": "selectRecordType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "storeValue": {
+      "name": "storeValue",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insertBefore": {
+      "name": "insertBefore",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "displayType": {
+      "name": "displayType",
+      "type": "CustomizationDisplayType",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "displayWidth": {
+      "name": "displayWidth",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displayHeight": {
+      "name": "displayHeight",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "help": {
+      "name": "help",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "linkText": {
+      "name": "linkText",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isMandatory": {
+      "name": "isMandatory",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "maxLength": {
+      "name": "maxLength",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "minValue": {
+      "name": "minValue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "maxValue": {
+      "name": "maxValue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultChecked": {
+      "name": "defaultChecked",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultValue": {
+      "name": "defaultValue",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isFormula": {
+      "name": "isFormula",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultSelection": {
+      "name": "defaultSelection",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "dynamicDefault": {
+      "name": "dynamicDefault",
+      "type": "CustomizationDynamicDefault",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "searchDefault": {
+      "name": "searchDefault",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "searchCompareField": {
+      "name": "searchCompareField",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sourceList": {
+      "name": "sourceList",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sourceFrom": {
+      "name": "sourceFrom",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sourceFilterBy": {
+      "name": "sourceFilterBy",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "colPurchase": {
+      "name": "colPurchase",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colSale": {
+      "name": "colSale",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colOpportunity": {
+      "name": "colOpportunity",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colStore": {
+      "name": "colStore",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colStoreHidden": {
+      "name": "colStoreHidden",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colTransferOrder": {
+      "name": "colTransferOrder",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "colAllItems": {
+      "name": "colAllItems",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "itemsList": {
+      "name": "itemsList",
+      "type": "ItemsList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "colKitItem": {
+      "name": "colKitItem",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "filterList": {
+      "name": "filterList",
+      "type": "ItemOptionCustomFieldFilterList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "colOptionLabel": {
+      "name": "colOptionLabel",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accessLevel": {
+      "name": "accessLevel",
+      "type": "CustomizationAccessLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "searchLevel": {
+      "name": "searchLevel",
+      "type": "CustomizationSearchLevel",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "roleAccessList": {
+      "name": "roleAccessList",
+      "type": "CustomFieldRoleAccessList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "deptAccessList": {
+      "name": "deptAccessList",
+      "type": "CustomFieldDepartmentAccessList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "subAccessList": {
+      "name": "subAccessList",
+      "type": "CustomFieldSubAccessList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "translationsList": {
+      "name": "translationsList",
+      "type": "CustomFieldTranslationsList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

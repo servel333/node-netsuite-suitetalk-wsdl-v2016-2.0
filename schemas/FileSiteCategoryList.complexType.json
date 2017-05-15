@@ -1,0 +1,22 @@
+{
+  "name": "FileSiteCategoryList",
+  "type": "complexType",
+  "file": "documents.fileCabinet.xsd",
+  "elements": {
+    "siteCategory": {
+      "name": "siteCategory",
+      "type": "FileSiteCategory",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "docFileCab"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

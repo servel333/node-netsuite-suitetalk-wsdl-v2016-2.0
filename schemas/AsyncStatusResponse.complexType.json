@@ -1,0 +1,12 @@
+{
+  "name": "AsyncStatusResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:asyncStatusResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

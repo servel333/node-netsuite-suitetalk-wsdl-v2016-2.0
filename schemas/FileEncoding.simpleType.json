@@ -1,0 +1,11 @@
+{
+  "name": "FileEncoding",
+  "type": "simpleType",
+  "file": "documents.fileCabinetTypes.xsd",
+  "enumeration": [
+    "_autoDetect",
+    "_shiftJis",
+    "_utf8",
+    "_windows1252"
+  ]
+}

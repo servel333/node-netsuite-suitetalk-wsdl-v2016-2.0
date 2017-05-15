@@ -1,0 +1,22 @@
+{
+  "name": "CustomerPaymentCreditList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "credit": {
+      "name": "credit",
+      "type": "CustomerPaymentCredit",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

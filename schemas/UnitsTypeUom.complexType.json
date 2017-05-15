@@ -1,0 +1,49 @@
+{
+  "name": "UnitsTypeUom",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unitName": {
+      "name": "unitName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pluralName": {
+      "name": "pluralName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "abbreviation": {
+      "name": "abbreviation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pluralAbbreviation": {
+      "name": "pluralAbbreviation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "conversionRate": {
+      "name": "conversionRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "baseUnit": {
+      "name": "baseUnit",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

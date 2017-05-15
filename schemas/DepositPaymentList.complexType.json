@@ -1,0 +1,22 @@
+{
+  "name": "DepositPaymentList",
+  "type": "complexType",
+  "file": "transactions.bank.xsd",
+  "elements": {
+    "depositPayment": {
+      "name": "depositPayment",
+      "type": "DepositPayment",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranBank"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

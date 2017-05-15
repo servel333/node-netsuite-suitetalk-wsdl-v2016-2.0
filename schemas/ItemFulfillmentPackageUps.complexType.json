@@ -1,0 +1,103 @@
+{
+  "name": "ItemFulfillmentPackageUps",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "packageWeightUps": {
+      "name": "packageWeightUps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageDescrUps": {
+      "name": "packageDescrUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageTrackingNumberUps": {
+      "name": "packageTrackingNumberUps",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packagingUps": {
+      "name": "packagingUps",
+      "type": "ItemFulfillmentPackageUpsPackagingUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "useInsuredValueUps": {
+      "name": "useInsuredValueUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "insuredValueUps": {
+      "name": "insuredValueUps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reference1Ups": {
+      "name": "reference1Ups",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reference2Ups": {
+      "name": "reference2Ups",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageLengthUps": {
+      "name": "packageLengthUps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageWidthUps": {
+      "name": "packageWidthUps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "packageHeightUps": {
+      "name": "packageHeightUps",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "additionalHandlingUps": {
+      "name": "additionalHandlingUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "useCodUps": {
+      "name": "useCodUps",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "codAmountUps": {
+      "name": "codAmountUps",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "codMethodUps": {
+      "name": "codMethodUps",
+      "type": "ItemFulfillmentPackageUpsCodMethodUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    },
+    "deliveryConfUps": {
+      "name": "deliveryConfUps",
+      "type": "ItemFulfillmentPackageUpsDeliveryConfUps",
+      "minOccurs": "0",
+      "typeNamespace": "tranSalesTyp"
+    }
+  }
+}

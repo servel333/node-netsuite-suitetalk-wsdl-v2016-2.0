@@ -1,0 +1,22 @@
+{
+  "name": "GetSelectValueFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "filterValue": {
+      "name": "filterValue",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "GetSelectValueFilterOperator",
+      "use": "required",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

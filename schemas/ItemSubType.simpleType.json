@@ -1,0 +1,10 @@
+{
+  "name": "ItemSubType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_forPurchase",
+    "_forResale",
+    "_forSale"
+  ]
+}

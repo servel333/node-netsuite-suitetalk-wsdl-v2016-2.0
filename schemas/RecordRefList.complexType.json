@@ -1,0 +1,14 @@
+{
+  "name": "RecordRefList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "recordRef": {
+      "name": "recordRef",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

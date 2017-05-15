@@ -1,0 +1,14 @@
+{
+  "name": "RecurrenceDow",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_sunday",
+    "_monday",
+    "_tuesday",
+    "_wednesday",
+    "_thursday",
+    "_friday",
+    "_saturday"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "ResourceAllocation",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "requestedby": {
+      "name": "requestedby",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "approvalStatus": {
+      "name": "approvalStatus",
+      "type": "ResourceAllocationApprovalStatus",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "nextApprover": {
+      "name": "nextApprover",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "allocationResource": {
+      "name": "allocationResource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "project": {
+      "name": "project",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "notes": {
+      "name": "notes",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allocationAmount": {
+      "name": "allocationAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allocationUnit": {
+      "name": "allocationUnit",
+      "type": "ResourceAllocationAllocationUnit",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "numberHours": {
+      "name": "numberHours",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "percentOfTime": {
+      "name": "percentOfTime",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "allocationType": {
+      "name": "allocationType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

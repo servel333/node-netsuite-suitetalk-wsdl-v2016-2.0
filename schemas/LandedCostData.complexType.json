@@ -1,0 +1,19 @@
+{
+  "name": "LandedCostData",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "costCategory": {
+      "name": "costCategory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

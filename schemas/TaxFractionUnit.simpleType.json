@@ -1,0 +1,12 @@
+{
+  "name": "TaxFractionUnit",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_001andBelow",
+    "_01andBelow",
+    "_100andBelow",
+    "_10andBelow",
+    "_1andBelow"
+  ]
+}

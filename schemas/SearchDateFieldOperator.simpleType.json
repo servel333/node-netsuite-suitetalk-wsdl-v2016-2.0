@@ -1,0 +1,21 @@
+{
+  "name": "SearchDateFieldOperator",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "after",
+    "before",
+    "empty",
+    "notAfter",
+    "notBefore",
+    "notEmpty",
+    "notOn",
+    "notOnOrAfter",
+    "notOnOrBefore",
+    "notWithin",
+    "on",
+    "onOrAfter",
+    "onOrBefore",
+    "within"
+  ]
+}

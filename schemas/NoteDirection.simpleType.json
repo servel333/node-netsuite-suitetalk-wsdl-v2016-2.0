@@ -1,0 +1,9 @@
+{
+  "name": "NoteDirection",
+  "type": "simpleType",
+  "file": "general.communicationTypes.xsd",
+  "enumeration": [
+    "_incoming",
+    "_outgoing"
+  ]
+}

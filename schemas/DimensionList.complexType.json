@@ -1,0 +1,14 @@
+{
+  "name": "DimensionList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "dimension": {
+      "name": "dimension",
+      "type": "DimensionRef",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

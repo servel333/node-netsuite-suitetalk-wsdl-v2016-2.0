@@ -1,0 +1,33 @@
+{
+  "name": "CouponCodeSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "CouponCodeSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "CouponCodeSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "CustomizationSearchLevel",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_none",
+    "_edit",
+    "_run"
+  ]
+}

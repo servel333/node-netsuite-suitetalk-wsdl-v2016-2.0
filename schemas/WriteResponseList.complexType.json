@@ -1,0 +1,19 @@
+{
+  "name": "WriteResponseList",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:status",
+      "minOccurs": "0",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "writeResponse": {
+      "name": "writeResponse",
+      "type": "WriteResponse",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformMsgs"
+    }
+  }
+}

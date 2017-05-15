@@ -1,0 +1,17 @@
+{
+  "name": "CustomSearchRowBasic",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "customizationRef": {
+      "name": "customizationRef",
+      "type": "CustomizationRef",
+      "typeNamespace": "platformCore"
+    },
+    "searchRowBasic": {
+      "name": "searchRowBasic",
+      "type": "SearchRowBasic",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

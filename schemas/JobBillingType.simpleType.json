@@ -1,0 +1,12 @@
+{
+  "name": "JobBillingType",
+  "type": "simpleType",
+  "file": "lists.relationshipTypes.xsd",
+  "enumeration": [
+    "_none",
+    "_chargeBased",
+    "_fixedBidInterval",
+    "_fixedBidMilestone",
+    "_timeAndMaterials"
+  ]
+}

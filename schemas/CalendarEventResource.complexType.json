@@ -1,0 +1,19 @@
+{
+  "name": "CalendarEventResource",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "resource": {
+      "name": "resource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

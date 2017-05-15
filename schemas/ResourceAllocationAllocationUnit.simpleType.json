@@ -1,0 +1,9 @@
+{
+  "name": "ResourceAllocationAllocationUnit",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_hours",
+    "_percentOfTime"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "TaskReminderType",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_eMail",
+    "_popupWindow"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "RevRecTemplateRecurrence",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "incomeaccount": {
+      "name": "incomeaccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "periodOffset": {
+      "name": "periodOffset",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recamount": {
+      "name": "recamount",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

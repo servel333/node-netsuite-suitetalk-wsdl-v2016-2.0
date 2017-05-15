@@ -1,0 +1,11 @@
+{
+  "name": "CampaignCampaignEmailStatus",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_execute",
+    "_inProgress",
+    "_notStarted",
+    "_sent"
+  ]
+}

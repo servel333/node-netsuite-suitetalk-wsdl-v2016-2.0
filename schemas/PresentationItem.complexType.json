@@ -1,0 +1,37 @@
+{
+  "name": "PresentationItem",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "itemType": {
+      "name": "itemType",
+      "type": "PresentationItemType",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "onlinePrice": {
+      "name": "onlinePrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "basePrice": {
+      "name": "basePrice",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

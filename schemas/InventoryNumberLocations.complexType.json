@@ -1,0 +1,37 @@
+{
+  "name": "InventoryNumberLocations",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnHand": {
+      "name": "quantityOnHand",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityAvailable": {
+      "name": "quantityAvailable",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityOnOrder": {
+      "name": "quantityOnOrder",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "quantityInTransit": {
+      "name": "quantityInTransit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

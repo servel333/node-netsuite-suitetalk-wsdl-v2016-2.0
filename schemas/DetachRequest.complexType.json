@@ -1,0 +1,14 @@
+{
+  "name": "DetachRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "detachReference": {
+      "name": "detachReference",
+      "type": "DetachReference",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

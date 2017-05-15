@@ -1,0 +1,10 @@
+{
+  "name": "ItemOverheadType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_amountBaseUnit",
+    "_percentOfMaterial",
+    "_percentOfTotal"
+  ]
+}

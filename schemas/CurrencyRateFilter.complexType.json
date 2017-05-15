@@ -1,0 +1,28 @@
+{
+  "name": "CurrencyRateFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "baseCurrency": {
+      "name": "baseCurrency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "fromCurrency": {
+      "name": "fromCurrency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveDate": {
+      "name": "effectiveDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

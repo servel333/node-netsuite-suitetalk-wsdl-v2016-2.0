@@ -1,0 +1,10 @@
+{
+  "name": "ResourceAllocationApprovalStatus",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_approved",
+    "_pendingApproval",
+    "_rejected"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "TimeItemTimeType",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_actualTime",
+    "_plannedTime"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "PromotionCodeApplyDiscountTo",
+  "type": "simpleType",
+  "file": "lists.marketingTypes.xsd",
+  "enumeration": [
+    "_allSales",
+    "_firstSaleOnly"
+  ]
+}

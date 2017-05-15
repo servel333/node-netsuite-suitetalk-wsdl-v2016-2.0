@@ -1,0 +1,22 @@
+{
+  "name": "CashSaleItemCostList",
+  "type": "complexType",
+  "file": "transactions.sales.xsd",
+  "elements": {
+    "itemCost": {
+      "name": "itemCost",
+      "type": "CashSaleItemCost",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranSales"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

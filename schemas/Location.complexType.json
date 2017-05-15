@@ -1,0 +1,171 @@
+{
+  "name": "Location",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "includeChildren": {
+      "name": "includeChildren",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subsidiaryList": {
+      "name": "subsidiaryList",
+      "type": "RecordRefList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "tranPrefix": {
+      "name": "tranPrefix",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "mainAddress": {
+      "name": "mainAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "returnAddress": {
+      "name": "returnAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    },
+    "locationType": {
+      "name": "locationType",
+      "type": "LocationType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "timeZone": {
+      "name": "timeZone",
+      "type": "LocationTimeZone",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "latitude": {
+      "name": "latitude",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "longitude": {
+      "name": "longitude",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "logo": {
+      "name": "logo",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "useBins": {
+      "name": "useBins",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "makeInventoryAvailable": {
+      "name": "makeInventoryAvailable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "makeInventoryAvailableStore": {
+      "name": "makeInventoryAvailableStore",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "geolocationMethod": {
+      "name": "geolocationMethod",
+      "type": "LocationGeolocationMethod",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "autoAssignmentRegionSetting": {
+      "name": "autoAssignmentRegionSetting",
+      "type": "LocationAutoAssignmentRegionSetting",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "bufferStock": {
+      "name": "bufferStock",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "dailyShippingCapacity": {
+      "name": "dailyShippingCapacity",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "totalShippingCapacity": {
+      "name": "totalShippingCapacity",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "includeLocationRegionsList": {
+      "name": "includeLocationRegionsList",
+      "type": "LocationRegionsList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "excludeLocationRegionsList": {
+      "name": "excludeLocationRegionsList",
+      "type": "LocationRegionsList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "classTranslationList": {
+      "name": "classTranslationList",
+      "type": "ClassTranslationList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

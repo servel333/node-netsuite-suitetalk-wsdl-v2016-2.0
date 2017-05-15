@@ -1,0 +1,22 @@
+{
+  "name": "CustomTransactionLineList",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "customTransactionLine": {
+      "name": "customTransactionLine",
+      "type": "CustomTransactionLine",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "setupCustom"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

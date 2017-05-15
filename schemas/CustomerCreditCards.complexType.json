@@ -1,0 +1,73 @@
+{
+  "name": "CustomerCreditCards",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccNumber": {
+      "name": "ccNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccExpireDate": {
+      "name": "ccExpireDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccName": {
+      "name": "ccName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "paymentMethod": {
+      "name": "paymentMethod",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "cardState": {
+      "name": "cardState",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "stateFrom": {
+      "name": "stateFrom",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "debitcardIssueNo": {
+      "name": "debitcardIssueNo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccMemo": {
+      "name": "ccMemo",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "validfrom": {
+      "name": "validfrom",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "ccDefault": {
+      "name": "ccDefault",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

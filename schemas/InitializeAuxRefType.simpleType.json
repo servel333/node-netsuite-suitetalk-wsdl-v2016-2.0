@@ -1,0 +1,11 @@
+{
+  "name": "InitializeAuxRefType",
+  "type": "simpleType",
+  "file": "platform.coreTypes.xsd",
+  "enumeration": [
+    "shippingGroup",
+    "arAccount",
+    "apAccount",
+    "itemFulfillment"
+  ]
+}

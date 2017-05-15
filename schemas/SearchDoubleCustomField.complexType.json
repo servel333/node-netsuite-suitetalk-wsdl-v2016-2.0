@@ -1,0 +1,28 @@
+{
+  "name": "SearchDoubleCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchCustomField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "searchValue2": {
+      "name": "searchValue2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "SearchDoubleFieldOperator",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

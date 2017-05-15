@@ -1,0 +1,14 @@
+{
+  "name": "GetListRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "baseRef": {
+      "name": "baseRef",
+      "type": "BaseRef",
+      "minOccurs": "1",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PartnerPromoCodeList",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "promoCode": {
+      "name": "promoCode",
+      "type": "PartnerPromoCode",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

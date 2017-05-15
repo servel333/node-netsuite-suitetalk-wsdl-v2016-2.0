@@ -1,0 +1,63 @@
+{
+  "name": "GetSelectValueFieldDescription",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "recordType": {
+      "name": "recordType",
+      "type": "RecordType",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCoreTyp"
+    },
+    "customRecordType": {
+      "name": "customRecordType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "customTransactionType": {
+      "name": "customTransactionType",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "sublist": {
+      "name": "sublist",
+      "type": "string",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "field": {
+      "name": "field",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "filter": {
+      "name": "filter",
+      "type": "GetSelectValueFilter",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "filterByValueList": {
+      "name": "filterByValueList",
+      "type": "GetSelectFilterByFieldValueList",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

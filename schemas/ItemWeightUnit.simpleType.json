@@ -1,0 +1,11 @@
+{
+  "name": "ItemWeightUnit",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_g",
+    "_kg",
+    "_lb",
+    "_oz"
+  ]
+}

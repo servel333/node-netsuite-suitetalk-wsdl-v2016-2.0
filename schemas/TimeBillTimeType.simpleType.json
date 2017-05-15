@@ -1,0 +1,10 @@
+{
+  "name": "TimeBillTimeType",
+  "type": "simpleType",
+  "file": "transactions.employeeTypes.xsd",
+  "enumeration": [
+    "_actualTime",
+    "_allocatedTime",
+    "_plannedTime"
+  ]
+}

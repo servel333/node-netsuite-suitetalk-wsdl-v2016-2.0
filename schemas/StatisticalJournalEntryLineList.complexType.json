@@ -1,0 +1,22 @@
+{
+  "name": "StatisticalJournalEntryLineList",
+  "type": "complexType",
+  "file": "transactions.general.xsd",
+  "elements": {
+    "statisticalJournalEntryLine": {
+      "name": "statisticalJournalEntryLine",
+      "type": "StatisticalJournalEntryLine",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranGeneral"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

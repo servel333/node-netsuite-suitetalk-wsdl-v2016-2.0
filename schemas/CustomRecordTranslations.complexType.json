@@ -1,0 +1,25 @@
+{
+  "name": "CustomRecordTranslations",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "language": {
+      "name": "language",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "label": {
+      "name": "label",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

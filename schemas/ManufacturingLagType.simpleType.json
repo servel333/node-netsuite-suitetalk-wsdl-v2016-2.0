@@ -1,0 +1,11 @@
+{
+  "name": "ManufacturingLagType",
+  "type": "simpleType",
+  "file": "lists.supplyChainTypes.xsd",
+  "enumeration": [
+    "_quantity",
+    "_quantityPercentage",
+    "_time",
+    "_timePercentage"
+  ]
+}

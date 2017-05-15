@@ -1,0 +1,18 @@
+{
+  "name": "WriteResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:status",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "baseRef": {
+      "name": "baseRef",
+      "type": "BaseRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

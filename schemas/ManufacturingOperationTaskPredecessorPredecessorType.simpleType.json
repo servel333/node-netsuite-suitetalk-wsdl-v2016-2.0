@@ -1,0 +1,11 @@
+{
+  "name": "ManufacturingOperationTaskPredecessorPredecessorType",
+  "type": "simpleType",
+  "file": "lists.supplyChainTypes.xsd",
+  "enumeration": [
+    "_finishToFinish",
+    "_finishToStart",
+    "_startToFinish",
+    "_startToStart"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "LotNumberedInventoryItemLocationsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "locations": {
+      "name": "locations",
+      "type": "LotNumberedInventoryItemLocations",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "GetItemAvailabilityRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "itemAvailabilityFilter": {
+      "name": "itemAvailabilityFilter",
+      "type": "ItemAvailabilityFilter",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

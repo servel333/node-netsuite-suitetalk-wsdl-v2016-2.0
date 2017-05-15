@@ -1,0 +1,33 @@
+{
+  "name": "ChargeSearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "ChargeSearch",
+      "minOccurs": "0",
+      "typeNamespace": "tranCust"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "ChargeSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

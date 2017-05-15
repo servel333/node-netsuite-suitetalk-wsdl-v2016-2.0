@@ -1,0 +1,22 @@
+{
+  "name": "CampaignEventResponseList",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "eventResponse": {
+      "name": "eventResponse",
+      "type": "CampaignEventResponse",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

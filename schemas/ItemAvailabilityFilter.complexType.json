@@ -1,0 +1,21 @@
+{
+  "name": "ItemAvailabilityFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRefList",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "lastQtyAvailableChange": {
+      "name": "lastQtyAvailableChange",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

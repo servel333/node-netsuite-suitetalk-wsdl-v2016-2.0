@@ -1,0 +1,14 @@
+{
+  "name": "SearchRowList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "searchRow": {
+      "name": "searchRow",
+      "type": "SearchRow",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

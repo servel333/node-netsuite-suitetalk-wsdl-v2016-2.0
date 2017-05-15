@@ -1,0 +1,22 @@
+{
+  "name": "ItemFulfillmentMethodOfTransportUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_air",
+    "_airContainerized",
+    "_auto",
+    "_fixedTransportInstallations",
+    "_mail",
+    "_passengerHandcarried",
+    "_pedestrian",
+    "_rail",
+    "_railContainerized",
+    "_roadOther",
+    "_seaBarge",
+    "_seaContainerized",
+    "_seaNoncontainerized",
+    "_truck",
+    "_truckContainerized"
+  ]
+}

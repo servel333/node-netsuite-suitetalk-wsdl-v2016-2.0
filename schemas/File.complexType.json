@@ -1,0 +1,195 @@
+{
+  "name": "File",
+  "type": "complexType",
+  "file": "documents.fileCabinet.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "attachFrom": {
+      "name": "attachFrom",
+      "type": "FileAttachFrom",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCabTyp"
+    },
+    "mediaTypeName": {
+      "name": "mediaTypeName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fileType": {
+      "name": "fileType",
+      "type": "MediaType",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCabTyp"
+    },
+    "content": {
+      "name": "content",
+      "type": "base64Binary",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "folder": {
+      "name": "folder",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fileSize": {
+      "name": "fileSize",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "url": {
+      "name": "url",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "urlComponent": {
+      "name": "urlComponent",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "mediaFile": {
+      "name": "mediaFile",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "textFileEncoding": {
+      "name": "textFileEncoding",
+      "type": "TextFileEncoding",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCabTyp"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "encoding": {
+      "name": "encoding",
+      "type": "FileEncoding",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCabTyp"
+    },
+    "altTagCaption": {
+      "name": "altTagCaption",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isOnline": {
+      "name": "isOnline",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "class": {
+      "name": "class",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bundleable": {
+      "name": "bundleable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "hideInBundle": {
+      "name": "hideInBundle",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isPrivate": {
+      "name": "isPrivate",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "caption": {
+      "name": "caption",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDisplayThumbnail": {
+      "name": "storeDisplayThumbnail",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "siteDescription": {
+      "name": "siteDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "featuredDescription": {
+      "name": "featuredDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "createdDate": {
+      "name": "createdDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "siteCategoryList": {
+      "name": "siteCategoryList",
+      "type": "FileSiteCategoryList",
+      "minOccurs": "0",
+      "typeNamespace": "docFileCab"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

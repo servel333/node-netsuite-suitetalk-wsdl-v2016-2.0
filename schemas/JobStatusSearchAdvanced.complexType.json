@@ -1,0 +1,33 @@
+{
+  "name": "JobStatusSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "JobStatusSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "JobStatusSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

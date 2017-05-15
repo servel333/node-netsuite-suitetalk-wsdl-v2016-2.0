@@ -1,0 +1,11 @@
+{
+  "name": "GlobalSubscriptionStatus",
+  "type": "simpleType",
+  "file": "platform.commonTypes.xsd",
+  "enumeration": [
+    "_confirmedOptIn",
+    "_confirmedOptOut",
+    "_softOptIn",
+    "_softOptOut"
+  ]
+}

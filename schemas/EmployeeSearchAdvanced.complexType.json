@@ -1,0 +1,33 @@
+{
+  "name": "EmployeeSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "EmployeeSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "EmployeeSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listEmp"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

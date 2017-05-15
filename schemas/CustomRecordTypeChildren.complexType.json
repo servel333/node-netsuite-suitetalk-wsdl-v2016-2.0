@@ -1,0 +1,19 @@
+{
+  "name": "CustomRecordTypeChildren",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "childDescr": {
+      "name": "childDescr",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "childTab": {
+      "name": "childTab",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

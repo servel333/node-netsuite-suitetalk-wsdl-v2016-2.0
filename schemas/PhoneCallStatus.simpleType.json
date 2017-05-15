@@ -1,0 +1,9 @@
+{
+  "name": "PhoneCallStatus",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_completed",
+    "_scheduled"
+  ]
+}

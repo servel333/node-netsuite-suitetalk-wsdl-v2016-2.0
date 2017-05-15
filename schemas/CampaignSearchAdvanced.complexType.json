@@ -1,0 +1,33 @@
+{
+  "name": "CampaignSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "CampaignSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "CampaignSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

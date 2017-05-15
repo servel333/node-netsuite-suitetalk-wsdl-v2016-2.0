@@ -1,0 +1,22 @@
+{
+  "name": "PromotionCodePartnersList",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "partners": {
+      "name": "partners",
+      "type": "PromotionCodePartners",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listMkt"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

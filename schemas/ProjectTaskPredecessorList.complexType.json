@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTaskPredecessorList",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "projectTaskPredecessor": {
+      "name": "projectTaskPredecessor",
+      "type": "ProjectTaskPredecessor",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

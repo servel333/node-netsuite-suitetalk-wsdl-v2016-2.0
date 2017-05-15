@@ -1,0 +1,43 @@
+{
+  "name": "SiteCategoryTranslation",
+  "type": "complexType",
+  "file": "lists.website.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "language": {
+      "name": "language",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displayName": {
+      "name": "displayName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "storeDetailedDescription": {
+      "name": "storeDetailedDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "pageTitle": {
+      "name": "pageTitle",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

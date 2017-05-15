@@ -1,0 +1,22 @@
+{
+  "name": "AccountingPeriodFiscalCalendarsList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "accountingPeriodFiscalCalendars": {
+      "name": "accountingPeriodFiscalCalendars",
+      "type": "AccountingPeriodFiscalCalendars",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "AsyncSearchResult",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "extends": "AsyncResult",
+  "extendsNamespace": "platformMsgs",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:searchResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

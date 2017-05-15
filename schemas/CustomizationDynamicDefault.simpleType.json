@@ -1,0 +1,13 @@
+{
+  "name": "CustomizationDynamicDefault",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_currentDateTime",
+    "_currentUser",
+    "_currentUsersDepartment",
+    "_currentUsersLocation",
+    "_currentUsersSupervisor",
+    "_currentUsersSubsidiary"
+  ]
+}

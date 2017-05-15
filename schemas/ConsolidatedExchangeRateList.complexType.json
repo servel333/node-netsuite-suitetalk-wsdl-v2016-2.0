@@ -1,0 +1,13 @@
+{
+  "name": "ConsolidatedExchangeRateList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "consolidatedExchangeRate": {
+      "name": "consolidatedExchangeRate",
+      "type": "ConsolidatedExchangeRate",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

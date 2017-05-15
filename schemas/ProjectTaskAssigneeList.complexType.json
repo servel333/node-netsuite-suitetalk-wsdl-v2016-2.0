@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTaskAssigneeList",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "elements": {
+    "projectTaskAssignee": {
+      "name": "projectTaskAssignee",
+      "type": "ProjectTaskAssignee",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

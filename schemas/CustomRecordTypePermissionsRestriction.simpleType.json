@@ -1,0 +1,9 @@
+{
+  "name": "CustomRecordTypePermissionsRestriction",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_editingOnly",
+    "_viewingAndEditing"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "AttachContactReference",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "AttachReference",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "contactRole": {
+      "name": "contactRole",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

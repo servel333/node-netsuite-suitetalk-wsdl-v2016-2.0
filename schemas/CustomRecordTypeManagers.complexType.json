@@ -1,0 +1,13 @@
+{
+  "name": "CustomRecordTypeManagers",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "managerEmp": {
+      "name": "managerEmp",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

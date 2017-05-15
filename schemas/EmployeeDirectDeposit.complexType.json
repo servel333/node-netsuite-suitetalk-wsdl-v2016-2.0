@@ -1,0 +1,79 @@
+{
+  "name": "EmployeeDirectDeposit",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "netAccount": {
+      "name": "netAccount",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "savingsAccount": {
+      "name": "savingsAccount",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accountPrenoted": {
+      "name": "accountPrenoted",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accountStatus": {
+      "name": "accountStatus",
+      "type": "EmployeeDirectDepositAccountStatus",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "bankName": {
+      "name": "bankName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bankId": {
+      "name": "bankId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bankNumber": {
+      "name": "bankNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bankRoutingNumber": {
+      "name": "bankRoutingNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "bankAccountNumber": {
+      "name": "bankAccountNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amount": {
+      "name": "amount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inactive": {
+      "name": "inactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

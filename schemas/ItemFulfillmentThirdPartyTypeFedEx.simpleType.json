@@ -1,0 +1,10 @@
+{
+  "name": "ItemFulfillmentThirdPartyTypeFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_billRecipient",
+    "_billThirdParty",
+    "_noneSelected"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "SubsidiaryTaxRegistration",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "id": {
+      "name": "id",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "nexusCountry": {
+      "name": "nexusCountry",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "nexus": {
+      "name": "nexus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxAgency": {
+      "name": "taxAgency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "taxRegistrationNumber": {
+      "name": "taxRegistrationNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxEngine": {
+      "name": "taxEngine",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "effectiveFrom": {
+      "name": "effectiveFrom",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "validUntil": {
+      "name": "validUntil",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "name": "ProjectTask",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "eventId": {
+      "name": "eventId",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "percentTimeComplete": {
+      "name": "percentTimeComplete",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "company": {
+      "name": "company",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contact": {
+      "name": "contact",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "order": {
+      "name": "order",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "owner": {
+      "name": "owner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "priority": {
+      "name": "priority",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "estimatedWork": {
+      "name": "estimatedWork",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedWorkBaseline": {
+      "name": "estimatedWorkBaseline",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "constraintType": {
+      "name": "constraintType",
+      "type": "ProjectTaskConstraintType",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDateBaseline": {
+      "name": "startDateBaseline",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "finishByDate": {
+      "name": "finishByDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "endDateBaseline": {
+      "name": "endDateBaseline",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "actualWork": {
+      "name": "actualWork",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "remainingWork": {
+      "name": "remainingWork",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isMilestone": {
+      "name": "isMilestone",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isOnCriticalPath": {
+      "name": "isOnCriticalPath",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "slackMinutes": {
+      "name": "slackMinutes",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lateEnd": {
+      "name": "lateEnd",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lateStart": {
+      "name": "lateStart",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "status": {
+      "name": "status",
+      "type": "ProjectTaskStatus",
+      "minOccurs": "0",
+      "typeNamespace": "actSchedTyp"
+    },
+    "nonBillableTask": {
+      "name": "nonBillableTask",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "assigneeList": {
+      "name": "assigneeList",
+      "type": "ProjectTaskAssigneeList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "predecessorList": {
+      "name": "predecessorList",
+      "type": "ProjectTaskPredecessorList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "timeItemList": {
+      "name": "timeItemList",
+      "type": "ProjectTaskTimeItemList",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

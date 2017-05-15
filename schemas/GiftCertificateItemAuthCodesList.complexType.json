@@ -1,0 +1,22 @@
+{
+  "name": "GiftCertificateItemAuthCodesList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "authCodes": {
+      "name": "authCodes",
+      "type": "GiftCertificateItemAuthCodes",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ChargeUse",
+  "type": "simpleType",
+  "file": "transactions.customerTypes.xsd",
+  "enumeration": [
+    "_actual",
+    "_forecast"
+  ]
+}

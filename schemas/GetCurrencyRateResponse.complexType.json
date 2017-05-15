@@ -1,0 +1,12 @@
+{
+  "name": "GetCurrencyRateResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getCurrencyRateResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

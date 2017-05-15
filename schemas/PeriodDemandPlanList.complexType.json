@@ -1,0 +1,14 @@
+{
+  "name": "PeriodDemandPlanList",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "elements": {
+    "periodDemandPlan": {
+      "name": "periodDemandPlan",
+      "type": "PeriodDemandPlan",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "demandPlanning"
+    }
+  }
+}

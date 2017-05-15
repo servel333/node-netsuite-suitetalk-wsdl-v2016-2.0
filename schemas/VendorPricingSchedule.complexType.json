@@ -1,0 +1,19 @@
+{
+  "name": "VendorPricingSchedule",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "scheduleName": {
+      "name": "scheduleName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "scheduleDiscount": {
+      "name": "scheduleDiscount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

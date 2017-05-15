@@ -1,0 +1,19 @@
+{
+  "name": "PaymentMethodVisuals",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "flags": {
+      "name": "flags",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "location": {
+      "name": "location",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

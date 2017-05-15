@@ -1,0 +1,27 @@
+{
+  "name": "SearchPreferences",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "bodyFieldsOnly": {
+      "name": "bodyFieldsOnly",
+      "minOccurs": "0",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    },
+    "returnSearchColumns": {
+      "name": "returnSearchColumns",
+      "minOccurs": "0",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    },
+    "pageSize": {
+      "name": "pageSize",
+      "minOccurs": "0",
+      "type": "int",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CustomerDownload",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "file": {
+      "name": "file",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "licenseCode": {
+      "name": "licenseCode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "remainingDownloads": {
+      "name": "remainingDownloads",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expiration": {
+      "name": "expiration",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

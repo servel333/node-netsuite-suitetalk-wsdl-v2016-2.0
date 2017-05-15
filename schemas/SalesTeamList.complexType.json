@@ -1,0 +1,22 @@
+{
+  "name": "SalesTeamList",
+  "type": "complexType",
+  "file": "transactions.inventory.xsd",
+  "elements": {
+    "salesTeam": {
+      "name": "salesTeam",
+      "type": "CustomerSalesTeam",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCommon"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

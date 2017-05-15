@@ -1,0 +1,13 @@
+{
+  "name": "SearchBooleanField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

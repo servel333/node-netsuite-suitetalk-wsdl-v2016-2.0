@@ -1,0 +1,19 @@
+{
+  "name": "CostCategoryItemCostType",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_laborRun",
+    "_laborRunOverhead",
+    "_laborSetup",
+    "_laborSetupOverhead",
+    "_landed",
+    "_machineRun",
+    "_machineRunOverhead",
+    "_machineSetup",
+    "_machineSetupOverhead",
+    "_material",
+    "_materialOverhead",
+    "_service"
+  ]
+}

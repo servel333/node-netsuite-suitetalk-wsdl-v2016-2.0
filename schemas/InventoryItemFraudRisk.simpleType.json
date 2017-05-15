@@ -1,0 +1,10 @@
+{
+  "name": "InventoryItemFraudRisk",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_high",
+    "_low",
+    "_medium"
+  ]
+}

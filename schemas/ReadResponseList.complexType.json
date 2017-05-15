@@ -1,0 +1,20 @@
+{
+  "name": "ReadResponseList",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:status",
+      "minOccurs": "0",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    },
+    "readResponse": {
+      "name": "readResponse",
+      "type": "ReadResponse",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformMsgs"
+    }
+  }
+}

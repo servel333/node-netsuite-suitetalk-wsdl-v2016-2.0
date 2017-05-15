@@ -1,0 +1,7 @@
+{
+  "name": "SearchRecordBasic",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore"
+}

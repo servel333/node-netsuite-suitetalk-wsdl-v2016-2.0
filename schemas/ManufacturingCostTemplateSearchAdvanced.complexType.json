@@ -1,0 +1,33 @@
+{
+  "name": "ManufacturingCostTemplateSearchAdvanced",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "ManufacturingCostTemplateSearch",
+      "minOccurs": "0",
+      "typeNamespace": "listScm"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "ManufacturingCostTemplateSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "listScm"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

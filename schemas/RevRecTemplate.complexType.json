@@ -1,0 +1,81 @@
+{
+  "name": "RevRecTemplate",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "amortizationType": {
+      "name": "amortizationType",
+      "type": "RevRecScheduleAmortizationType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "recurrenceType": {
+      "name": "recurrenceType",
+      "type": "RevRecScheduleRecurrenceType",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "recogIntervalSrc": {
+      "name": "recogIntervalSrc",
+      "type": "RevRecScheduleRecogIntervalSrc",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "amortizationPeriod": {
+      "name": "amortizationPeriod",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "periodOffset": {
+      "name": "periodOffset",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "revRecOffset": {
+      "name": "revRecOffset",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "initialAmount": {
+      "name": "initialAmount",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "recurrenceList": {
+      "name": "recurrenceList",
+      "type": "RevRecTemplateRecurrenceList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

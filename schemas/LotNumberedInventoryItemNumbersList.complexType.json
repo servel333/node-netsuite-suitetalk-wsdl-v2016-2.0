@@ -1,0 +1,22 @@
+{
+  "name": "LotNumberedInventoryItemNumbersList",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "numbers": {
+      "name": "numbers",
+      "type": "LotNumberedInventoryItemNumbers",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listAcct"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

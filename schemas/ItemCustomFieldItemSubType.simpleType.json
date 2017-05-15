@@ -1,0 +1,10 @@
+{
+  "name": "ItemCustomFieldItemSubType",
+  "type": "simpleType",
+  "file": "setup.customizationTypes.xsd",
+  "enumeration": [
+    "_both",
+    "_purchase",
+    "_sale"
+  ]
+}

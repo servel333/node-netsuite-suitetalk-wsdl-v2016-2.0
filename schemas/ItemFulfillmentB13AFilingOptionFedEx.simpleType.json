@@ -1,0 +1,11 @@
+{
+  "name": "ItemFulfillmentB13AFilingOptionFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_filedElectronically",
+    "_manuallyAttached",
+    "_notRequired",
+    "_summaryReporting"
+  ]
+}

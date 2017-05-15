@@ -1,0 +1,33 @@
+{
+  "name": "CalendarEventSearchAdvanced",
+  "type": "complexType",
+  "file": "activities.scheduling.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "CalendarEventSearch",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "CalendarEventSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "actSched"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

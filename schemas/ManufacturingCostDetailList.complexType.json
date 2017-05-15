@@ -1,0 +1,22 @@
+{
+  "name": "ManufacturingCostDetailList",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "elements": {
+    "manufacturingCostDetail": {
+      "name": "manufacturingCostDetail",
+      "type": "ManufacturingCostDetail",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listScm"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

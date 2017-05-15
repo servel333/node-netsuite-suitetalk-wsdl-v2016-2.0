@@ -1,0 +1,10 @@
+{
+  "name": "HazmatPackingGroup",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_i",
+    "_ii",
+    "_iii"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "BillingScheduleRecurrencePattern",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_anniversaryBillDate",
+    "_fixedBillDate"
+  ]
+}

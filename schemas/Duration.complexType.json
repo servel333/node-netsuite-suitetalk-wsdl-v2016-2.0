@@ -1,0 +1,17 @@
+{
+  "name": "Duration",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "timeSpan": {
+      "name": "timeSpan",
+      "type": "double",
+      "typeNamespace": "xsd"
+    },
+    "unit": {
+      "name": "unit",
+      "type": "DurationUnit",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

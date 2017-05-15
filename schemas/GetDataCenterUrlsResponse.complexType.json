@@ -1,0 +1,12 @@
+{
+  "name": "GetDataCenterUrlsResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getDataCenterUrlsResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

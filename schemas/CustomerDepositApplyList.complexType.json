@@ -1,0 +1,22 @@
+{
+  "name": "CustomerDepositApplyList",
+  "type": "complexType",
+  "file": "transactions.customers.xsd",
+  "elements": {
+    "customerDepositApply": {
+      "name": "customerDepositApply",
+      "type": "CustomerDepositApply",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranCust"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

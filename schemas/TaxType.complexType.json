@@ -1,0 +1,69 @@
+{
+  "name": "TaxType",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "doesNotAddToTotal": {
+      "name": "doesNotAddToTotal",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "postToItemCost": {
+      "name": "postToItemCost",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "nexusAccountsList": {
+      "name": "nexusAccountsList",
+      "type": "TaxTypeNexusAccountsList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "nexusesTaxList": {
+      "name": "nexusesTaxList",
+      "type": "TaxTypeNexusesTaxList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    },
+    "country": {
+      "name": "country",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

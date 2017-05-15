@@ -1,0 +1,11 @@
+{
+  "name": "CalendarEventStatus",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_canceled",
+    "_completed",
+    "_confirmed",
+    "_tentative"
+  ]
+}

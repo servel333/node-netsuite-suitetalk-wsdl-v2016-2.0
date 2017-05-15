@@ -1,0 +1,77 @@
+{
+  "name": "PostingTransactionSummaryField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "period": {
+      "name": "period",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "account": {
+      "name": "account",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "parentItem": {
+      "name": "parentItem",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "item": {
+      "name": "item",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "entity": {
+      "name": "entity",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "department": {
+      "name": "department",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "class": {
+      "name": "class",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "location": {
+      "name": "location",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "book": {
+      "name": "book",
+      "type": "boolean",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

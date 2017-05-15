@@ -1,0 +1,15 @@
+{
+  "name": "BillingScheduleYearDow",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_sunday",
+    "_monday",
+    "_tuesday",
+    "_wednesday",
+    "_thursday",
+    "_friday",
+    "_saturday",
+    "_day"
+  ]
+}

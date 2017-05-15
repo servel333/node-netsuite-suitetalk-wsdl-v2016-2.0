@@ -1,0 +1,10 @@
+{
+  "name": "ProjectTaskStatus",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_completed",
+    "_inProgress",
+    "_notStarted"
+  ]
+}

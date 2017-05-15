@@ -1,0 +1,13 @@
+{
+  "name": "PostingTransactionSummaryList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "postingTransactionSummary": {
+      "name": "postingTransactionSummary",
+      "type": "PostingTransactionSummary",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ProjectTaskPriority",
+  "type": "simpleType",
+  "file": "activities.schedulingTypes.xsd",
+  "enumeration": [
+    "_high",
+    "_low",
+    "_medium"
+  ]
+}

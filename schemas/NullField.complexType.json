@@ -1,0 +1,14 @@
+{
+  "name": "NullField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "xsd"
+    }
+  }
+}

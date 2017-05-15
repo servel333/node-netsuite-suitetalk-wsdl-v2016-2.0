@@ -1,0 +1,21 @@
+{
+  "name": "Status",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "statusDetail": {
+      "name": "statusDetail",
+      "type": "StatusDetail",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "isSuccess": {
+      "name": "isSuccess",
+      "type": "boolean",
+      "typeNamespace": "xsd"
+    }
+  }
+}

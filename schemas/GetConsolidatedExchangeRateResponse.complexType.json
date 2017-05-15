@@ -1,0 +1,12 @@
+{
+  "name": "GetConsolidatedExchangeRateResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getConsolidatedExchangeRateResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

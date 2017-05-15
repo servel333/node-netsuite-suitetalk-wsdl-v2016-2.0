@@ -1,0 +1,13 @@
+{
+  "name": "ItemAvailabilityList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "itemAvailability": {
+      "name": "itemAvailability",
+      "type": "ItemAvailability",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

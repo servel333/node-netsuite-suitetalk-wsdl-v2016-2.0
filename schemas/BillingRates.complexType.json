@@ -1,0 +1,25 @@
+{
+  "name": "BillingRates",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "billingClass": {
+      "name": "billingClass",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rateList": {
+      "name": "rateList",
+      "type": "RateList",
+      "minOccurs": "0",
+      "typeNamespace": "listAcct"
+    }
+  }
+}

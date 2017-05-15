@@ -1,0 +1,14 @@
+{
+  "name": "RecurrenceDowMaskList",
+  "type": "complexType",
+  "file": "platform.common.xsd",
+  "elements": {
+    "recurrenceDowMask": {
+      "name": "recurrenceDowMask",
+      "type": "RecurrenceDow",
+      "minOccurs": "1",
+      "maxOccurs": "7",
+      "typeNamespace": "platformCommonTyp"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ItemFulfillmentAncillaryEndorsementFedEx",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_addressCorrection",
+    "_carrierLeaveIfNoResponse",
+    "_changeService",
+    "_forwardingService",
+    "_returnService"
+  ]
+}

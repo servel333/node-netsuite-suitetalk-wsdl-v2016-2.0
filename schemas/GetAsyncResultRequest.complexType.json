@@ -1,0 +1,21 @@
+{
+  "name": "GetAsyncResultRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "jobId": {
+      "name": "jobId",
+      "type": "string",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    },
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "xsd"
+    }
+  }
+}

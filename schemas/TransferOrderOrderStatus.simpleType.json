@@ -1,0 +1,16 @@
+{
+  "name": "TransferOrderOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.inventoryTypes.xsd",
+  "enumeration": [
+    "_pendingApproval",
+    "_pendingFulfillment",
+    "_rejected",
+    "_partiallyFulfilled",
+    "_pendingReceiptPartFulfilled",
+    "_pendingReceipt",
+    "_received",
+    "_closed",
+    "_undefined"
+  ]
+}

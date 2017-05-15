@@ -1,0 +1,28 @@
+{
+  "name": "BudgetExchangeRateFilter",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "period": {
+      "name": "period",
+      "type": "RecordRef",
+      "minOccurs": "1",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "fromSubsidiary": {
+      "name": "fromSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    },
+    "toSubsidiary": {
+      "name": "toSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "maxOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

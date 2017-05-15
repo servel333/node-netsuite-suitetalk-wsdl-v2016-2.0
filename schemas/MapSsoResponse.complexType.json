@@ -1,0 +1,12 @@
+{
+  "name": "MapSsoResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:sessionResponse",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

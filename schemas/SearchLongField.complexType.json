@@ -1,0 +1,26 @@
+{
+  "name": "SearchLongField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "searchValue2": {
+      "name": "searchValue2",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "operator": {
+      "name": "operator",
+      "type": "SearchLongFieldOperator",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

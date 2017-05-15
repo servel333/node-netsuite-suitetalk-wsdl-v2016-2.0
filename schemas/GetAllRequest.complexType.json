@@ -1,0 +1,13 @@
+{
+  "name": "GetAllRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "record": {
+      "name": "record",
+      "type": "GetAllRecord",
+      "minOccurs": "1",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

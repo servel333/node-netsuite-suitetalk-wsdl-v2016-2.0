@@ -1,0 +1,12 @@
+{
+  "name": "SearchMoreRequest",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "pageIndex": {
+      "name": "pageIndex",
+      "type": "int",
+      "typeNamespace": "xsd"
+    }
+  }
+}

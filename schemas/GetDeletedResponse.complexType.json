@@ -1,0 +1,12 @@
+{
+  "name": "GetDeletedResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getDeletedResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "name": "Customer",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "customForm": {
+      "name": "customForm",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "entityId": {
+      "name": "entityId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altName": {
+      "name": "altName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isPerson": {
+      "name": "isPerson",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "phoneticName": {
+      "name": "phoneticName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "salutation": {
+      "name": "salutation",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "firstName": {
+      "name": "firstName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "middleName": {
+      "name": "middleName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastName": {
+      "name": "lastName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "companyName": {
+      "name": "companyName",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "entityStatus": {
+      "name": "entityStatus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "parent": {
+      "name": "parent",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "phone": {
+      "name": "phone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fax": {
+      "name": "fax",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "url": {
+      "name": "url",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultAddress": {
+      "name": "defaultAddress",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "category": {
+      "name": "category",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "title": {
+      "name": "title",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "printOnCheckAs": {
+      "name": "printOnCheckAs",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altPhone": {
+      "name": "altPhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "homePhone": {
+      "name": "homePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "mobilePhone": {
+      "name": "mobilePhone",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "altEmail": {
+      "name": "altEmail",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "language": {
+      "name": "language",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "comments": {
+      "name": "comments",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "numberFormat": {
+      "name": "numberFormat",
+      "type": "CustomerNumberFormat",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "negativeNumberFormat": {
+      "name": "negativeNumberFormat",
+      "type": "CustomerNegativeNumberFormat",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "dateCreated": {
+      "name": "dateCreated",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "image": {
+      "name": "image",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "emailPreference": {
+      "name": "emailPreference",
+      "type": "EmailPreference",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "subsidiary": {
+      "name": "subsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "representingSubsidiary": {
+      "name": "representingSubsidiary",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesRep": {
+      "name": "salesRep",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "territory": {
+      "name": "territory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "contribPct": {
+      "name": "contribPct",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "partner": {
+      "name": "partner",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesGroup": {
+      "name": "salesGroup",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "vatRegNumber": {
+      "name": "vatRegNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accountNumber": {
+      "name": "accountNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxExempt": {
+      "name": "taxExempt",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "terms": {
+      "name": "terms",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "creditLimit": {
+      "name": "creditLimit",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "creditHoldOverride": {
+      "name": "creditHoldOverride",
+      "type": "CustomerCreditHoldOverride",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "monthlyClosing": {
+      "name": "monthlyClosing",
+      "type": "CustomerMonthlyClosing",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "overrideCurrencyFormat": {
+      "name": "overrideCurrencyFormat",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displaySymbol": {
+      "name": "displaySymbol",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "symbolPlacement": {
+      "name": "symbolPlacement",
+      "type": "CurrencySymbolPlacement",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "balance": {
+      "name": "balance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "overdueBalance": {
+      "name": "overdueBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "daysOverdue": {
+      "name": "daysOverdue",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "unbilledOrders": {
+      "name": "unbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolUnbilledOrders": {
+      "name": "consolUnbilledOrders",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolOverdueBalance": {
+      "name": "consolOverdueBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolDepositBalance": {
+      "name": "consolDepositBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolBalance": {
+      "name": "consolBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolAging": {
+      "name": "consolAging",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolAging1": {
+      "name": "consolAging1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolAging2": {
+      "name": "consolAging2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolAging3": {
+      "name": "consolAging3",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolAging4": {
+      "name": "consolAging4",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "consolDaysOverdue": {
+      "name": "consolDaysOverdue",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "priceLevel": {
+      "name": "priceLevel",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "currency": {
+      "name": "currency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "prefCCProcessor": {
+      "name": "prefCCProcessor",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "depositBalance": {
+      "name": "depositBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shipComplete": {
+      "name": "shipComplete",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxable": {
+      "name": "taxable",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "taxItem": {
+      "name": "taxItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "resaleNumber": {
+      "name": "resaleNumber",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "aging": {
+      "name": "aging",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "aging1": {
+      "name": "aging1",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "aging2": {
+      "name": "aging2",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "aging3": {
+      "name": "aging3",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "aging4": {
+      "name": "aging4",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "startDate": {
+      "name": "startDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "alcoholRecipientType": {
+      "name": "alcoholRecipientType",
+      "type": "AlcoholRecipientType",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "endDate": {
+      "name": "endDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "reminderDays": {
+      "name": "reminderDays",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "shippingItem": {
+      "name": "shippingItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "thirdPartyAcct": {
+      "name": "thirdPartyAcct",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyZipcode": {
+      "name": "thirdPartyZipcode",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "thirdPartyCountry": {
+      "name": "thirdPartyCountry",
+      "type": "Country",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "giveAccess": {
+      "name": "giveAccess",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "estimatedBudget": {
+      "name": "estimatedBudget",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accessRole": {
+      "name": "accessRole",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "sendEmail": {
+      "name": "sendEmail",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password": {
+      "name": "password",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "password2": {
+      "name": "password2",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "requirePwdChange": {
+      "name": "requirePwdChange",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "campaignCategory": {
+      "name": "campaignCategory",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "leadSource": {
+      "name": "leadSource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "receivablesAccount": {
+      "name": "receivablesAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "drAccount": {
+      "name": "drAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fxAccount": {
+      "name": "fxAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "defaultOrderPriority": {
+      "name": "defaultOrderPriority",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "webLead": {
+      "name": "webLead",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "referrer": {
+      "name": "referrer",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "keywords": {
+      "name": "keywords",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "clickStream": {
+      "name": "clickStream",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastPageVisited": {
+      "name": "lastPageVisited",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "visits": {
+      "name": "visits",
+      "type": "long",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "firstVisit": {
+      "name": "firstVisit",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastVisit": {
+      "name": "lastVisit",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "billPay": {
+      "name": "billPay",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalance": {
+      "name": "openingBalance",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceDate": {
+      "name": "openingBalanceDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "openingBalanceAccount": {
+      "name": "openingBalanceAccount",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "stage": {
+      "name": "stage",
+      "type": "CustomerStage",
+      "minOccurs": "0",
+      "typeNamespace": "listRelTyp"
+    },
+    "emailTransactions": {
+      "name": "emailTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "printTransactions": {
+      "name": "printTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "faxTransactions": {
+      "name": "faxTransactions",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "syncPartnerTeams": {
+      "name": "syncPartnerTeams",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isBudgetApproved": {
+      "name": "isBudgetApproved",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "globalSubscriptionStatus": {
+      "name": "globalSubscriptionStatus",
+      "type": "GlobalSubscriptionStatus",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "salesReadiness": {
+      "name": "salesReadiness",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "salesTeamList": {
+      "name": "salesTeamList",
+      "type": "CustomerSalesTeamList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "buyingReason": {
+      "name": "buyingReason",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "downloadList": {
+      "name": "downloadList",
+      "type": "CustomerDownloadList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "buyingTimeFrame": {
+      "name": "buyingTimeFrame",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "addressbookList": {
+      "name": "addressbookList",
+      "type": "CustomerAddressbookList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "subscriptionsList": {
+      "name": "subscriptionsList",
+      "type": "SubscriptionsList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "contactRolesList": {
+      "name": "contactRolesList",
+      "type": "ContactAccessRolesList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "currencyList": {
+      "name": "currencyList",
+      "type": "CustomerCurrencyList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "creditCardsList": {
+      "name": "creditCardsList",
+      "type": "CustomerCreditCardsList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "partnersList": {
+      "name": "partnersList",
+      "type": "CustomerPartnersList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "groupPricingList": {
+      "name": "groupPricingList",
+      "type": "CustomerGroupPricingList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "itemPricingList": {
+      "name": "itemPricingList",
+      "type": "CustomerItemPricingList",
+      "minOccurs": "0",
+      "typeNamespace": "listRel"
+    },
+    "customFieldList": {
+      "name": "customFieldList",
+      "type": "CustomFieldList",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

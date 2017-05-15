@@ -1,0 +1,14 @@
+{
+  "name": "CustomizationRef",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "RecordRef",
+  "extendsNamespace": "platformCore",
+  "attributes": {
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

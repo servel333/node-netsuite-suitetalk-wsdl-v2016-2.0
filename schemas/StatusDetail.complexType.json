@@ -1,0 +1,26 @@
+{
+  "name": "StatusDetail",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "code": {
+      "name": "code",
+      "type": "StatusDetailCodeType",
+      "typeNamespace": "platformFaultTyp"
+    },
+    "message": {
+      "name": "message",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "type": {
+      "name": "type",
+      "type": "StatusDetailType",
+      "default": "ERROR",
+      "typeNamespace": "platformFaultTyp"
+    }
+  }
+}

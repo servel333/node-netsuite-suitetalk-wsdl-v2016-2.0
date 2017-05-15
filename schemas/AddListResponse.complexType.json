@@ -1,0 +1,12 @@
+{
+  "name": "AddListResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformMsgs:writeResponseList",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

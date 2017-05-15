@@ -1,0 +1,12 @@
+{
+  "name": "GetSavedSearchResponse",
+  "type": "complexType",
+  "file": "platform.messages.xsd",
+  "elements": {
+    "undefined": {
+      "ref": "platformCore:getSavedSearchResult",
+      "type": "undefined",
+      "typeNamespace": "undefined"
+    }
+  }
+}

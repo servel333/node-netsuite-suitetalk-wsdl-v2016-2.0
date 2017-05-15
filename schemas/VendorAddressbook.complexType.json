@@ -1,0 +1,37 @@
+{
+  "name": "VendorAddressbook",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "defaultShipping": {
+      "name": "defaultShipping",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "defaultBilling": {
+      "name": "defaultBilling",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "label": {
+      "name": "label",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "addressbookAddress": {
+      "name": "addressbookAddress",
+      "type": "Address",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommon"
+    }
+  }
+}

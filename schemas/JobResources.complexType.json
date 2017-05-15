@@ -1,0 +1,25 @@
+{
+  "name": "JobResources",
+  "type": "complexType",
+  "file": "lists.relationships.xsd",
+  "elements": {
+    "jobResource": {
+      "name": "jobResource",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "email": {
+      "name": "email",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "role": {
+      "name": "role",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

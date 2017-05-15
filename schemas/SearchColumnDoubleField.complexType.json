@@ -1,0 +1,15 @@
+{
+  "name": "SearchColumnDoubleField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "extends": "SearchColumnField",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "searchValue": {
+      "name": "searchValue",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

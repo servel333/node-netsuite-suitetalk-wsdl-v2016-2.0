@@ -1,0 +1,9 @@
+{
+  "name": "SolutionStatus",
+  "type": "simpleType",
+  "file": "lists.supportTypes.xsd",
+  "enumeration": [
+    "_approved",
+    "_unapproved"
+  ]
+}

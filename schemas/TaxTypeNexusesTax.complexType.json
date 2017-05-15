@@ -1,0 +1,31 @@
+{
+  "name": "TaxTypeNexusesTax",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "elements": {
+    "nexus": {
+      "name": "nexus",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "description": {
+      "name": "description",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "saleTaxAcct": {
+      "name": "saleTaxAcct",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "purchTaxAcct": {
+      "name": "purchTaxAcct",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

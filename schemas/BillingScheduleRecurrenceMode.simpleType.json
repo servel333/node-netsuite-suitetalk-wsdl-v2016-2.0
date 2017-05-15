@@ -1,0 +1,9 @@
+{
+  "name": "BillingScheduleRecurrenceMode",
+  "type": "simpleType",
+  "file": "lists.accountingTypes.xsd",
+  "enumeration": [
+    "_dom",
+    "_dowim"
+  ]
+}

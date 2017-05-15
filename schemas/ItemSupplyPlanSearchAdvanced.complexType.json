@@ -1,0 +1,33 @@
+{
+  "name": "ItemSupplyPlanSearchAdvanced",
+  "type": "complexType",
+  "file": "transactions.demandPlanning.xsd",
+  "extends": "SearchRecord",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "criteria": {
+      "name": "criteria",
+      "type": "ItemSupplyPlanSearch",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanning"
+    },
+    "columns": {
+      "name": "columns",
+      "type": "ItemSupplyPlanSearchRow",
+      "minOccurs": "0",
+      "typeNamespace": "demandPlanning"
+    }
+  },
+  "attributes": {
+    "savedSearchId": {
+      "name": "savedSearchId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "savedSearchScriptId": {
+      "name": "savedSearchScriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "CustomRecordCustomFieldFilter",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "fldFilter": {
+      "name": "fldFilter",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "fldFilterChecked": {
+      "name": "fldFilterChecked",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fldFilterCompareType": {
+      "name": "fldFilterCompareType",
+      "type": "CustomizationFilterCompareType",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustomTyp"
+    },
+    "fldFilterVal": {
+      "name": "fldFilterVal",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fldFilterSelList": {
+      "name": "fldFilterSelList",
+      "type": "FldFilterSelList",
+      "minOccurs": "0",
+      "typeNamespace": "setupCustom"
+    },
+    "fldFilterNotNull": {
+      "name": "fldFilterNotNull",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

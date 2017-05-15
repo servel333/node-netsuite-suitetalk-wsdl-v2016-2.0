@@ -1,0 +1,25 @@
+{
+  "name": "SearchColumnCustomField",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "customLabel": {
+      "name": "customLabel",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "scriptId": {
+      "name": "scriptId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

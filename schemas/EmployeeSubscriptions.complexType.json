@@ -1,0 +1,25 @@
+{
+  "name": "EmployeeSubscriptions",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "subscribed": {
+      "name": "subscribed",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "subscription": {
+      "name": "subscription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "lastModifiedDate": {
+      "name": "lastModifiedDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

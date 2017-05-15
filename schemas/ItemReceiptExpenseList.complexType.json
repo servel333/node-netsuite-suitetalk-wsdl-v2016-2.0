@@ -1,0 +1,22 @@
+{
+  "name": "ItemReceiptExpenseList",
+  "type": "complexType",
+  "file": "transactions.purchases.xsd",
+  "elements": {
+    "expense": {
+      "name": "expense",
+      "type": "ItemReceiptExpense",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "tranPurch"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "CustomFieldTranslations",
+  "type": "complexType",
+  "file": "setup.customization.xsd",
+  "elements": {
+    "locale": {
+      "name": "locale",
+      "type": "Language",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "localeDescription": {
+      "name": "localeDescription",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "label": {
+      "name": "label",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "help": {
+      "name": "help",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

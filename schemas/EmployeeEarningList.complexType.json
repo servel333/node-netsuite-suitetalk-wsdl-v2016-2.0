@@ -1,0 +1,22 @@
+{
+  "name": "EmployeeEarningList",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "employeeEarning": {
+      "name": "employeeEarning",
+      "type": "EmployeeEarning",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listEmp"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}

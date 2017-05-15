@@ -1,0 +1,11 @@
+{
+  "name": "ItemFulfillmentPackageUpsDeliveryConfUps",
+  "type": "simpleType",
+  "file": "transactions.saleTypes.xsd",
+  "enumeration": [
+    "_noneSelected",
+    "_adultSignatureRequired",
+    "_deliveryConfirmation",
+    "_signatureRequired"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "SearchCustomFieldList",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "elements": {
+    "customField": {
+      "name": "customField",
+      "type": "SearchCustomField",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

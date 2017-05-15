@@ -1,0 +1,13 @@
+{
+  "name": "PromotionCodeItems",
+  "type": "complexType",
+  "file": "lists.marketing.xsd",
+  "elements": {
+    "item": {
+      "name": "item",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    }
+  }
+}

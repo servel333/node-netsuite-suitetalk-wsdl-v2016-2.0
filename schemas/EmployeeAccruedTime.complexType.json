@@ -1,0 +1,67 @@
+{
+  "name": "EmployeeAccruedTime",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "payrollItem": {
+      "name": "payrollItem",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "accruedHours": {
+      "name": "accruedHours",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accrualRate": {
+      "name": "accrualRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "monetaryRate": {
+      "name": "monetaryRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "resetAccruedHoursAtYearEnd": {
+      "name": "resetAccruedHoursAtYearEnd",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "accrualMethod": {
+      "name": "accrualMethod",
+      "type": "EmployeeAccruedTimeAccrualMethod",
+      "minOccurs": "0",
+      "typeNamespace": "listEmpTyp"
+    },
+    "maximumAccruedHours": {
+      "name": "maximumAccruedHours",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "inactive": {
+      "name": "inactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "effectiveDate": {
+      "name": "effectiveDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "type": "dateTime",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

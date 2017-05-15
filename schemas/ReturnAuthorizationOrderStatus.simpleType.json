@@ -1,0 +1,9 @@
+{
+  "name": "ReturnAuthorizationOrderStatus",
+  "type": "simpleType",
+  "file": "transactions.customerTypes.xsd",
+  "enumeration": [
+    "_pendingApproval",
+    "_pendingReceipt"
+  ]
+}

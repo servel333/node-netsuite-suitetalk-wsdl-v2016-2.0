@@ -1,0 +1,12 @@
+{
+  "name": "GetSavedSearchRecord",
+  "type": "complexType",
+  "file": "platform.core.xsd",
+  "attributes": {
+    "searchType": {
+      "name": "searchType",
+      "type": "SearchRecordType",
+      "typeNamespace": "platformCoreTyp"
+    }
+  }
+}

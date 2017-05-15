@@ -1,0 +1,99 @@
+{
+  "name": "Currency",
+  "type": "complexType",
+  "file": "lists.accounting.xsd",
+  "extends": "Record",
+  "extendsNamespace": "platformCore",
+  "elements": {
+    "name": {
+      "name": "name",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "symbol": {
+      "name": "symbol",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isBaseCurrency": {
+      "name": "isBaseCurrency",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "isInactive": {
+      "name": "isInactive",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "overrideCurrencyFormat": {
+      "name": "overrideCurrencyFormat",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "displaySymbol": {
+      "name": "displaySymbol",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "symbolPlacement": {
+      "name": "symbolPlacement",
+      "type": "CurrencySymbolPlacement",
+      "minOccurs": "0",
+      "typeNamespace": "platformCommonTyp"
+    },
+    "locale": {
+      "name": "locale",
+      "type": "CurrencyLocale",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "formatSample": {
+      "name": "formatSample",
+      "type": "string",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "exchangeRate": {
+      "name": "exchangeRate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "fxRateUpdateTimezone": {
+      "name": "fxRateUpdateTimezone",
+      "type": "CurrencyFxRateUpdateTimezone",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    },
+    "inclInFxRateUpdates": {
+      "name": "inclInFxRateUpdates",
+      "type": "boolean",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    },
+    "currencyPrecision": {
+      "name": "currencyPrecision",
+      "type": "CurrencyCurrencyPrecision",
+      "minOccurs": "0",
+      "typeNamespace": "listAcctTyp"
+    }
+  },
+  "attributes": {
+    "internalId": {
+      "name": "internalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    },
+    "externalId": {
+      "name": "externalId",
+      "type": "string",
+      "typeNamespace": "xsd"
+    }
+  }
+}

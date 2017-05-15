@@ -1,0 +1,19 @@
+{
+  "name": "EmployeeRates",
+  "type": "complexType",
+  "file": "lists.employees.xsd",
+  "elements": {
+    "entityCurrency": {
+      "name": "entityCurrency",
+      "type": "RecordRef",
+      "minOccurs": "0",
+      "typeNamespace": "platformCore"
+    },
+    "rate": {
+      "name": "rate",
+      "type": "double",
+      "minOccurs": "0",
+      "typeNamespace": "xsd"
+    }
+  }
+}

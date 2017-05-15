@@ -1,0 +1,22 @@
+{
+  "name": "ManufacturingRoutingRoutingStepList",
+  "type": "complexType",
+  "file": "lists.supplyChain.xsd",
+  "elements": {
+    "manufacturingRoutingRoutingStep": {
+      "name": "manufacturingRoutingRoutingStep",
+      "type": "ManufacturingRoutingRoutingStep",
+      "minOccurs": "0",
+      "maxOccurs": "unbounded",
+      "typeNamespace": "listScm"
+    }
+  },
+  "attributes": {
+    "replaceAll": {
+      "name": "replaceAll",
+      "type": "boolean",
+      "default": "true",
+      "typeNamespace": "xsd"
+    }
+  }
+}
