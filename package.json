@@ -25,6 +25,8 @@
     "soap": "0.19.0"
   },
   "devDependencies": {
-    "mocha": "3.2.0"
+    "lodash": "4.17.4",
+    "mocha": "3.2.0",
+    "xmldoc": "1.0.0"
   }
 }
