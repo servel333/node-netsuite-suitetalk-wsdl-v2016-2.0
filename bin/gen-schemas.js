@@ -9,9 +9,14 @@ const wsdl = require('../');
 const xmldoc = require('xmldoc');
 
 const FILENAMES = fs.readdirSync(wsdl.path);
-const OUT = path.join(__dirname, '..', 'data.gen');
+const OUT = path.join(__dirname, '..', 'schemas');
 if (!fs.existsSync(OUT)){
   fs.mkdirSync(OUT);
+}
+
+function writeSchema(type, name, schema) {
+  var filename = name+'.'+type+'.json';
+  fs.writeFileSync(path.join(OUT, filename), JSON.stringify(schema, null, 2));
 }
 
 function doFile(filename){
@@ -90,7 +95,7 @@ function doSimpleType(node, filename, parents){
     }
   });
 
-  fs.writeFileSync(path.join(OUT, 'simpleType.'+name+'.json'), JSON.stringify(data, null, 2));
+  writeSchema('simpleType', name, data);
 
   return;
 }
@@ -125,7 +130,6 @@ function doComplexType(complexTypeNode, filename, parents){
     name: name,
     type: complexTypeNode.name,
     file: filename,
-    elements: {},
   };
 
   _.each(complexTypeNode.children, cNode => {
@@ -142,7 +146,7 @@ function doComplexType(complexTypeNode, filename, parents){
     }
   });
 
-  fs.writeFileSync(path.join(OUT, 'complexType.'+name+'.json'), JSON.stringify(data, null, 2));
+  writeSchema('complexType', name, data);
 }
 
 function doComplexTypeSequence(data, node, filename, parents){
@@ -190,11 +194,18 @@ function doComplexTypeExtension(data, node, filename, parents){
   });
 }
 
-function doComplexTypeAttribute(data, node, filename, parents){}
+function doComplexTypeAttribute(data, node, filename, parents){
+  data.attributes = _.defaultTo(data.attributes, {});
+  data.attributes[node.attr.name] = node.attr;
+  var type = data.attributes[node.attr.name].type;
+  data.attributes[node.attr.name].type = (''+type).split(':').pop();
+  data.attributes[node.attr.name].typeNamespace = (''+type).split(':').shift();
+}
 
 function doComplexTypeSimpleContent(data, node, filename, parents){}
 
 function doComplexTypeElement(data, node, filename, parents){
+  data.elements = _.defaultTo(data.elements, {});
   data.elements[node.attr.name] = node.attr;
   var type = data.elements[node.attr.name].type;
   data.elements[node.attr.name].type = (''+type).split(':').pop();
