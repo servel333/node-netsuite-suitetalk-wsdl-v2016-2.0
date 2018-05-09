@@ -1,6 +1,6 @@
 {
   "name": "netsuite-suitetalk-wsdl-v2016-2.0",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "NetSuite SuiteTalk WSDL_v2016_2_0",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,10 @@
     "url": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0/issues"
   },
   "homepage": "https://github.com/servel333/npm-netsuite-suitetalk-wsdl-v2016-2.0#readme",
-  "dependencies": {
-    "soap": "^0.24.0"
-  },
   "devDependencies": {
     "lodash": "4.17.4",
     "mocha": "3.2.0",
+    "soap": "^0.24.0",
     "xmldoc": "1.0.0"
   }
 }
